@@ -98,3 +98,7 @@ GPIO0 - o                              o   - RX
 <a href="https://github.com/dckiller51/esphome-yeelight-led-screen-light-bar/blob/main/images/esphome02.jpg" target="_blank">
 <img src="https://github.com/dckiller51/esphome-yeelight-led-screen-light-bar/blob/main/images/thumbnails/esphome02.jpg" width="18%">
 </a>
+
+<a href="https://github.com/dckiller51/esphome-yeelight-led-screen-light-bar/blob/main/images/working.jpg" target="_blank">
+<img src="https://github.com/dckiller51/esphome-yeelight-led-screen-light-bar/blob/main/images/thumbnails/working.jpg" width="18%">
+</a>
