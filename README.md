@@ -1,3 +1,5 @@
+# version beta
+
 # esphome-yeelight-led-screen-light-bar
 
 Esphome custom firmware for some Yeelight Screen Lights YLTD001.
