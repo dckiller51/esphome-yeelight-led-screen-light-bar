@@ -4,6 +4,10 @@
 
 Esphome custom firmware for some Yeelight Screen Lights YLTD001.
 
+- Todo list:
+1) Fix the rgb flickering problem
+2) Implement 2.4GHz remote control to control (http://wiki.telink-semi.cn/wiki/chip-series/TLSR836x-Series/ )
+
 
 ## Supported devices
 
@@ -85,4 +89,12 @@ GPIO0 - o                              o   - RX
 
 <a href="https://github.com/dckiller51/esphome-yeelight-led-screen-light-bar/blob/main/images/connexion.jpg" target="_blank">
 <img src="https://github.com/dckiller51/esphome-yeelight-led-screen-light-bar/blob/main/images/thumbnails/connexion.jpg" width="18%">
+</a>
+
+<a href="https://github.com/dckiller51/esphome-yeelight-led-screen-light-bar/blob/main/images/esphome01.jpg" target="_blank">
+<img src="https://github.com/dckiller51/esphome-yeelight-led-screen-light-bar/blob/main/images/thumbnails/esphome01.jpg" width="18%">
+</a>
+
+<a href="https://github.com/dckiller51/esphome-yeelight-led-screen-light-bar/blob/main/images/esphome02.jpg" target="_blank">
+<img src="https://github.com/dckiller51/esphome-yeelight-led-screen-light-bar/blob/main/images/thumbnails/esphome02.jpg" width="18%">
 </a>

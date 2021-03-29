@@ -1,0 +1,74 @@
+esphome:
+  name: test
+  platform: ESP8266
+  board: esp_wroom_02
+
+wifi:
+  ssid: !secret ssid
+  password: !secret wpa2
+  fast_connect: true
+
+captive_portal:
+
+# Enable logging
+logger:
+  level: VERY_VERBOSE
+
+# Enable Home Assistant API
+api:
+
+ota:
+
+i2c:
+  sda: GPIO2
+  scl: GPIO14
+  scan: false
+
+# Example configuration entry
+
+wled:
+
+# Specify the two pins of the h-bridge as PWM pins
+output:
+  - platform: esp8266_pwm
+    pin: GPIO12
+    id: output_cw
+    power_supply: power
+  - platform: esp8266_pwm
+    pin: GPIO5
+    id: output_ww
+    power_supply: power
+    
+power_supply:
+  - id: power
+    pin: GPIO4
+    enable_time: 0s
+    keep_on_time: 0s
+
+light:
+  - platform: cwww
+    id: light1
+    default_transition_length: 0s
+    constant_brightness: true
+    gamma_correct: 0
+    name: "Yeelight Screenbar face"
+    cold_white: output_cw
+    warm_white: output_ww
+    cold_white_color_temperature: 6500 K
+    warm_white_color_temperature: 2700 K
+  - platform: fastled_clockless
+    rgb_order: GRB
+    num_leds: 40
+    pin: GPIO13
+    name: "Yeelight Screenbar back LED Ring"
+    chipset: WS2812B
+    id: LED_ring
+    power_supply: power
+    effects:
+      - wled:
+          port: 21324
+      - addressable_rainbow:
+      - random:
+      - strobe:
+      - flicker:
+      - addressable_color_wipe:
