@@ -1,0 +1,3828 @@
+In archive libdrivers_blackhawk.a:
+
+nordic_set_drv.o:     file format elf32-littletc32
+rw-rw-rw- 0/0   3896 Nov 18 15:38 2019 nordic_set_drv.o
+architecture: tc32, flags 0x00000011:
+HAS_RELOC, HAS_SYMS
+start address 0x00000000
+private flags = 0: [APCS-32] [FPA float format]
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+  3 .text.rf_rx_buffer_get 00000038  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .text.rf_set_access_code_len 00000024  00000000  00000000  0000006c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .text.rf_set_access_code_value 0000005c  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .text.swap_data 00000054  00000000  00000000  000000ec  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .text.rf_set_nordic_address 00000078  00000000  00000000  00000140  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text.rf_start_nordic_ptx 00000058  00000000  00000000  000001b8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  9 .text.rf_start_nordic_prx 00000040  00000000  00000000  00000210  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .text.rf_set_nordic_timing 00000020  00000000  00000000  00000250  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 11 .text.rf_set_retry_delay 00000010  00000000  00000000  00000270  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 12 .text.rf_set_rxstl 00000010  00000000  00000000  00000280  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 13 .text.rf_set_txstl 00000010  00000000  00000000  00000290  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 14 .text.rf_set_nordic_mode 00000050  00000000  00000000  000002a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.rf_set_nordic_sb_mode_len 00000010  00000000  00000000  000002f0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 16 .ram_code     0000005c  00000000  00000000  00000300  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 17 .bss.nordic_mode 00000001  00000000  00000000  0000035c  2**0
+                  ALLOC
+ 18 .rodata.build_version 00000008  00000000  00000000  0000035c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 19 .comment      0000001b  00000000  00000000  00000364  2**0
+                  CONTENTS, READONLY
+ 20 .TC32.attributes 00000010  00000000  00000000  0000037f  2**0
+                  CONTENTS, READONLY
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 nordic_set_drv.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.rf_rx_buffer_get	00000000 .text.rf_rx_buffer_get
+00000000 l    d  .text.rf_set_access_code_len	00000000 .text.rf_set_access_code_len
+00000000 l    d  .text.rf_set_access_code_value	00000000 .text.rf_set_access_code_value
+00000000 l    d  .text.swap_data	00000000 .text.swap_data
+00000000 l    d  .text.rf_set_nordic_address	00000000 .text.rf_set_nordic_address
+00000000 l    d  .text.rf_start_nordic_ptx	00000000 .text.rf_start_nordic_ptx
+00000000 l    d  .text.rf_start_nordic_prx	00000000 .text.rf_start_nordic_prx
+00000000 l    d  .text.rf_set_nordic_timing	00000000 .text.rf_set_nordic_timing
+00000000 l    d  .text.rf_set_retry_delay	00000000 .text.rf_set_retry_delay
+00000000 l    d  .text.rf_set_rxstl	00000000 .text.rf_set_rxstl
+00000000 l    d  .text.rf_set_txstl	00000000 .text.rf_set_txstl
+00000000 l    d  .text.rf_set_nordic_mode	00000000 .text.rf_set_nordic_mode
+00000000 l    d  .text.rf_set_nordic_sb_mode_len	00000000 .text.rf_set_nordic_sb_mode_len
+00000000 l    d  .ram_code	00000000 .ram_code
+00000000 l    d  .bss.nordic_mode	00000000 .bss.nordic_mode
+00000000 l     O .bss.nordic_mode	00000001 nordic_mode
+00000000 l    d  .rodata.build_version	00000000 .rodata.build_version
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .TC32.attributes	00000000 .TC32.attributes
+00000000 g     F .text.rf_rx_buffer_get	00000038 rf_rx_buffer_get
+00000000 g     F .text.rf_set_access_code_len	00000024 rf_set_access_code_len
+00000000 g     F .text.rf_set_access_code_value	0000005c rf_set_access_code_value
+00000000 g     F .text.swap_data	00000052 swap_data
+00000000 g     F .text.rf_set_nordic_address	00000078 rf_set_nordic_address
+00000000 g     F .text.rf_start_nordic_ptx	00000058 rf_start_nordic_ptx
+00000000 g     F .text.rf_start_nordic_prx	00000040 rf_start_nordic_prx
+00000000 g     F .text.rf_set_nordic_timing	00000020 rf_set_nordic_timing
+00000000 g     F .text.rf_set_retry_delay	00000010 rf_set_retry_delay
+00000000 g     F .text.rf_set_rxstl	00000010 rf_set_rxstl
+00000000 g     F .text.rf_set_txstl	00000010 rf_set_txstl
+00000000 g     F .text.rf_set_nordic_mode	00000050 rf_set_nordic_mode
+00000000 g     F .text.rf_set_nordic_sb_mode_len	00000010 rf_set_nordic_sb_mode_len
+00000000 g     F .ram_code	0000005c Rf_RCV_PKT_Valid
+00000000 g     O .rodata.build_version	00000008 build_version
+00000002       O *COM*	00000002 rf_mode_value
+
+
+
+Disassembly of section .text.rf_rx_buffer_get:
+
+00000000 <rf_rx_buffer_get>:
+rf_rx_buffer_get():
+   0:	6510      	tpush	{r4, lr}
+   2:	0b0b      	tloadr	r3, [pc, #44]	; (30 <rf_rx_buffer_get+0x30>)
+   4:	481c      	tloadrb	r4, [r3, #0]
+   6:	bc03      	tsubs	r4, #3
+   8:	ee63      	tsubs	r3, r4, #1
+   a:	019c      	tsubcs	r4, r3
+   c:	a302      	tmovs	r3, #2
+   e:	eb1c      	tsubs	r4, r3, r4
+  10:	a000      	tmovs	r0, #0
+  12:	a104      	tmovs	r1, #4
+  14:	0a07      	tloadr	r2, [pc, #28]	; (34 <rf_rx_buffer_get+0x34>)
+  16:	e883      	tadds	r3, r0, r2
+  18:	481a      	tloadrb	r2, [r3, #0]
+  1a:	0211      	tnand	r1, r2
+  1c:	c105      	tjne.n	2a <rf_rx_buffer_get+0x2a>
+  1e:	b001      	tadds	r0, #1
+  20:	0284      	tcmp	r4, r0
+  22:	ccf7      	tjgt.n	14 <rf_rx_buffer_get+0x14>
+  24:	f600      	tshftls	r0, r0, #24
+  26:	fe00      	tshftrs	r0, r0, #24
+  28:	6d10      	tpop	{r4, pc}
+  2a:	a204      	tmovs	r2, #4
+  2c:	401a      	tstorerb	r2, [r3, #0]
+  2e:	87f9      	tj.n	24 <rf_rx_buffer_get+0x24>
+  30:	0080050b 	taddeq	r0, r0, fp, lsl #10
+  34:	00800526 	taddeq	r0, r0, r6, lsr #10
+
+Disassembly of section .text.rf_set_access_code_len:
+
+00000000 <rf_set_access_code_len>:
+rf_set_access_code_len():
+   0:	f600      	tshftls	r0, r0, #24
+   2:	fe00      	tshftrs	r0, r0, #24
+   4:	0b06      	tloadr	r3, [pc, #24]	; (20 <rf_set_access_code_len+0x20>)
+   6:	481a      	tloadrb	r2, [r3, #0]
+   8:	a107      	tmovs	r1, #7
+   a:	038a      	tbclrs	r2, r1
+   c:	e882      	tadds	r2, r0, r2
+   e:	f612      	tshftls	r2, r2, #24
+  10:	fe12      	tshftrs	r2, r2, #24
+  12:	401a      	tstorerb	r2, [r3, #0]
+  14:	f6c0      	tshftls	r0, r0, #27
+  16:	fe00      	tshftrs	r0, r0, #24
+  18:	b31b      	tadds	r3, #27
+  1a:	4018      	tstorerb	r0, [r3, #0]
+  1c:	0770      	tjex	lr
+  1e:	46c0      	tnop			; (mov r8, r8)
+  20:	00800405 	taddeq	r0, r0, r5, lsl #8
+
+Disassembly of section .text.rf_set_access_code_value:
+
+00000000 <rf_set_access_code_value>:
+rf_set_access_code_value():
+   0:	6510      	tpush	{r4, lr}
+   2:	f600      	tshftls	r0, r0, #24
+   4:	fe00      	tshftrs	r0, r0, #24
+   6:	0b11      	tloadr	r3, [pc, #68]	; (4c <rf_set_access_code_value+0x4c>)
+   8:	481b      	tloadrb	r3, [r3, #0]
+   a:	a407      	tmovs	r4, #7
+   c:	0023      	tands	r3, r4
+   e:	a800      	tcmp	r0, #0
+  10:	c104      	tjne.n	1c <rf_set_access_code_value+0x1c>
+  12:	ab05      	tcmp	r3, #5
+  14:	c011      	tjeq.n	3a <rf_set_access_code_value+0x3a>
+  16:	0b0e      	tloadr	r3, [pc, #56]	; (50 <rf_set_access_code_value+0x50>)
+  18:	5019      	tstorer	r1, [r3, #0]
+  1a:	8008      	tj.n	2e <rf_set_access_code_value+0x2e>
+  1c:	a801      	tcmp	r0, #1
+  1e:	c007      	tjeq.n	30 <rf_set_access_code_value+0x30>
+  20:	a805      	tcmp	r0, #5
+  22:	c804      	tjhi.n	2e <rf_set_access_code_value+0x2e>
+  24:	0b0b      	tloadr	r3, [pc, #44]	; (54 <rf_set_access_code_value+0x54>)
+  26:	e8c0      	tadds	r0, r0, r3
+  28:	f609      	tshftls	r1, r1, #24
+  2a:	fe09      	tshftrs	r1, r1, #24
+  2c:	4001      	tstorerb	r1, [r0, #0]
+  2e:	6d10      	tpop	{r4, pc}
+  30:	ab05      	tcmp	r3, #5
+  32:	c009      	tjeq.n	48 <rf_set_access_code_value+0x48>
+  34:	0b08      	tloadr	r3, [pc, #32]	; (58 <rf_set_access_code_value+0x58>)
+  36:	5019      	tstorer	r1, [r3, #0]
+  38:	87f9      	tj.n	2e <rf_set_access_code_value+0x2e>
+  3a:	0b05      	tloadr	r3, [pc, #20]	; (50 <rf_set_access_code_value+0x50>)
+  3c:	5019      	tstorer	r1, [r3, #0]
+  3e:	f612      	tshftls	r2, r2, #24
+  40:	fe12      	tshftrs	r2, r2, #24
+  42:	b304      	tadds	r3, #4
+  44:	401a      	tstorerb	r2, [r3, #0]
+  46:	87f2      	tj.n	2e <rf_set_access_code_value+0x2e>
+  48:	0b03      	tloadr	r3, [pc, #12]	; (58 <rf_set_access_code_value+0x58>)
+  4a:	87f7      	tj.n	3c <rf_set_access_code_value+0x3c>
+  4c:	00800405 	taddeq	r0, r0, r5, lsl #8
+  50:	00800408 	taddeq	r0, r0, r8, lsl #8
+  54:	00800416 	taddeq	r0, r0, r6, lsl r4
+  58:	00800410 	taddeq	r0, r0, r0, lsl r4
+
+Disassembly of section .text.swap_data:
+
+00000000 <swap_data>:
+swap_data():
+   0:	65f0      	tpush	{r4, r5, r6, r7, lr}
+   2:	0657      	tmov	r7, sl
+   4:	0646      	tmov	r6, r8
+   6:	64c0      	tpush	{r6, r7}
+   8:	0682      	tmov	sl, r0
+   a:	f609      	tshftls	r1, r1, #24
+   c:	fe09      	tshftrs	r1, r1, #24
+   e:	068c      	tmov	ip, r1
+  10:	a600      	tmovs	r6, #0
+  12:	05b4      	tcmp	ip, r6
+  14:	c019      	tjeq.n	4a <swap_data+0x4a>
+  16:	a101      	tmovs	r1, #1
+  18:	a707      	tmovs	r7, #7
+  1a:	0650      	tmov	r0, sl
+  1c:	1d85      	tloadrb	r5, [r0, r6]
+  1e:	a300      	tmovs	r3, #0
+  20:	a400      	tmovs	r4, #0
+  22:	ec2a      	tadds	r2, r5, #0
+  24:	011a      	tasrs	r2, r3
+  26:	0211      	tnand	r1, r2
+  28:	c005      	tjeq.n	36 <swap_data+0x36>
+  2a:	eaf8      	tsubs	r0, r7, r3
+  2c:	ec0a      	tadds	r2, r1, #0
+  2e:	0082      	tshftls	r2, r0
+  30:	0314      	tors	r4, r2
+  32:	f624      	tshftls	r4, r4, #24
+  34:	fe24      	tshftrs	r4, r4, #24
+  36:	b301      	tadds	r3, #1
+  38:	ab08      	tcmp	r3, #8
+  3a:	c1f2      	tjne.n	22 <swap_data+0x22>
+  3c:	0653      	tmov	r3, sl
+  3e:	159c      	tstorerb	r4, [r3, r6]
+  40:	b601      	tadds	r6, #1
+  42:	f633      	tshftls	r3, r6, #24
+  44:	fe1b      	tshftrs	r3, r3, #24
+  46:	059c      	tcmp	ip, r3
+  48:	c8e7      	tjhi.n	1a <swap_data+0x1a>
+  4a:	6c0c      	tpop	{r2, r3}
+  4c:	0690      	tmov	r8, r2
+  4e:	069a      	tmov	sl, r3
+  50:	6df0      	tpop	{r4, r5, r6, r7, pc}
+  52:	46c0      	tnop			; (mov r8, r8)
+
+Disassembly of section .text.rf_set_nordic_address:
+
+00000000 <rf_set_nordic_address>:
+rf_set_nordic_address():
+   0:	6530      	tpush	{r4, r5, lr}
+   2:	6082      	tsub	sp, #8
+   4:	3100      	tstorer	r1, [sp, #0]
+   6:	3201      	tstorer	r2, [sp, #4]
+   8:	f604      	tshftls	r4, r0, #24
+   a:	fe24      	tshftrs	r4, r4, #24
+   c:	0b16      	tloadr	r3, [pc, #88]	; (68 <rf_set_nordic_address+0x68>)
+   e:	481b      	tloadrb	r3, [r3, #0]
+  10:	a507      	tmovs	r5, #7
+  12:	001d      	tands	r5, r3
+  14:	0668      	tmov	r0, sp
+  16:	ec29      	tadds	r1, r5, #0
+  18:	97ff 9ffe 	tjl	0 <rf_set_nordic_address>
+			18: R_TC32_CALL	swap_data
+  1c:	ac00      	tcmp	r4, #0
+  1e:	c105      	tjne.n	2c <rf_set_nordic_address+0x2c>
+  20:	ad05      	tcmp	r5, #5
+  22:	c015      	tjeq.n	50 <rf_set_nordic_address+0x50>
+  24:	0b11      	tloadr	r3, [pc, #68]	; (6c <rf_set_nordic_address+0x6c>)
+  26:	3a00      	tloadr	r2, [sp, #0]
+  28:	501a      	tstorer	r2, [r3, #0]
+  2a:	8009      	tj.n	40 <rf_set_nordic_address+0x40>
+  2c:	ac01      	tcmp	r4, #1
+  2e:	c009      	tjeq.n	44 <rf_set_nordic_address+0x44>
+  30:	ac05      	tcmp	r4, #5
+  32:	c805      	tjhi.n	40 <rf_set_nordic_address+0x40>
+  34:	0b0e      	tloadr	r3, [pc, #56]	; (70 <rf_set_nordic_address+0x70>)
+  36:	e8e4      	tadds	r4, r4, r3
+  38:	3b00      	tloadr	r3, [sp, #0]
+  3a:	f61b      	tshftls	r3, r3, #24
+  3c:	fe1b      	tshftrs	r3, r3, #24
+  3e:	4023      	tstorerb	r3, [r4, #0]
+  40:	6002      	tadd	sp, #8
+  42:	6d30      	tpop	{r4, r5, pc}
+  44:	ad05      	tcmp	r5, #5
+  46:	c00c      	tjeq.n	62 <rf_set_nordic_address+0x62>
+  48:	0b0a      	tloadr	r3, [pc, #40]	; (74 <rf_set_nordic_address+0x74>)
+  4a:	3a00      	tloadr	r2, [sp, #0]
+  4c:	501a      	tstorer	r2, [r3, #0]
+  4e:	87f7      	tj.n	40 <rf_set_nordic_address+0x40>
+  50:	3a00      	tloadr	r2, [sp, #0]
+  52:	0b06      	tloadr	r3, [pc, #24]	; (6c <rf_set_nordic_address+0x6c>)
+  54:	501a      	tstorer	r2, [r3, #0]
+  56:	3a01      	tloadr	r2, [sp, #4]
+  58:	f612      	tshftls	r2, r2, #24
+  5a:	fe12      	tshftrs	r2, r2, #24
+  5c:	b304      	tadds	r3, #4
+  5e:	401a      	tstorerb	r2, [r3, #0]
+  60:	87ee      	tj.n	40 <rf_set_nordic_address+0x40>
+  62:	3a00      	tloadr	r2, [sp, #0]
+  64:	0b03      	tloadr	r3, [pc, #12]	; (74 <rf_set_nordic_address+0x74>)
+  66:	87f5      	tj.n	54 <rf_set_nordic_address+0x54>
+  68:	00800405 	taddeq	r0, r0, r5, lsl #8
+  6c:	00800408 	taddeq	r0, r0, r8, lsl #8
+  70:	00800416 	taddeq	r0, r0, r6, lsl r4
+  74:	00800410 	taddeq	r0, r0, r0, lsl r4
+
+Disassembly of section .text.rf_start_nordic_ptx:
+
+00000000 <rf_start_nordic_ptx>:
+rf_start_nordic_ptx():
+   0:	65f0      	tpush	{r4, r5, r6, r7, lr}
+   2:	0c10      	tloadr	r4, [pc, #64]	; (44 <rf_start_nordic_ptx+0x44>)
+   4:	a580      	tmovs	r5, #128	; 0x80
+   6:	4025      	tstorerb	r5, [r4, #0]
+   8:	0d0f      	tloadr	r5, [pc, #60]	; (48 <rf_start_nordic_ptx+0x48>)
+   a:	482e      	tloadrb	r6, [r5, #0]
+   c:	a702      	tmovs	r7, #2
+   e:	03be      	tbclrs	r6, r7
+  10:	402e      	tstorerb	r6, [r5, #0]
+  12:	f412      	tshftls	r2, r2, #16
+  14:	fc12      	tshftrs	r2, r2, #16
+  16:	b507      	tadds	r5, #7
+  18:	202a      	tstorerh	r2, [r5, #0]
+  1a:	0a0c      	tloadr	r2, [pc, #48]	; (4c <rf_start_nordic_ptx+0x4c>)
+  1c:	5011      	tstorer	r1, [r2, #0]
+  1e:	f61b      	tshftls	r3, r3, #24
+  20:	fe1b      	tshftrs	r3, r3, #24
+  22:	ba04      	tsubs	r2, #4
+  24:	4013      	tstorerb	r3, [r2, #0]
+  26:	0b0a      	tloadr	r3, [pc, #40]	; (50 <rf_start_nordic_ptx+0x50>)
+  28:	4819      	tloadrb	r1, [r3, #0]
+  2a:	a204      	tmovs	r2, #4
+  2c:	030a      	tors	r2, r1
+  2e:	f612      	tshftls	r2, r2, #24
+  30:	fe12      	tshftrs	r2, r2, #24
+  32:	401a      	tstorerb	r2, [r3, #0]
+  34:	f400      	tshftls	r0, r0, #16
+  36:	fc00      	tshftrs	r0, r0, #16
+  38:	0b06      	tloadr	r3, [pc, #24]	; (54 <rf_start_nordic_ptx+0x54>)
+  3a:	2018      	tstorerh	r0, [r3, #0]
+  3c:	a383      	tmovs	r3, #131	; 0x83
+  3e:	4023      	tstorerb	r3, [r4, #0]
+  40:	6df0      	tpop	{r4, r5, r6, r7, pc}
+  42:	46c0      	tnop			; (mov r8, r8)
+  44:	00800f00 	taddeq	r0, r0, r0, lsl #30
+  48:	00800f03 	taddeq	r0, r0, r3, lsl #30
+  4c:	00800f18 	taddeq	r0, r0, r8, lsl pc
+  50:	00800f16 	taddeq	r0, r0, r6, lsl pc
+  54:	0080050c 	taddeq	r0, r0, ip, lsl #10
+
+Disassembly of section .text.rf_start_nordic_prx:
+
+00000000 <rf_start_nordic_prx>:
+rf_start_nordic_prx():
+   0:	6530      	tpush	{r4, r5, lr}
+   2:	0b0c      	tloadr	r3, [pc, #48]	; (34 <rf_start_nordic_prx+0x34>)
+   4:	a280      	tmovs	r2, #128	; 0x80
+   6:	401a      	tstorerb	r2, [r3, #0]
+   8:	0a0b      	tloadr	r2, [pc, #44]	; (38 <rf_start_nordic_prx+0x38>)
+   a:	4814      	tloadrb	r4, [r2, #0]
+   c:	a506      	tmovs	r5, #6
+   e:	03ac      	tbclrs	r4, r5
+  10:	4014      	tstorerb	r4, [r2, #0]
+  12:	b215      	tadds	r2, #21
+  14:	5011      	tstorer	r1, [r2, #0]
+  16:	ba02      	tsubs	r2, #2
+  18:	4814      	tloadrb	r4, [r2, #0]
+  1a:	a104      	tmovs	r1, #4
+  1c:	0321      	tors	r1, r4
+  1e:	f609      	tshftls	r1, r1, #24
+  20:	fe09      	tshftrs	r1, r1, #24
+  22:	4011      	tstorerb	r1, [r2, #0]
+  24:	f400      	tshftls	r0, r0, #16
+  26:	fc00      	tshftrs	r0, r0, #16
+  28:	0a04      	tloadr	r2, [pc, #16]	; (3c <rf_start_nordic_prx+0x3c>)
+  2a:	2010      	tstorerh	r0, [r2, #0]
+  2c:	a284      	tmovs	r2, #132	; 0x84
+  2e:	201a      	tstorerh	r2, [r3, #0]
+  30:	6d30      	tpop	{r4, r5, pc}
+  32:	46c0      	tnop			; (mov r8, r8)
+  34:	00800f00 	taddeq	r0, r0, r0, lsl #30
+  38:	00800f03 	taddeq	r0, r0, r3, lsl #30
+  3c:	0080050c 	taddeq	r0, r0, ip, lsl #10
+
+Disassembly of section .text.rf_set_nordic_timing:
+
+00000000 <rf_set_nordic_timing>:
+rf_set_nordic_timing():
+   0:	f400      	tshftls	r0, r0, #16
+   2:	fc00      	tshftrs	r0, r0, #16
+   4:	f409      	tshftls	r1, r1, #16
+   6:	fc09      	tshftrs	r1, r1, #16
+   8:	f412      	tshftls	r2, r2, #16
+   a:	fc12      	tshftrs	r2, r2, #16
+   c:	0b03      	tloadr	r3, [pc, #12]	; (1c <rf_set_nordic_timing+0x1c>)
+   e:	2018      	tstorerh	r0, [r3, #0]
+  10:	bb04      	tsubs	r3, #4
+  12:	2019      	tstorerh	r1, [r3, #0]
+  14:	bb08      	tsubs	r3, #8
+  16:	201a      	tstorerh	r2, [r3, #0]
+  18:	0770      	tjex	lr
+  1a:	46c0      	tnop			; (mov r8, r8)
+  1c:	00800f10 	taddeq	r0, r0, r0, lsl pc
+
+Disassembly of section .text.rf_set_retry_delay:
+
+00000000 <rf_set_retry_delay>:
+rf_set_retry_delay():
+   0:	f4c0      	tshftls	r0, r0, #19
+   2:	fcc0      	tshftrs	r0, r0, #19
+   4:	0b01      	tloadr	r3, [pc, #4]	; (c <rf_set_retry_delay+0xc>)
+   6:	2018      	tstorerh	r0, [r3, #0]
+   8:	0770      	tjex	lr
+   a:	46c0      	tnop			; (mov r8, r8)
+   c:	00800f10 	taddeq	r0, r0, r0, lsl pc
+
+Disassembly of section .text.rf_set_rxstl:
+
+00000000 <rf_set_rxstl>:
+rf_set_rxstl():
+   0:	f4c0      	tshftls	r0, r0, #19
+   2:	fcc0      	tshftrs	r0, r0, #19
+   4:	0b01      	tloadr	r3, [pc, #4]	; (c <rf_set_rxstl+0xc>)
+   6:	2018      	tstorerh	r0, [r3, #0]
+   8:	0770      	tjex	lr
+   a:	46c0      	tnop			; (mov r8, r8)
+   c:	00800f0c 	taddeq	r0, r0, ip, lsl #30
+
+Disassembly of section .text.rf_set_txstl:
+
+00000000 <rf_set_txstl>:
+rf_set_txstl():
+   0:	f4c0      	tshftls	r0, r0, #19
+   2:	fcc0      	tshftrs	r0, r0, #19
+   4:	0b01      	tloadr	r3, [pc, #4]	; (c <rf_set_txstl+0xc>)
+   6:	2018      	tstorerh	r0, [r3, #0]
+   8:	0770      	tjex	lr
+   a:	46c0      	tnop			; (mov r8, r8)
+   c:	00800f04 	taddeq	r0, r0, r4, lsl #30
+
+Disassembly of section .text.rf_set_nordic_mode:
+
+00000000 <rf_set_nordic_mode>:
+rf_set_nordic_mode():
+   0:	6510      	tpush	{r4, lr}
+   2:	f600      	tshftls	r0, r0, #24
+   4:	fe00      	tshftrs	r0, r0, #24
+   6:	f609      	tshftls	r1, r1, #24
+   8:	fe09      	tshftrs	r1, r1, #24
+   a:	0b0d      	tloadr	r3, [pc, #52]	; (40 <rf_set_nordic_mode+0x40>)
+   c:	481a      	tloadrb	r2, [r3, #0]
+   e:	a440      	tmovs	r4, #64	; 0x40
+  10:	03a2      	tbclrs	r2, r4
+  12:	401a      	tstorerb	r2, [r3, #0]
+  14:	a4c0      	tmovs	r4, #192	; 0xc0
+  16:	0a0b      	tloadr	r2, [pc, #44]	; (44 <rf_set_nordic_mode+0x44>)
+  18:	4014      	tstorerb	r4, [r2, #0]
+  1a:	a4a5      	tmovs	r4, #165	; 0xa5
+  1c:	0a0a      	tloadr	r2, [pc, #40]	; (48 <rf_set_nordic_mode+0x48>)
+  1e:	4014      	tstorerb	r4, [r2, #0]
+  20:	a800      	tcmp	r0, #0
+  22:	c10a      	tjne.n	3a <rf_set_nordic_mode+0x3a>
+  24:	a484      	tmovs	r4, #132	; 0x84
+  26:	bac8      	tsubs	r2, #200	; 0xc8
+  28:	4014      	tstorerb	r4, [r2, #0]
+  2a:	481c      	tloadrb	r4, [r3, #0]
+  2c:	a201      	tmovs	r2, #1
+  2e:	0322      	tors	r2, r4
+  30:	f612      	tshftls	r2, r2, #24
+  32:	fe12      	tshftrs	r2, r2, #24
+  34:	401a      	tstorerb	r2, [r3, #0]
+  36:	b302      	tadds	r3, #2
+  38:	4019      	tstorerb	r1, [r3, #0]
+  3a:	0b04      	tloadr	r3, [pc, #16]	; (4c <rf_set_nordic_mode+0x4c>)
+  3c:	4018      	tstorerb	r0, [r3, #0]
+  3e:	6d10      	tpop	{r4, pc}
+  40:	00800404 	taddeq	r0, r0, r4, lsl #8
+  44:	00800f15 	taddeq	r0, r0, r5, lsl pc
+  48:	008004ca 	taddeq	r0, r0, sl, asr #9
+  4c:	00000000 	tandeq	r0, r0, r0
+			4c: R_TC32_ABS32	.bss.nordic_mode
+
+Disassembly of section .text.rf_set_nordic_sb_mode_len:
+
+00000000 <rf_set_nordic_sb_mode_len>:
+rf_set_nordic_sb_mode_len():
+   0:	f600      	tshftls	r0, r0, #24
+   2:	fe00      	tshftrs	r0, r0, #24
+   4:	0b01      	tloadr	r3, [pc, #4]	; (c <rf_set_nordic_sb_mode_len+0xc>)
+   6:	4018      	tstorerb	r0, [r3, #0]
+   8:	0770      	tjex	lr
+   a:	46c0      	tnop			; (mov r8, r8)
+   c:	00800406 	taddeq	r0, r0, r6, lsl #8
+
+Disassembly of section .ram_code:
+
+00000000 <Rf_RCV_PKT_Valid>:
+Rf_RCV_PKT_Valid():
+   0:	6530      	tpush	{r4, r5, lr}
+   2:	ec03      	tadds	r3, r0, #0
+   4:	0a14      	tloadr	r2, [pc, #80]	; (58 <Rf_RCV_PKT_Valid+0x58>)
+   6:	4812      	tloadrb	r2, [r2, #0]
+   8:	ec14      	tadds	r4, r2, #0
+   a:	4802      	tloadrb	r2, [r0, #0]
+   c:	e881      	tadds	r1, r0, r2
+   e:	48c9      	tloadrb	r1, [r1, #3]
+  10:	a000      	tmovs	r0, #0
+  12:	f7cd      	tshftls	r5, r1, #31
+  14:	c409      	tjmi.n	2a <Rf_RCV_PKT_Valid+0x2a>
+  16:	aa0e      	tcmp	r2, #14
+  18:	c907      	tjls.n	2a <Rf_RCV_PKT_Valid+0x2a>
+  1a:	a103      	tmovs	r1, #3
+  1c:	000c      	tands	r4, r1
+  1e:	c005      	tjeq.n	2c <Rf_RCV_PKT_Valid+0x2c>
+  20:	ac01      	tcmp	r4, #1
+  22:	c011      	tjeq.n	48 <Rf_RCV_PKT_Valid+0x48>
+  24:	a001      	tmovs	r0, #1
+  26:	ac02      	tcmp	r4, #2
+  28:	c006      	tjeq.n	38 <Rf_RCV_PKT_Valid+0x38>
+  2a:	6d30      	tpop	{r4, r5, pc}
+  2c:	4b18      	tloadrb	r0, [r3, #12]
+  2e:	b00d      	tadds	r0, #13
+  30:	ea12      	tsubs	r2, r2, r0
+  32:	0250      	tnegs	r0, r2
+  34:	0150      	taddcs	r0, r2
+  36:	87f8      	tj.n	2a <Rf_RCV_PKT_Valid+0x2a>
+  38:	4b1b      	tloadrb	r3, [r3, #12]
+  3a:	a03f      	tmovs	r0, #63	; 0x3f
+  3c:	0018      	tands	r0, r3
+  3e:	b00f      	tadds	r0, #15
+  40:	ea12      	tsubs	r2, r2, r0
+  42:	0250      	tnegs	r0, r2
+  44:	0150      	taddcs	r0, r2
+  46:	87f0      	tj.n	2a <Rf_RCV_PKT_Valid+0x2a>
+  48:	4b5b      	tloadrb	r3, [r3, #13]
+  4a:	a03f      	tmovs	r0, #63	; 0x3f
+  4c:	0018      	tands	r0, r3
+  4e:	b011      	tadds	r0, #17
+  50:	ea12      	tsubs	r2, r2, r0
+  52:	0250      	tnegs	r0, r2
+  54:	0150      	taddcs	r0, r2
+  56:	87e8      	tj.n	2a <Rf_RCV_PKT_Valid+0x2a>
+  58:	00800404 	taddeq	r0, r0, r4, lsl #8
+
+Disassembly of section .bss.nordic_mode:
+
+00000000 <nordic_mode>:
+	...
+
+Disassembly of section .rodata.build_version:
+
+00000000 <build_version>:
+   0:	39313032 	tloadmdbcc	r1!, {r1, r4, r5, ip, sp}
+   4:	38313131 	tloadmdacc	r1!, {r0, r4, r5, r8, ip, sp}
+
+Disassembly of section .comment:
+
+00000000 <.comment>:
+   0:	43434700 	tcmpmi	r3, #0
+   4:	4728203a 	undefined instruction 0x4728203a
+   8:	2029554e 	txorcs	r5, r9, lr, asr #10
+   c:	2e352e34 	undefined instruction 0x2e352e34
+  10:	63742d31 	tcmpnvs	r4, #3136	; 0xc40
+  14:	312d3233 	teqcc	sp, r3, lsr r2
+  18:	Address 0x00000018 is out of bounds.
+
+
+Disassembly of section .TC32.attributes:
+
+00000000 <.TC32.attributes>:
+   0:	00000f41 	tandeq	r0, r0, r1, asr #30
+   4:	61656100 	tcmpnvs	r5, r0, lsl #2
+   8:	01006962 	tnandeq	r0, r2, ror #18
+   c:	00000005 	tandeq	r0, r0, r5
+
+pm.o:     file format elf32-littletc32
+rw-rw-rw- 0/0   4100 Nov 18 15:39 2019 pm.o
+architecture: tc32, flags 0x00000011:
+HAS_RELOC, HAS_SYMS
+start address 0x00000000
+private flags = 0: [APCS-32] [FPA float format]
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+  3 .ram_code     000003fc  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .text.mcu_stall_wakeup_by_timer0 0000004c  00000000  00000000  00000430  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .text.mcu_stall_wakeup_by_timer1 0000004c  00000000  00000000  0000047c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .text.mcu_stall_wakeup_by_timer2 00000050  00000000  00000000  000004c8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  7 .text.pm_set_gpio_wakeup 00000068  00000000  00000000  00000518  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text.gpio_set_wakeup 00000080  00000000  00000000  00000580  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.pm_set_filter 0000002c  00000000  00000000  00000600  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .comment      0000001b  00000000  00000000  0000062c  2**0
+                  CONTENTS, READONLY
+ 11 .TC32.attributes 00000010  00000000  00000000  00000647  2**0
+                  CONTENTS, READONLY
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 pm.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .ram_code	00000000 .ram_code
+00000000 l    d  .text.mcu_stall_wakeup_by_timer0	00000000 .text.mcu_stall_wakeup_by_timer0
+00000000 l    d  .text.mcu_stall_wakeup_by_timer1	00000000 .text.mcu_stall_wakeup_by_timer1
+00000000 l    d  .text.mcu_stall_wakeup_by_timer2	00000000 .text.mcu_stall_wakeup_by_timer2
+00000000 l    d  .text.pm_set_gpio_wakeup	00000000 .text.pm_set_gpio_wakeup
+00000000 l    d  .text.gpio_set_wakeup	00000000 .text.gpio_set_wakeup
+00000000 l    d  .text.pm_set_filter	00000000 .text.pm_set_filter
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .TC32.attributes	00000000 .TC32.attributes
+00000000 g     F .ram_code	00000038 sleep_start
+00000000 g     F .text.mcu_stall_wakeup_by_timer0	0000004c mcu_stall_wakeup_by_timer0
+00000000 g     F .text.mcu_stall_wakeup_by_timer1	0000004c mcu_stall_wakeup_by_timer1
+00000000 g     F .text.mcu_stall_wakeup_by_timer2	00000050 mcu_stall_wakeup_by_timer2
+00000000 g     F .text.pm_set_gpio_wakeup	00000066 pm_set_gpio_wakeup
+00000000         *UND*	00000000 analog_read
+00000000         *UND*	00000000 analog_write
+00000000         *UND*	00000000 __divsi3
+00000000         *UND*	00000000 __udivsi3
+00000038 g     F .ram_code	000003c4 pm_sleep_wakeup
+00000000         *UND*	00000000 internal_cap_flag
+00000004       O *COM*	00000004 cpu_wakup_last_tick
+00000000 g     F .text.gpio_set_wakeup	00000080 gpio_set_wakeup
+00000000         *UND*	00000000 gpio_set_func
+00000000         *UND*	00000000 gpio_set_input_en
+00000000 g     F .text.pm_set_filter	0000002a pm_set_filter
+
+
+
+Disassembly of section .ram_code:
+
+00000000 <sleep_start>:
+sleep_start():
+   0:	6081      	tsub	sp, #4
+   2:	0a0b      	tloadr	r2, [pc, #44]	; (30 <sleep_start+0x30>)
+   4:	4813      	tloadrb	r3, [r2, #0]
+   6:	a300      	tmovs	r3, #0
+   8:	4013      	tstorerb	r3, [r2, #0]
+   a:	a181      	tmovs	r1, #129	; 0x81
+   c:	0a09      	tloadr	r2, [pc, #36]	; (34 <sleep_start+0x34>)
+   e:	4011      	tstorerb	r1, [r2, #0]
+  10:	3300      	tstorer	r3, [sp, #0]
+  12:	3b00      	tloadr	r3, [sp, #0]
+  14:	ab05      	tcmp	r3, #5
+  16:	cc05      	tjgt.n	24 <sleep_start+0x24>
+  18:	3b00      	tloadr	r3, [sp, #0]
+  1a:	b301      	tadds	r3, #1
+  1c:	3300      	tstorer	r3, [sp, #0]
+  1e:	3b00      	tloadr	r3, [sp, #0]
+  20:	ab05      	tcmp	r3, #5
+  22:	cdf9      	tjle.n	18 <sleep_start+0x18>
+  24:	0b02      	tloadr	r3, [pc, #8]	; (30 <sleep_start+0x30>)
+  26:	481a      	tloadrb	r2, [r3, #0]
+  28:	a2ff      	tmovs	r2, #255	; 0xff
+  2a:	401a      	tstorerb	r2, [r3, #0]
+  2c:	6001      	tadd	sp, #4
+  2e:	0770      	tjex	lr
+  30:	008005a1 	taddeq	r0, r0, r1, lsr #11
+  34:	0100006f 	tnandeq	r0, pc, rrx
+
+00000038 <pm_sleep_wakeup>:
+pm_sleep_wakeup():
+  38:	65f0      	tpush	{r4, r5, r6, r7, lr}
+  3a:	065f      	tmov	r7, fp
+  3c:	0656      	tmov	r6, sl
+  3e:	064d      	tmov	r5, r9
+  40:	0644      	tmov	r4, r8
+  42:	64f0      	tpush	{r4, r5, r6, r7}
+  44:	6085      	tsub	sp, #20
+  46:	ec15      	tadds	r5, r2, #0
+  48:	f607      	tshftls	r7, r0, #24
+  4a:	fe3f      	tshftrs	r7, r7, #24
+  4c:	f609      	tshftls	r1, r1, #24
+  4e:	fe09      	tshftrs	r1, r1, #24
+  50:	0688      	tmov	r8, r1
+  52:	a340      	tmovs	r3, #64	; 0x40
+  54:	0ad1      	tloadr	r2, [pc, #836]	; (39c <pm_sleep_wakeup+0x364>)
+  56:	2816      	tloadrh	r6, [r2, #0]
+  58:	0cd1      	tloadr	r4, [pc, #836]	; (3a0 <pm_sleep_wakeup+0x368>)
+  5a:	5822      	tloadr	r2, [r4, #0]
+  5c:	a100      	tmovs	r1, #0
+  5e:	068a      	tmov	sl, r1
+  60:	0641      	tmov	r1, r8
+  62:	0019      	tands	r1, r3
+  64:	3103      	tstorer	r1, [sp, #12]
+  66:	c010      	tjeq.n	8a <pm_sleep_wakeup+0x52>
+  68:	eaaa      	tsubs	r2, r5, r2
+  6a:	0692      	tmov	sl, r2
+  6c:	a3e0      	tmovs	r3, #224	; 0xe0
+  6e:	f61b      	tshftls	r3, r3, #24
+  70:	059a      	tcmp	sl, r3
+  72:	c900      	tjls.n	76 <pm_sleep_wakeup+0x3e>
+  74:	818b      	tj.n	38e <pm_sleep_wakeup+0x356>
+  76:	0bcb      	tloadr	r3, [pc, #812]	; (3a4 <pm_sleep_wakeup+0x36c>)
+  78:	059a      	tcmp	sl, r3
+  7a:	c800      	tjhi.n	7e <pm_sleep_wakeup+0x46>
+  7c:	81aa      	tj.n	3d4 <pm_sleep_wakeup+0x39c>
+  7e:	a3ff      	tmovs	r3, #255	; 0xff
+  80:	f51b      	tshftls	r3, r3, #20
+  82:	0553      	tcmp	r3, sl
+  84:	019b      	tsubcs	r3, r3
+  86:	025b      	tnegs	r3, r3
+  88:	069a      	tmov	sl, r3
+  8a:	0bc7      	tloadr	r3, [pc, #796]	; (3a8 <pm_sleep_wakeup+0x370>)
+  8c:	481a      	tloadrb	r2, [r3, #0]
+  8e:	3202      	tstorer	r2, [sp, #8]
+  90:	a200      	tmovs	r2, #0
+  92:	401a      	tstorerb	r2, [r3, #0]
+  94:	a2a0      	tmovs	r2, #160	; 0xa0
+  96:	b308      	tadds	r3, #8
+  98:	b3ff      	tadds	r3, #255	; 0xff
+  9a:	401a      	tstorerb	r2, [r3, #0]
+  9c:	09c3      	tloadr	r1, [pc, #780]	; (3ac <pm_sleep_wakeup+0x374>)
+  9e:	a320      	tmovs	r3, #32
+  a0:	400b      	tstorerb	r3, [r1, #0]
+  a2:	06c0      	tmov	r8, r8
+  a4:	06c0      	tmov	r8, r8
+  a6:	06c0      	tmov	r8, r8
+  a8:	06c0      	tmov	r8, r8
+  aa:	06c0      	tmov	r8, r8
+  ac:	06c0      	tmov	r8, r8
+  ae:	06c0      	tmov	r8, r8
+  b0:	06c0      	tmov	r8, r8
+  b2:	06c0      	tmov	r8, r8
+  b4:	06c0      	tmov	r8, r8
+  b6:	06c0      	tmov	r8, r8
+  b8:	06c0      	tmov	r8, r8
+  ba:	06c0      	tmov	r8, r8
+  bc:	06c0      	tmov	r8, r8
+  be:	06c0      	tmov	r8, r8
+  c0:	06c0      	tmov	r8, r8
+  c2:	a220      	tmovs	r2, #32
+  c4:	480b      	tloadrb	r3, [r1, #0]
+  c6:	a420      	tmovs	r4, #32
+  c8:	021a      	tnand	r2, r3
+  ca:	c0fb      	tjeq.n	c4 <pm_sleep_wakeup+0x8c>
+  cc:	0bb8      	tloadr	r3, [pc, #736]	; (3b0 <pm_sleep_wakeup+0x378>)
+  ce:	581b      	tloadr	r3, [r3, #0]
+  d0:	0699      	tmov	r9, r3
+  d2:	0bb3      	tloadr	r3, [pc, #716]	; (3a0 <pm_sleep_wakeup+0x368>)
+  d4:	581b      	tloadr	r3, [r3, #0]
+  d6:	069b      	tmov	fp, r3
+  d8:	0bb6      	tloadr	r3, [pc, #728]	; (3b4 <pm_sleep_wakeup+0x37c>)
+  da:	401c      	tstorerb	r4, [r3, #0]
+  dc:	0ab6      	tloadr	r2, [pc, #728]	; (3b8 <pm_sleep_wakeup+0x380>)
+  de:	e952      	tadds	r2, r2, r5
+  e0:	3200      	tstorer	r2, [sp, #0]
+  e2:	a108      	tmovs	r1, #8
+  e4:	0643      	tmov	r3, r8
+  e6:	0319      	tors	r1, r3
+  e8:	f609      	tshftls	r1, r1, #24
+  ea:	fe09      	tshftrs	r1, r1, #24
+  ec:	a026      	tmovs	r0, #38	; 0x26
+  ee:	97ff 9ffe 	tjl	0 <analog_write>
+			ee: R_TC32_CALL	analog_write
+  f2:	0641      	tmov	r1, r8
+  f4:	000c      	tands	r4, r1
+  f6:	ee63      	tsubs	r3, r4, #1
+  f8:	019c      	tsubcs	r4, r3
+  fa:	f0e4      	tshftls	r4, r4, #3
+  fc:	0baf      	tloadr	r3, [pc, #700]	; (3bc <pm_sleep_wakeup+0x384>)
+  fe:	401c      	tstorerb	r4, [r3, #0]
+ 100:	a044      	tmovs	r0, #68	; 0x44
+ 102:	a10f      	tmovs	r1, #15
+ 104:	97ff 9ffe 	tjl	0 <analog_write>
+			104: R_TC32_CALL	analog_write
+ 108:	0bad      	tloadr	r3, [pc, #692]	; (3c0 <pm_sleep_wakeup+0x388>)
+ 10a:	481a      	tloadrb	r2, [r3, #0]
+ 10c:	3201      	tstorer	r2, [sp, #4]
+ 10e:	a200      	tmovs	r2, #0
+ 110:	401a      	tstorerb	r2, [r3, #0]
+ 112:	a17e      	tmovs	r1, #126	; 0x7e
+ 114:	af00      	tcmp	r7, #0
+ 116:	c000      	tjeq.n	11a <pm_sleep_wakeup+0xe2>
+ 118:	a1fe      	tmovs	r1, #254	; 0xfe
+ 11a:	f874      	tshftrs	r4, r6, #1
+ 11c:	a02c      	tmovs	r0, #44	; 0x2c
+ 11e:	97ff 9ffe 	tjl	0 <analog_write>
+			11e: R_TC32_CALL	analog_write
+ 122:	a2fa      	tmovs	r2, #250	; 0xfa
+ 124:	f2d2      	tshftls	r2, r2, #11
+ 126:	e8a0      	tadds	r0, r4, r2
+ 128:	ec31      	tadds	r1, r6, #0
+ 12a:	97ff 9ffe 	tjl	0 <__divsi3>
+			12a: R_TC32_CALL	__divsi3
+ 12e:	0680      	tmov	r8, r0
+ 130:	a300      	tmovs	r3, #0
+ 132:	059a      	tcmp	sl, r3
+ 134:	c000      	tjeq.n	138 <pm_sleep_wakeup+0x100>
+ 136:	80e3      	tj.n	300 <pm_sleep_wakeup+0x2c8>
+ 138:	3b00      	tloadr	r3, [sp, #0]
+ 13a:	0659      	tmov	r1, fp
+ 13c:	ea58      	tsubs	r0, r3, r1
+ 13e:	f100      	tshftls	r0, r0, #4
+ 140:	e900      	tadds	r0, r0, r4
+ 142:	ec31      	tadds	r1, r6, #0
+ 144:	97ff 9ffe 	tjl	0 <__udivsi3>
+			144: R_TC32_CALL	__udivsi3
+ 148:	ec04      	tadds	r4, r0, #0
+ 14a:	044c      	tadd	r4, r9
+ 14c:	0642      	tmov	r2, r8
+ 14e:	03d1      	tmovns	r1, r2
+ 150:	f609      	tshftls	r1, r1, #24
+ 152:	fe09      	tshftrs	r1, r1, #24
+ 154:	a020      	tmovs	r0, #32
+ 156:	97ff 9ffe 	tjl	0 <analog_write>
+			156: R_TC32_CALL	analog_write
+ 15a:	a221      	tmovs	r2, #33	; 0x21
+ 15c:	0b95      	tloadr	r3, [pc, #596]	; (3b4 <pm_sleep_wakeup+0x37c>)
+ 15e:	401a      	tstorerb	r2, [r3, #0]
+ 160:	0892      	tloadr	r0, [pc, #584]	; (3ac <pm_sleep_wakeup+0x374>)
+ 162:	a140      	tmovs	r1, #64	; 0x40
+ 164:	0a91      	tloadr	r2, [pc, #580]	; (3ac <pm_sleep_wakeup+0x374>)
+ 166:	4803      	tloadrb	r3, [r0, #0]
+ 168:	0219      	tnand	r1, r3
+ 16a:	c1fb      	tjne.n	164 <pm_sleep_wakeup+0x12c>
+ 16c:	0b95      	tloadr	r3, [pc, #596]	; (3c4 <pm_sleep_wakeup+0x38c>)
+ 16e:	501c      	tstorer	r4, [r3, #0]
+ 170:	4811      	tloadrb	r1, [r2, #0]
+ 172:	a308      	tmovs	r3, #8
+ 174:	030b      	tors	r3, r1
+ 176:	f61b      	tshftls	r3, r3, #24
+ 178:	fe1b      	tshftrs	r3, r3, #24
+ 17a:	4013      	tstorerb	r3, [r2, #0]
+ 17c:	a108      	tmovs	r1, #8
+ 17e:	4813      	tloadrb	r3, [r2, #0]
+ 180:	0219      	tnand	r1, r3
+ 182:	c0fc      	tjeq.n	17e <pm_sleep_wakeup+0x146>
+ 184:	0989      	tloadr	r1, [pc, #548]	; (3ac <pm_sleep_wakeup+0x374>)
+ 186:	a208      	tmovs	r2, #8
+ 188:	480b      	tloadrb	r3, [r1, #0]
+ 18a:	021a      	tnand	r2, r3
+ 18c:	c1fc      	tjne.n	188 <pm_sleep_wakeup+0x150>
+ 18e:	a044      	tmovs	r0, #68	; 0x44
+ 190:	a10f      	tmovs	r1, #15
+ 192:	97ff 9ffe 	tjl	0 <analog_write>
+			192: R_TC32_CALL	analog_write
+ 196:	a3f0      	tmovs	r3, #240	; 0xf0
+ 198:	023b      	tnand	r3, r7
+ 19a:	c000      	tjeq.n	19e <pm_sleep_wakeup+0x166>
+ 19c:	80bf      	tj.n	31e <pm_sleep_wakeup+0x2e6>
+ 19e:	af00      	tcmp	r7, #0
+ 1a0:	c000      	tjeq.n	1a4 <pm_sleep_wakeup+0x16c>
+ 1a2:	80c8      	tj.n	336 <pm_sleep_wakeup+0x2fe>
+ 1a4:	a001      	tmovs	r0, #1
+ 1a6:	97ff 9ffe 	tjl	0 <analog_read>
+			1a6: R_TC32_CALL	analog_read
+ 1aa:	a17f      	tmovs	r1, #127	; 0x7f
+ 1ac:	0001      	tands	r1, r0
+ 1ae:	a001      	tmovs	r0, #1
+ 1b0:	97ff 9ffe 	tjl	0 <analog_write>
+			1b0: R_TC32_CALL	analog_write
+ 1b4:	a004      	tmovs	r0, #4
+ 1b6:	97ff 9ffe 	tjl	0 <analog_read>
+			1b6: R_TC32_CALL	analog_read
+ 1ba:	a1fe      	tmovs	r1, #254	; 0xfe
+ 1bc:	0001      	tands	r1, r0
+ 1be:	a004      	tmovs	r0, #4
+ 1c0:	97ff 9ffe 	tjl	0 <analog_write>
+			1c0: R_TC32_CALL	analog_write
+ 1c4:	a001      	tmovs	r0, #1
+ 1c6:	97ff 9ffe 	tjl	0 <analog_read>
+			1c6: R_TC32_CALL	analog_read
+ 1ca:	a308      	tmovs	r3, #8
+ 1cc:	ec01      	tadds	r1, r0, #0
+ 1ce:	0319      	tors	r1, r3
+ 1d0:	f609      	tshftls	r1, r1, #24
+ 1d2:	fe09      	tshftrs	r1, r1, #24
+ 1d4:	a001      	tmovs	r0, #1
+ 1d6:	97ff 9ffe 	tjl	0 <analog_write>
+			1d6: R_TC32_CALL	analog_write
+ 1da:	a044      	tmovs	r0, #68	; 0x44
+ 1dc:	a10f      	tmovs	r1, #15
+ 1de:	97ff 9ffe 	tjl	0 <analog_write>
+			1de: R_TC32_CALL	analog_write
+ 1e2:	a080      	tmovs	r0, #128	; 0x80
+ 1e4:	97ff 9ffe 	tjl	0 <analog_read>
+			1e4: R_TC32_CALL	analog_read
+ 1e8:	3000      	tstorer	r0, [sp, #0]
+ 1ea:	a081      	tmovs	r0, #129	; 0x81
+ 1ec:	97ff 9ffe 	tjl	0 <analog_read>
+			1ec: R_TC32_CALL	analog_read
+ 1f0:	3004      	tstorer	r0, [sp, #16]
+ 1f2:	0b75      	tloadr	r3, [pc, #468]	; (3c8 <pm_sleep_wakeup+0x390>)
+ 1f4:	0698      	tmov	r8, r3
+ 1f6:	481b      	tloadrb	r3, [r3, #0]
+ 1f8:	ab00      	tcmp	r3, #0
+ 1fa:	c000      	tjeq.n	1fe <pm_sleep_wakeup+0x1c6>
+ 1fc:	80b5      	tj.n	36a <pm_sleep_wakeup+0x332>
+ 1fe:	a044      	tmovs	r0, #68	; 0x44
+ 200:	97ff 9ffe 	tjl	0 <analog_read>
+			200: R_TC32_CALL	analog_read
+ 204:	f701      	tshftls	r1, r0, #28
+ 206:	c100      	tjne.n	20a <pm_sleep_wakeup+0x1d2>
+ 208:	80ac      	tj.n	364 <pm_sleep_wakeup+0x32c>
+ 20a:	af00      	tcmp	r7, #0
+ 20c:	c002      	tjeq.n	214 <pm_sleep_wakeup+0x1dc>
+ 20e:	a220      	tmovs	r2, #32
+ 210:	0b6e      	tloadr	r3, [pc, #440]	; (3cc <pm_sleep_wakeup+0x394>)
+ 212:	401a      	tstorerb	r2, [r3, #0]
+ 214:	a02c      	tmovs	r0, #44	; 0x2c
+ 216:	a100      	tmovs	r1, #0
+ 218:	97ff 9ffe 	tjl	0 <analog_write>
+			218: R_TC32_CALL	analog_write
+ 21c:	a001      	tmovs	r0, #1
+ 21e:	97ff 9ffe 	tjl	0 <analog_read>
+			21e: R_TC32_CALL	analog_read
+ 222:	a1f7      	tmovs	r1, #247	; 0xf7
+ 224:	0001      	tands	r1, r0
+ 226:	a001      	tmovs	r0, #1
+ 228:	97ff 9ffe 	tjl	0 <analog_write>
+			228: R_TC32_CALL	analog_write
+ 22c:	a004      	tmovs	r0, #4
+ 22e:	97ff 9ffe 	tjl	0 <analog_read>
+			22e: R_TC32_CALL	analog_read
+ 232:	a301      	tmovs	r3, #1
+ 234:	ec01      	tadds	r1, r0, #0
+ 236:	0319      	tors	r1, r3
+ 238:	f609      	tshftls	r1, r1, #24
+ 23a:	fe09      	tshftrs	r1, r1, #24
+ 23c:	a004      	tmovs	r0, #4
+ 23e:	97ff 9ffe 	tjl	0 <analog_write>
+			23e: R_TC32_CALL	analog_write
+ 242:	a001      	tmovs	r0, #1
+ 244:	97ff 9ffe 	tjl	0 <analog_read>
+			244: R_TC32_CALL	analog_read
+ 248:	a380      	tmovs	r3, #128	; 0x80
+ 24a:	025b      	tnegs	r3, r3
+ 24c:	0303      	tors	r3, r0
+ 24e:	f619      	tshftls	r1, r3, #24
+ 250:	fe09      	tshftrs	r1, r1, #24
+ 252:	a001      	tmovs	r0, #1
+ 254:	97ff 9ffe 	tjl	0 <analog_write>
+			254: R_TC32_CALL	analog_write
+ 258:	a220      	tmovs	r2, #32
+ 25a:	0b56      	tloadr	r3, [pc, #344]	; (3b4 <pm_sleep_wakeup+0x37c>)
+ 25c:	401a      	tstorerb	r2, [r3, #0]
+ 25e:	0953      	tloadr	r1, [pc, #332]	; (3ac <pm_sleep_wakeup+0x374>)
+ 260:	480a      	tloadrb	r2, [r1, #0]
+ 262:	a320      	tmovs	r3, #32
+ 264:	0313      	tors	r3, r2
+ 266:	f61b      	tshftls	r3, r3, #24
+ 268:	fe1b      	tshftrs	r3, r3, #24
+ 26a:	400b      	tstorerb	r3, [r1, #0]
+ 26c:	a220      	tmovs	r2, #32
+ 26e:	480b      	tloadrb	r3, [r1, #0]
+ 270:	021a      	tnand	r2, r3
+ 272:	c0fc      	tjeq.n	26e <pm_sleep_wakeup+0x236>
+ 274:	0b4e      	tloadr	r3, [pc, #312]	; (3b0 <pm_sleep_wakeup+0x378>)
+ 276:	581b      	tloadr	r3, [r3, #0]
+ 278:	a200      	tmovs	r2, #0
+ 27a:	0592      	tcmp	sl, r2
+ 27c:	c049      	tjeq.n	312 <pm_sleep_wakeup+0x2da>
+ 27e:	0649      	tmov	r1, r9
+ 280:	ea5b      	tsubs	r3, r3, r1
+ 282:	f91b      	tshftrs	r3, r3, #4
+ 284:	035e      	tmuls	r6, r3
+ 286:	045e      	tadd	r6, fp
+ 288:	0b4d      	tloadr	r3, [pc, #308]	; (3c0 <pm_sleep_wakeup+0x388>)
+ 28a:	0669      	tmov	r1, sp
+ 28c:	ed0a      	tadds	r2, r1, #4
+ 28e:	4811      	tloadrb	r1, [r2, #0]
+ 290:	4019      	tstorerb	r1, [r3, #0]
+ 292:	ec2a      	tadds	r2, r5, #0
+ 294:	ba10      	tsubs	r2, #16
+ 296:	eb92      	tsubs	r2, r2, r6
+ 298:	a380      	tmovs	r3, #128	; 0x80
+ 29a:	f5db      	tshftls	r3, r3, #23
+ 29c:	029a      	tcmp	r2, r3
+ 29e:	c901      	tjls.n	2a4 <pm_sleep_wakeup+0x26c>
+ 2a0:	ec2e      	tadds	r6, r5, #0
+ 2a2:	be20      	tsubs	r6, #32
+ 2a4:	0f3e      	tloadr	r7, [pc, #248]	; (3a0 <pm_sleep_wakeup+0x368>)
+ 2a6:	503e      	tstorer	r6, [r7, #0]
+ 2a8:	583a      	tloadr	r2, [r7, #0]
+ 2aa:	0b49      	tloadr	r3, [pc, #292]	; (3d0 <pm_sleep_wakeup+0x398>)
+ 2ac:	501a      	tstorer	r2, [r3, #0]
+ 2ae:	0b41      	tloadr	r3, [pc, #260]	; (3b4 <pm_sleep_wakeup+0x37c>)
+ 2b0:	a200      	tmovs	r2, #0
+ 2b2:	401a      	tstorerb	r2, [r3, #0]
+ 2b4:	a2a8      	tmovs	r2, #168	; 0xa8
+ 2b6:	401a      	tstorerb	r2, [r3, #0]
+ 2b8:	a044      	tmovs	r0, #68	; 0x44
+ 2ba:	97ff 9ffe 	tjl	0 <analog_read>
+			2ba: R_TC32_CALL	analog_read
+ 2be:	a30f      	tmovs	r3, #15
+ 2c0:	a480      	tmovs	r4, #128	; 0x80
+ 2c2:	0018      	tands	r0, r3
+ 2c4:	c00b      	tjeq.n	2de <pm_sleep_wakeup+0x2a6>
+ 2c6:	ec04      	tadds	r4, r0, #0
+ 2c8:	f782      	tshftls	r2, r0, #30
+ 2ca:	c508      	tjpl.n	2de <pm_sleep_wakeup+0x2a6>
+ 2cc:	3b03      	tloadr	r3, [sp, #12]
+ 2ce:	ab00      	tcmp	r3, #0
+ 2d0:	c005      	tjeq.n	2de <pm_sleep_wakeup+0x2a6>
+ 2d2:	a280      	tmovs	r2, #128	; 0x80
+ 2d4:	f5d2      	tshftls	r2, r2, #23
+ 2d6:	583b      	tloadr	r3, [r7, #0]
+ 2d8:	eb5b      	tsubs	r3, r3, r5
+ 2da:	0293      	tcmp	r3, r2
+ 2dc:	c8fb      	tjhi.n	2d6 <pm_sleep_wakeup+0x29e>
+ 2de:	0b32      	tloadr	r3, [pc, #200]	; (3a8 <pm_sleep_wakeup+0x370>)
+ 2e0:	0669      	tmov	r1, sp
+ 2e2:	a208      	tmovs	r2, #8
+ 2e4:	1c51      	tloadrb	r1, [r2, r1]
+ 2e6:	4019      	tstorerb	r1, [r3, #0]
+ 2e8:	0642      	tmov	r2, r8
+ 2ea:	4813      	tloadrb	r3, [r2, #0]
+ 2ec:	ab00      	tcmp	r3, #0
+ 2ee:	c145      	tjne.n	37c <pm_sleep_wakeup+0x344>
+ 2f0:	ec20      	tadds	r0, r4, #0
+ 2f2:	6005      	tadd	sp, #20
+ 2f4:	6c3c      	tpop	{r2, r3, r4, r5}
+ 2f6:	0690      	tmov	r8, r2
+ 2f8:	0699      	tmov	r9, r3
+ 2fa:	06a2      	tmov	sl, r4
+ 2fc:	06ab      	tmov	fp, r5
+ 2fe:	6df0      	tpop	{r4, r5, r6, r7, pc}
+ 300:	3900      	tloadr	r1, [sp, #0]
+ 302:	065a      	tmov	r2, fp
+ 304:	ea88      	tsubs	r0, r1, r2
+ 306:	ec31      	tadds	r1, r6, #0
+ 308:	97ff 9ffe 	tjl	0 <__udivsi3>
+			308: R_TC32_CALL	__udivsi3
+ 30c:	f104      	tshftls	r4, r0, #4
+ 30e:	044c      	tadd	r4, r9
+ 310:	871c      	tj.n	14c <pm_sleep_wakeup+0x114>
+ 312:	064a      	tmov	r2, r9
+ 314:	ea9b      	tsubs	r3, r3, r2
+ 316:	035e      	tmuls	r6, r3
+ 318:	f936      	tshftrs	r6, r6, #4
+ 31a:	045e      	tadd	r6, fp
+ 31c:	87b4      	tj.n	288 <pm_sleep_wakeup+0x250>
+ 31e:	a001      	tmovs	r0, #1
+ 320:	97ff 9ffe 	tjl	0 <analog_read>
+			320: R_TC32_CALL	analog_read
+ 324:	a1f7      	tmovs	r1, #247	; 0xf7
+ 326:	0001      	tands	r1, r0
+ 328:	a003      	tmovs	r0, #3
+ 32a:	97ff 9ffe 	tjl	0 <analog_write>
+			32a: R_TC32_CALL	analog_write
+ 32e:	a07f      	tmovs	r0, #127	; 0x7f
+ 330:	a102      	tmovs	r1, #2
+ 332:	97ff 9ffe 	tjl	0 <analog_write>
+			332: R_TC32_CALL	analog_write
+ 336:	a001      	tmovs	r0, #1
+ 338:	97ff 9ffe 	tjl	0 <analog_read>
+			338: R_TC32_CALL	analog_read
+ 33c:	a380      	tmovs	r3, #128	; 0x80
+ 33e:	025b      	tnegs	r3, r3
+ 340:	0303      	tors	r3, r0
+ 342:	f619      	tshftls	r1, r3, #24
+ 344:	fe09      	tshftrs	r1, r1, #24
+ 346:	a001      	tmovs	r0, #1
+ 348:	97ff 9ffe 	tjl	0 <analog_write>
+			348: R_TC32_CALL	analog_write
+ 34c:	a004      	tmovs	r0, #4
+ 34e:	97ff 9ffe 	tjl	0 <analog_read>
+			34e: R_TC32_CALL	analog_read
+ 352:	a301      	tmovs	r3, #1
+ 354:	ec01      	tadds	r1, r0, #0
+ 356:	0319      	tors	r1, r3
+ 358:	f609      	tshftls	r1, r1, #24
+ 35a:	fe09      	tshftrs	r1, r1, #24
+ 35c:	a004      	tmovs	r0, #4
+ 35e:	97ff 9ffe 	tjl	0 <analog_write>
+			35e: R_TC32_CALL	analog_write
+ 362:	873a      	tj.n	fffffe78 <pm_sleep_wakeup+0xfffffe40>
+ 364:	97ff 9ffe 	tjl	0 <sleep_start>
+			364: R_TC32_CALL	sleep_start
+ 368:	874f      	tj.n	20a <pm_sleep_wakeup+0x1d2>
+ 36a:	a080      	tmovs	r0, #128	; 0x80
+ 36c:	a121      	tmovs	r1, #33	; 0x21
+ 36e:	97ff 9ffe 	tjl	0 <analog_write>
+			36e: R_TC32_CALL	analog_write
+ 372:	a081      	tmovs	r0, #129	; 0x81
+ 374:	a1c0      	tmovs	r1, #192	; 0xc0
+ 376:	97ff 9ffe 	tjl	0 <analog_write>
+			376: R_TC32_CALL	analog_write
+ 37a:	8740      	tj.n	1fe <pm_sleep_wakeup+0x1c6>
+ 37c:	a080      	tmovs	r0, #128	; 0x80
+ 37e:	3900      	tloadr	r1, [sp, #0]
+ 380:	97ff 9ffe 	tjl	0 <analog_write>
+			380: R_TC32_CALL	analog_write
+ 384:	a081      	tmovs	r0, #129	; 0x81
+ 386:	3904      	tloadr	r1, [sp, #16]
+ 388:	97ff 9ffe 	tjl	0 <analog_write>
+			388: R_TC32_CALL	analog_write
+ 38c:	87b0      	tj.n	2f0 <pm_sleep_wakeup+0x2b8>
+ 38e:	a044      	tmovs	r0, #68	; 0x44
+ 390:	97ff 9ffe 	tjl	0 <analog_read>
+			390: R_TC32_CALL	analog_read
+ 394:	a40f      	tmovs	r4, #15
+ 396:	0004      	tands	r4, r0
+ 398:	87aa      	tj.n	2f0 <pm_sleep_wakeup+0x2b8>
+ 39a:	46c0      	tnop			; (mov r8, r8)
+ 39c:	00800748 	taddeq	r0, r0, r8, asr #14
+ 3a0:	00800740 	taddeq	r0, r0, r0, asr #14
+ 3a4:	0000991f 	tandeq	r9, r0, pc, lsl r9
+ 3a8:	00800643 	taddeq	r0, r0, r3, asr #12
+ 3ac:	0080074b 	taddeq	r0, r0, fp, asr #14
+ 3b0:	00800750 	taddeq	r0, r0, r0, asr r7
+ 3b4:	0080074a 	taddeq	r0, r0, sl, asr #14
+ 3b8:	ffff79a0 	undefined instruction 0xffff79a0
+ 3bc:	0080006e 	taddeq	r0, r0, lr, rrx
+ 3c0:	00800066 	taddeq	r0, r0, r6, rrx
+ 3c4:	0080074c 	taddeq	r0, r0, ip, asr #14
+ 3c8:	00000000 	tandeq	r0, r0, r0
+			3c8: R_TC32_ABS32	internal_cap_flag
+ 3cc:	0080006f 	taddeq	r0, r0, pc, rrx
+ 3d0:	00000000 	tandeq	r0, r0, r0
+			3d0: R_TC32_ABS32	cpu_wakup_last_tick
+ 3d4:	5825      	tloadr	r5, [r4, #0]
+ 3d6:	a044      	tmovs	r0, #68	; 0x44
+ 3d8:	a10f      	tmovs	r1, #15
+ 3da:	97ff 9ffe 	tjl	0 <analog_write>
+			3da: R_TC32_CALL	analog_write
+ 3de:	a70f      	tmovs	r7, #15
+ 3e0:	ec26      	tadds	r6, r4, #0
+ 3e2:	0654      	tmov	r4, sl
+ 3e4:	a044      	tmovs	r0, #68	; 0x44
+ 3e6:	97ff 9ffe 	tjl	0 <analog_read>
+			3e6: R_TC32_CALL	analog_read
+ 3ea:	0038      	tands	r0, r7
+ 3ec:	5833      	tloadr	r3, [r6, #0]
+ 3ee:	eb5b      	tsubs	r3, r3, r5
+ 3f0:	029c      	tcmp	r4, r3
+ 3f2:	c901      	tjls.n	3f8 <analog_read+0x3f8>
+ 3f4:	a800      	tcmp	r0, #0
+ 3f6:	c0f5      	tjeq.n	3e4 <analog_read+0x3e4>
+ 3f8:	ec04      	tadds	r4, r0, #0
+ 3fa:	8779      	tj.n	2f0 <analog_read+0x2f0>
+
+Disassembly of section .text.mcu_stall_wakeup_by_timer0:
+
+00000000 <mcu_stall_wakeup_by_timer0>:
+mcu_stall_wakeup_by_timer0():
+   0:	6510      	tpush	{r4, lr}
+   2:	a200      	tmovs	r2, #0
+   4:	0b0d      	tloadr	r3, [pc, #52]	; (3c <analog_read+0x3c>)
+   6:	501a      	tstorer	r2, [r3, #0]
+   8:	bb0c      	tsubs	r3, #12
+   a:	5018      	tstorer	r0, [r3, #0]
+   c:	bb04      	tsubs	r3, #4
+   e:	4818      	tloadrb	r0, [r3, #0]
+  10:	a201      	tmovs	r2, #1
+  12:	a101      	tmovs	r1, #1
+  14:	0301      	tors	r1, r0
+  16:	f609      	tshftls	r1, r1, #24
+  18:	fe09      	tshftrs	r1, r1, #24
+  1a:	4019      	tstorerb	r1, [r3, #0]
+  1c:	0908      	tloadr	r1, [pc, #32]	; (40 <analog_read+0x40>)
+  1e:	5808      	tloadr	r0, [r1, #0]
+  20:	0310      	tors	r0, r2
+  22:	5008      	tstorer	r0, [r1, #0]
+  24:	0907      	tloadr	r1, [pc, #28]	; (44 <analog_read+0x44>)
+  26:	400a      	tstorerb	r2, [r1, #0]
+  28:	a480      	tmovs	r4, #128	; 0x80
+  2a:	0807      	tloadr	r0, [pc, #28]	; (48 <analog_read+0x48>)
+  2c:	4004      	tstorerb	r4, [r0, #0]
+  2e:	06c0      	tmov	r8, r8
+  30:	06c0      	tmov	r8, r8
+  32:	400a      	tstorerb	r2, [r1, #0]
+  34:	4819      	tloadrb	r1, [r3, #0]
+  36:	0391      	tbclrs	r1, r2
+  38:	4019      	tstorerb	r1, [r3, #0]
+  3a:	6d10      	tpop	{r4, pc}
+  3c:	00800630 	taddeq	r0, r0, r0, lsr r6
+  40:	00800078 	taddeq	r0, r0, r8, ror r0
+  44:	00800623 	taddeq	r0, r0, r3, lsr #12
+  48:	0080006f 	taddeq	r0, r0, pc, rrx
+
+Disassembly of section .text.mcu_stall_wakeup_by_timer1:
+
+00000000 <mcu_stall_wakeup_by_timer1>:
+mcu_stall_wakeup_by_timer1():
+   0:	6510      	tpush	{r4, lr}
+   2:	a200      	tmovs	r2, #0
+   4:	0b0d      	tloadr	r3, [pc, #52]	; (3c <analog_read+0x3c>)
+   6:	501a      	tstorer	r2, [r3, #0]
+   8:	bb14      	tsubs	r3, #20
+   a:	4819      	tloadrb	r1, [r3, #0]
+   c:	a208      	tmovs	r2, #8
+   e:	030a      	tors	r2, r1
+  10:	f612      	tshftls	r2, r2, #24
+  12:	fe12      	tshftrs	r2, r2, #24
+  14:	401a      	tstorerb	r2, [r3, #0]
+  16:	090a      	tloadr	r1, [pc, #40]	; (40 <analog_read+0x40>)
+  18:	5808      	tloadr	r0, [r1, #0]
+  1a:	a202      	tmovs	r2, #2
+  1c:	0310      	tors	r0, r2
+  1e:	5008      	tstorer	r0, [r1, #0]
+  20:	0908      	tloadr	r1, [pc, #32]	; (44 <analog_read+0x44>)
+  22:	400a      	tstorerb	r2, [r1, #0]
+  24:	a480      	tmovs	r4, #128	; 0x80
+  26:	0808      	tloadr	r0, [pc, #32]	; (48 <analog_read+0x48>)
+  28:	4004      	tstorerb	r4, [r0, #0]
+  2a:	06c0      	tmov	r8, r8
+  2c:	06c0      	tmov	r8, r8
+  2e:	400a      	tstorerb	r2, [r1, #0]
+  30:	481a      	tloadrb	r2, [r3, #0]
+  32:	a108      	tmovs	r1, #8
+  34:	038a      	tbclrs	r2, r1
+  36:	401a      	tstorerb	r2, [r3, #0]
+  38:	6d10      	tpop	{r4, pc}
+  3a:	46c0      	tnop			; (mov r8, r8)
+  3c:	00800634 	taddeq	r0, r0, r4, lsr r6
+  40:	00800078 	taddeq	r0, r0, r8, ror r0
+  44:	00800623 	taddeq	r0, r0, r3, lsr #12
+  48:	0080006f 	taddeq	r0, r0, pc, rrx
+
+Disassembly of section .text.mcu_stall_wakeup_by_timer2:
+
+00000000 <mcu_stall_wakeup_by_timer2>:
+mcu_stall_wakeup_by_timer2():
+   0:	6510      	tpush	{r4, lr}
+   2:	a200      	tmovs	r2, #0
+   4:	0b0e      	tloadr	r3, [pc, #56]	; (40 <analog_read+0x40>)
+   6:	501a      	tstorer	r2, [r3, #0]
+   8:	bb0c      	tsubs	r3, #12
+   a:	5018      	tstorer	r0, [r3, #0]
+   c:	bb0c      	tsubs	r3, #12
+   e:	4819      	tloadrb	r1, [r3, #0]
+  10:	a240      	tmovs	r2, #64	; 0x40
+  12:	030a      	tors	r2, r1
+  14:	f612      	tshftls	r2, r2, #24
+  16:	fe12      	tshftrs	r2, r2, #24
+  18:	401a      	tstorerb	r2, [r3, #0]
+  1a:	090a      	tloadr	r1, [pc, #40]	; (44 <analog_read+0x44>)
+  1c:	5808      	tloadr	r0, [r1, #0]
+  1e:	a204      	tmovs	r2, #4
+  20:	0310      	tors	r0, r2
+  22:	5008      	tstorer	r0, [r1, #0]
+  24:	0908      	tloadr	r1, [pc, #32]	; (48 <analog_read+0x48>)
+  26:	400a      	tstorerb	r2, [r1, #0]
+  28:	a480      	tmovs	r4, #128	; 0x80
+  2a:	0808      	tloadr	r0, [pc, #32]	; (4c <analog_read+0x4c>)
+  2c:	4004      	tstorerb	r4, [r0, #0]
+  2e:	06c0      	tmov	r8, r8
+  30:	06c0      	tmov	r8, r8
+  32:	400a      	tstorerb	r2, [r1, #0]
+  34:	481a      	tloadrb	r2, [r3, #0]
+  36:	a140      	tmovs	r1, #64	; 0x40
+  38:	038a      	tbclrs	r2, r1
+  3a:	401a      	tstorerb	r2, [r3, #0]
+  3c:	6d10      	tpop	{r4, pc}
+  3e:	46c0      	tnop			; (mov r8, r8)
+  40:	00800638 	taddeq	r0, r0, r8, lsr r6
+  44:	00800078 	taddeq	r0, r0, r8, ror r0
+  48:	00800623 	taddeq	r0, r0, r3, lsr #12
+  4c:	0080006f 	taddeq	r0, r0, pc, rrx
+
+Disassembly of section .text.pm_set_gpio_wakeup:
+
+00000000 <pm_set_gpio_wakeup>:
+pm_set_gpio_wakeup():
+   0:	65f0      	tpush	{r4, r5, r6, r7, lr}
+   2:	0647      	tmov	r7, r8
+   4:	6480      	tpush	{r7}
+   6:	0690      	tmov	r8, r2
+   8:	f405      	tshftls	r5, r0, #16
+   a:	f60f      	tshftls	r7, r1, #24
+   c:	fe3f      	tshftrs	r7, r7, #24
+   e:	f22c      	tshftls	r4, r5, #8
+  10:	fe24      	tshftrs	r4, r4, #24
+  12:	fe2d      	tshftrs	r5, r5, #24
+  14:	ec2e      	tadds	r6, r5, #0
+  16:	b621      	tadds	r6, #33	; 0x21
+  18:	f636      	tshftls	r6, r6, #24
+  1a:	fe36      	tshftrs	r6, r6, #24
+  1c:	ec30      	tadds	r0, r6, #0
+  1e:	97ff 9ffe 	tjl	0 <analog_read>
+			1e: R_TC32_CALL	analog_read
+  22:	af00      	tcmp	r7, #0
+  24:	c017      	tjeq.n	56 <pm_set_gpio_wakeup+0x56>
+  26:	03a0      	tbclrs	r0, r4
+  28:	f601      	tshftls	r1, r0, #24
+  2a:	fe09      	tshftrs	r1, r1, #24
+  2c:	ec30      	tadds	r0, r6, #0
+  2e:	97ff 9ffe 	tjl	0 <analog_write>
+			2e: R_TC32_CALL	analog_write
+  32:	b527      	tadds	r5, #39	; 0x27
+  34:	f62d      	tshftls	r5, r5, #24
+  36:	fe2d      	tshftrs	r5, r5, #24
+  38:	ec28      	tadds	r0, r5, #0
+  3a:	97ff 9ffe 	tjl	0 <analog_read>
+			3a: R_TC32_CALL	analog_read
+  3e:	a300      	tmovs	r3, #0
+  40:	0598      	tcmp	r8, r3
+  42:	c10c      	tjne.n	5e <pm_set_gpio_wakeup+0x5e>
+  44:	03a0      	tbclrs	r0, r4
+  46:	f601      	tshftls	r1, r0, #24
+  48:	fe09      	tshftrs	r1, r1, #24
+  4a:	ec28      	tadds	r0, r5, #0
+  4c:	97ff 9ffe 	tjl	0 <analog_write>
+			4c: R_TC32_CALL	analog_write
+  50:	6c04      	tpop	{r2}
+  52:	0690      	tmov	r8, r2
+  54:	6df0      	tpop	{r4, r5, r6, r7, pc}
+  56:	0320      	tors	r0, r4
+  58:	f601      	tshftls	r1, r0, #24
+  5a:	fe09      	tshftrs	r1, r1, #24
+  5c:	87e6      	tj.n	2c <analog_write+0x2c>
+  5e:	0304      	tors	r4, r0
+  60:	f621      	tshftls	r1, r4, #24
+  62:	fe09      	tshftrs	r1, r1, #24
+  64:	87f1      	tj.n	4a <analog_write+0x4a>
+  66:	46c0      	tnop			; (mov r8, r8)
+
+Disassembly of section .text.gpio_set_wakeup:
+
+00000000 <gpio_set_wakeup>:
+gpio_set_wakeup():
+   0:	6530      	tpush	{r4, r5, lr}
+   2:	f400      	tshftls	r0, r0, #16
+   4:	fc04      	tshftrs	r4, r0, #16
+   6:	f609      	tshftls	r1, r1, #24
+   8:	fe09      	tshftrs	r1, r1, #24
+   a:	f623      	tshftls	r3, r4, #24
+   c:	fe1b      	tshftrs	r3, r3, #24
+   e:	aa00      	tcmp	r2, #0
+  10:	c01f      	tjeq.n	52 <gpio_set_wakeup+0x52>
+  12:	fe00      	tshftrs	r0, r0, #24
+  14:	f0c0      	tshftls	r0, r0, #3
+  16:	0d17      	tloadr	r5, [pc, #92]	; (74 <gpio_set_wakeup+0x74>)
+  18:	e942      	tadds	r2, r0, r5
+  1a:	4815      	tloadrb	r5, [r2, #0]
+  1c:	031d      	tors	r5, r3
+  1e:	4015      	tstorerb	r5, [r2, #0]
+  20:	a900      	tcmp	r1, #0
+  22:	c11f      	tjne.n	64 <gpio_set_wakeup+0x64>
+  24:	0d14      	tloadr	r5, [pc, #80]	; (78 <gpio_set_wakeup+0x78>)
+  26:	e940      	tadds	r0, r0, r5
+  28:	4802      	tloadrb	r2, [r0, #0]
+  2a:	0313      	tors	r3, r2
+  2c:	4003      	tstorerb	r3, [r0, #0]
+  2e:	a500      	tmovs	r5, #0
+  30:	ec20      	tadds	r0, r4, #0
+  32:	a100      	tmovs	r1, #0
+  34:	97ff 9ffe 	tjl	0 <gpio_set_func>
+			34: R_TC32_CALL	gpio_set_func
+  38:	ec20      	tadds	r0, r4, #0
+  3a:	a101      	tmovs	r1, #1
+  3c:	97ff 9ffe 	tjl	0 <gpio_set_input_en>
+			3c: R_TC32_CALL	gpio_set_input_en
+  40:	0b0e      	tloadr	r3, [pc, #56]	; (7c <gpio_set_input_en+0x7c>)
+  42:	4819      	tloadrb	r1, [r3, #0]
+  44:	a204      	tmovs	r2, #4
+  46:	030a      	tors	r2, r1
+  48:	f612      	tshftls	r2, r2, #24
+  4a:	fe12      	tshftrs	r2, r2, #24
+  4c:	401a      	tstorerb	r2, [r3, #0]
+  4e:	ec28      	tadds	r0, r5, #0
+  50:	6d30      	tpop	{r4, r5, pc}
+  52:	fe00      	tshftrs	r0, r0, #24
+  54:	f0c0      	tshftls	r0, r0, #3
+  56:	0d07      	tloadr	r5, [pc, #28]	; (74 <gpio_set_input_en+0x74>)
+  58:	e942      	tadds	r2, r0, r5
+  5a:	4815      	tloadrb	r5, [r2, #0]
+  5c:	039d      	tbclrs	r5, r3
+  5e:	4015      	tstorerb	r5, [r2, #0]
+  60:	a900      	tcmp	r1, #0
+  62:	c0df      	tjeq.n	24 <gpio_set_input_en+0x24>
+  64:	0a04      	tloadr	r2, [pc, #16]	; (78 <gpio_set_input_en+0x78>)
+  66:	e880      	tadds	r0, r0, r2
+  68:	4802      	tloadrb	r2, [r0, #0]
+  6a:	039a      	tbclrs	r2, r3
+  6c:	4002      	tstorerb	r2, [r0, #0]
+  6e:	a501      	tmovs	r5, #1
+  70:	87de      	tj.n	30 <gpio_set_input_en+0x30>
+  72:	46c0      	tnop			; (mov r8, r8)
+  74:	00800587 	taddeq	r0, r0, r7, lsl #11
+  78:	00800584 	taddeq	r0, r0, r4, lsl #11
+  7c:	008005b5 	undefined instruction 0x008005b5
+
+Disassembly of section .text.pm_set_filter:
+
+00000000 <pm_set_filter>:
+pm_set_filter():
+   0:	6510      	tpush	{r4, lr}
+   2:	f604      	tshftls	r4, r0, #24
+   4:	fe24      	tshftrs	r4, r4, #24
+   6:	a026      	tmovs	r0, #38	; 0x26
+   8:	97ff 9ffe 	tjl	0 <analog_read>
+			8: R_TC32_CALL	analog_read
+   c:	ac00      	tcmp	r4, #0
+   e:	c107      	tjne.n	20 <pm_set_filter+0x20>
+  10:	a308      	tmovs	r3, #8
+  12:	0398      	tbclrs	r0, r3
+  14:	f601      	tshftls	r1, r0, #24
+  16:	fe09      	tshftrs	r1, r1, #24
+  18:	a026      	tmovs	r0, #38	; 0x26
+  1a:	97ff 9ffe 	tjl	0 <analog_write>
+			1a: R_TC32_CALL	analog_write
+  1e:	6d10      	tpop	{r4, pc}
+  20:	a108      	tmovs	r1, #8
+  22:	0308      	tors	r0, r1
+  24:	f601      	tshftls	r1, r0, #24
+  26:	fe09      	tshftrs	r1, r1, #24
+  28:	87f6      	tj.n	18 <analog_write+0x18>
+  2a:	46c0      	tnop			; (mov r8, r8)
+
+Disassembly of section .comment:
+
+00000000 <.comment>:
+   0:	43434700 	tcmpmi	r3, #0
+   4:	4728203a 	undefined instruction 0x4728203a
+   8:	2029554e 	txorcs	r5, r9, lr, asr #10
+   c:	2e352e34 	undefined instruction 0x2e352e34
+  10:	63742d31 	tcmpnvs	r4, #3136	; 0xc40
+  14:	312d3233 	teqcc	sp, r3, lsr r2
+  18:	Address 0x00000018 is out of bounds.
+
+
+Disassembly of section .TC32.attributes:
+
+00000000 <.TC32.attributes>:
+   0:	00000f41 	tandeq	r0, r0, r1, asr #30
+   4:	61656100 	tcmpnvs	r5, r0, lsl #2
+   8:	01006962 	tnandeq	r0, r2, ror #18
+   c:	00000005 	tandeq	r0, r0, r5
+
+rf_drv.o:     file format elf32-littletc32
+rw-rw-rw- 0/0  12664 Nov 18 15:39 2019 rf_drv.o
+architecture: tc32, flags 0x00000011:
+HAS_RELOC, HAS_SYMS
+start address 0x00000000
+private flags = 0: [APCS-32] [FPA float format]
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+  3 .text.agc_tbl_write 00000030  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .text.rf_set_manual_max_gain 0000003c  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .text.rf_set_agc 00000038  00000000  00000000  000000a0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  6 .text.rf_set_tp 00000028  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text.rf_set_acc_code_pipe 0000006c  00000000  00000000  00000100  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .text.rf_get_acc_code_pipe 0000006c  00000000  00000000  0000016c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  9 .text.rf_mode_init 000000c8  00000000  00000000  000001d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .text.rf_set_ble_1M_mode 00000100  00000000  00000000  000002a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.rf_set_ble_2M_mode 000000e8  00000000  00000000  000003a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text.rf_set_ble_250K_mode 00000100  00000000  00000000  00000488  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text.rf_set_ble_500K_mode 00000100  00000000  00000000  00000588  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.rf_set_ble_1M_NO_PN_mode 000000e8  00000000  00000000  00000688  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.rf_set_ble_2M_NO_PN_mode 000000e8  00000000  00000000  00000770  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.rf_set_pri_1M_mode 000000f0  00000000  00000000  00000858  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.rf_set_pri_2M_mode 00000100  00000000  00000000  00000948  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.rf_set_pri_250K_mode 000000dc  00000000  00000000  00000a48  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.rf_set_pri_500K_mode 000000dc  00000000  00000000  00000b24  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.rf_set_power_level_index 00000078  00000000  00000000  00000c00  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.rf_set_tp_gain 0000002c  00000000  00000000  00000c78  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.rf_set_channel 00000084  00000000  00000000  00000ca4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.rf_set_ble_channel 000000a4  00000000  00000000  00000d28  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.rf_set_rx_buff 00000024  00000000  00000000  00000dcc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 25 .text.rf_start_btx 00000030  00000000  00000000  00000df0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 26 .text.rf_start_brx 00000038  00000000  00000000  00000e20  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 27 .text.rf_start_stx 00000030  00000000  00000000  00000e58  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 28 .text.rf_start_srx 0000002c  00000000  00000000  00000e88  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 29 .text.rf_start_stx2rx 00000030  00000000  00000000  00000eb4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 30 .text.rf_start_srx2tx 0000003c  00000000  00000000  00000ee4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 31 .text.rf_set_ack_packet 00000010  00000000  00000000  00000f20  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 32 .text.rf_tx_pkt 0000001c  00000000  00000000  00000f30  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 33 .text.rf_set_trx_state 000000d0  00000000  00000000  00000f4c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.rf_get_trx_state 0000000c  00000000  00000000  0000101c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text.rf_schedule 00000038  00000000  00000000  00001028  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 36 .rodata.tbl_agc_t 0000001c  00000000  00000000  00001060  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 37 .bss.RF_TRxState 00000001  00000000  00000000  0000107c  2**0
+                  ALLOC
+ 38 .data.rf_tp_base 00000004  00000000  00000000  0000107c  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 39 .data.rf_tp_gain 00000004  00000000  00000000  00001080  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 40 .rodata.tbl_agc_c 0000001c  00000000  00000000  00001084  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 41 .rodata.rf_chn 00000010  00000000  00000000  000010a0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 42 .rodata.tbl_rf_power 00000030  00000000  00000000  000010b0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 43 .rodata.tbl_rf_power_csmc 00000030  00000000  00000000  000010e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 44 .comment      0000001b  00000000  00000000  00001110  2**0
+                  CONTENTS, READONLY
+ 45 .TC32.attributes 00000010  00000000  00000000  0000112b  2**0
+                  CONTENTS, READONLY
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 rf_drv.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.agc_tbl_write	00000000 .text.agc_tbl_write
+00000000 l     F .text.agc_tbl_write	00000030 agc_tbl_write
+00000000 l    d  .text.rf_set_manual_max_gain	00000000 .text.rf_set_manual_max_gain
+00000000 l    d  .text.rf_set_agc	00000000 .text.rf_set_agc
+00000000 l    d  .text.rf_set_tp	00000000 .text.rf_set_tp
+00000000 l    d  .text.rf_set_acc_code_pipe	00000000 .text.rf_set_acc_code_pipe
+00000000 l    d  .text.rf_get_acc_code_pipe	00000000 .text.rf_get_acc_code_pipe
+00000000 l    d  .text.rf_mode_init	00000000 .text.rf_mode_init
+00000000 l    d  .text.rf_set_ble_1M_mode	00000000 .text.rf_set_ble_1M_mode
+00000000 l    d  .text.rf_set_ble_2M_mode	00000000 .text.rf_set_ble_2M_mode
+00000000 l    d  .text.rf_set_ble_250K_mode	00000000 .text.rf_set_ble_250K_mode
+00000000 l    d  .text.rf_set_ble_500K_mode	00000000 .text.rf_set_ble_500K_mode
+00000000 l    d  .text.rf_set_ble_1M_NO_PN_mode	00000000 .text.rf_set_ble_1M_NO_PN_mode
+00000000 l    d  .text.rf_set_ble_2M_NO_PN_mode	00000000 .text.rf_set_ble_2M_NO_PN_mode
+00000000 l    d  .text.rf_set_pri_1M_mode	00000000 .text.rf_set_pri_1M_mode
+00000000 l    d  .text.rf_set_pri_2M_mode	00000000 .text.rf_set_pri_2M_mode
+00000000 l    d  .text.rf_set_pri_250K_mode	00000000 .text.rf_set_pri_250K_mode
+00000000 l    d  .text.rf_set_pri_500K_mode	00000000 .text.rf_set_pri_500K_mode
+00000000 l    d  .text.rf_set_power_level_index	00000000 .text.rf_set_power_level_index
+00000000 l    d  .text.rf_set_tp_gain	00000000 .text.rf_set_tp_gain
+00000000 l    d  .text.rf_set_channel	00000000 .text.rf_set_channel
+00000000 l    d  .text.rf_set_ble_channel	00000000 .text.rf_set_ble_channel
+00000000 l    d  .text.rf_set_rx_buff	00000000 .text.rf_set_rx_buff
+00000000 l    d  .text.rf_start_btx	00000000 .text.rf_start_btx
+00000000 l    d  .text.rf_start_brx	00000000 .text.rf_start_brx
+00000000 l    d  .text.rf_start_stx	00000000 .text.rf_start_stx
+00000000 l    d  .text.rf_start_srx	00000000 .text.rf_start_srx
+00000000 l    d  .text.rf_start_stx2rx	00000000 .text.rf_start_stx2rx
+00000000 l    d  .text.rf_start_srx2tx	00000000 .text.rf_start_srx2tx
+00000000 l    d  .text.rf_set_ack_packet	00000000 .text.rf_set_ack_packet
+00000000 l    d  .text.rf_tx_pkt	00000000 .text.rf_tx_pkt
+00000000 l    d  .text.rf_set_trx_state	00000000 .text.rf_set_trx_state
+00000000 l    d  .text.rf_get_trx_state	00000000 .text.rf_get_trx_state
+00000000 l    d  .text.rf_schedule	00000000 .text.rf_schedule
+00000000 l    d  .rodata.tbl_agc_t	00000000 .rodata.tbl_agc_t
+00000000 l    d  .bss.RF_TRxState	00000000 .bss.RF_TRxState
+00000000 l     O .bss.RF_TRxState	00000001 RF_TRxState
+00000000 l    d  .data.rf_tp_base	00000000 .data.rf_tp_base
+00000000 l    d  .data.rf_tp_gain	00000000 .data.rf_tp_gain
+00000000 l    d  .rodata.tbl_agc_c	00000000 .rodata.tbl_agc_c
+00000000 l    d  .rodata.rf_chn	00000000 .rodata.rf_chn
+00000000 l    d  .rodata.tbl_rf_power	00000000 .rodata.tbl_rf_power
+00000000 l    d  .rodata.tbl_rf_power_csmc	00000000 .rodata.tbl_rf_power_csmc
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .TC32.attributes	00000000 .TC32.attributes
+00000000 g     F .text.rf_set_manual_max_gain	0000003c rf_set_manual_max_gain
+00000000 g     F .text.rf_set_agc	00000038 rf_set_agc
+00000000         *UND*	00000000 __divsi3
+00000000 g     F .text.rf_set_tp	00000028 rf_set_tp
+00000000 g     F .text.rf_set_acc_code_pipe	0000006c rf_set_acc_code_pipe
+00000000 g     F .text.rf_get_acc_code_pipe	0000006c rf_get_acc_code_pipe
+00000000 g     F .text.rf_mode_init	000000c8 rf_mode_init
+00000000         *UND*	00000000 analog_write
+00000000 g     F .text.rf_set_ble_1M_mode	00000100 rf_set_ble_1M_mode
+00000000 g     F .text.rf_set_ble_2M_mode	000000e8 rf_set_ble_2M_mode
+00000000 g     F .text.rf_set_ble_250K_mode	00000100 rf_set_ble_250K_mode
+00000000 g     F .text.rf_set_ble_500K_mode	00000100 rf_set_ble_500K_mode
+00000000 g     F .text.rf_set_ble_1M_NO_PN_mode	000000e8 rf_set_ble_1M_NO_PN_mode
+00000000 g     F .text.rf_set_ble_2M_NO_PN_mode	000000e8 rf_set_ble_2M_NO_PN_mode
+00000000 g     F .text.rf_set_pri_1M_mode	000000f0 rf_set_pri_1M_mode
+00000000 g     F .text.rf_set_pri_2M_mode	00000100 rf_set_pri_2M_mode
+00000000 g     F .text.rf_set_pri_250K_mode	000000dc rf_set_pri_250K_mode
+00000000 g     F .text.rf_set_pri_500K_mode	000000dc rf_set_pri_500K_mode
+00000000 g     F .text.rf_set_power_level_index	00000078 rf_set_power_level_index
+00000000         *UND*	00000000 analog_read
+00000000 g     F .text.rf_set_tp_gain	0000002c rf_set_tp_gain
+00000000 g     F .text.rf_set_channel	00000084 rf_set_channel
+00000000 g     F .text.rf_set_ble_channel	000000a4 rf_set_ble_channel
+00000000 g     F .text.rf_set_rx_buff	00000024 rf_set_rx_buff
+00000000 g     F .text.rf_start_btx	00000030 rf_start_btx
+00000000 g     F .text.rf_start_brx	00000038 rf_start_brx
+00000000 g     F .text.rf_start_stx	00000030 rf_start_stx
+00000000 g     F .text.rf_start_srx	0000002c rf_start_srx
+00000000 g     F .text.rf_start_stx2rx	00000030 rf_start_stx2rx
+00000000 g     F .text.rf_start_srx2tx	0000003c rf_start_srx2tx
+00000000 g     F .text.rf_set_ack_packet	00000010 rf_set_ack_packet
+00000000 g     F .text.rf_tx_pkt	0000001c rf_tx_pkt
+00000000 g     F .text.rf_set_trx_state	000000d0 rf_set_trx_state
+00000000         *UND*	00000000 delay_us
+00000000 g     F .text.rf_get_trx_state	0000000c rf_get_trx_state
+00000000 g     F .text.rf_schedule	00000038 rf_schedule
+00000000 g     O .data.rf_tp_base	00000004 rf_tp_base
+00000000 g     O .data.rf_tp_gain	00000004 rf_tp_gain
+00000000 g     O .rodata.rf_chn	00000010 rf_chn
+00000000 g     O .rodata.tbl_agc_t	0000001a tbl_agc_t
+00000000 g     O .rodata.tbl_agc_c	0000001a tbl_agc_c
+00000000 g     O .rodata.tbl_rf_power	00000030 tbl_rf_power
+00000000 g     O .rodata.tbl_rf_power_csmc	00000030 tbl_rf_power_csmc
+00000001       O *COM*	00000001 rf_nesn
+
+
+
+Disassembly of section .text.agc_tbl_write:
+
+00000000 <agc_tbl_write>:
+agc_tbl_write():
+   0:	0b07      	tloadr	r3, [pc, #28]	; (20 <agc_tbl_write+0x20>)
+   2:	481b      	tloadrb	r3, [r3, #0]
+   4:	f6d9      	tshftls	r1, r3, #27
+   6:	c509      	tjpl.n	1c <agc_tbl_write+0x1c>
+   8:	0806      	tloadr	r0, [pc, #24]	; (24 <agc_tbl_write+0x24>)
+   a:	a300      	tmovs	r3, #0
+   c:	0906      	tloadr	r1, [pc, #24]	; (28 <agc_tbl_write+0x28>)
+   e:	e85a      	tadds	r2, r3, r1
+  10:	1cc1      	tloadrb	r1, [r0, r3]
+  12:	4011      	tstorerb	r1, [r2, #0]
+  14:	b301      	tadds	r3, #1
+  16:	ab1a      	tcmp	r3, #26
+  18:	c1f8      	tjne.n	c <agc_tbl_write+0xc>
+  1a:	0770      	tjex	lr
+  1c:	0803      	tloadr	r0, [pc, #12]	; (2c <agc_tbl_write+0x2c>)
+  1e:	87f4      	tj.n	a <agc_tbl_write+0xa>
+  20:	0080007d 	taddeq	r0, r0, sp, ror r0
+  24:	00000000 	tandeq	r0, r0, r0
+			24: R_TC32_ABS32	.rodata.tbl_agc_t
+  28:	01000480 	tnandeq	r0, r0, lsl #9
+  2c:	00000000 	tandeq	r0, r0, r0
+			2c: R_TC32_ABS32	.rodata.tbl_agc_c
+
+Disassembly of section .text.rf_set_manual_max_gain:
+
+00000000 <rf_set_manual_max_gain>:
+rf_set_manual_max_gain():
+   0:	a217      	tmovs	r2, #23
+   2:	0b0d      	tloadr	r3, [pc, #52]	; (38 <rf_set_manual_max_gain+0x38>)
+   4:	401a      	tstorerb	r2, [r3, #0]
+   6:	a2fd      	tmovs	r2, #253	; 0xfd
+   8:	b30d      	tadds	r3, #13
+   a:	401a      	tstorerb	r2, [r3, #0]
+   c:	a237      	tmovs	r2, #55	; 0x37
+   e:	bb05      	tsubs	r3, #5
+  10:	401a      	tstorerb	r2, [r3, #0]
+  12:	a200      	tmovs	r2, #0
+  14:	bb05      	tsubs	r3, #5
+  16:	401a      	tstorerb	r2, [r3, #0]
+  18:	a201      	tmovs	r2, #1
+  1a:	b301      	tadds	r3, #1
+  1c:	401a      	tstorerb	r2, [r3, #0]
+  1e:	a277      	tmovs	r2, #119	; 0x77
+  20:	b306      	tadds	r3, #6
+  22:	401a      	tstorerb	r2, [r3, #0]
+  24:	a289      	tmovs	r2, #137	; 0x89
+  26:	b304      	tadds	r3, #4
+  28:	401a      	tstorerb	r2, [r3, #0]
+  2a:	a266      	tmovs	r2, #102	; 0x66
+  2c:	b38f      	tadds	r3, #143	; 0x8f
+  2e:	401a      	tstorerb	r2, [r3, #0]
+  30:	a281      	tmovs	r2, #129	; 0x81
+  32:	bb0d      	tsubs	r3, #13
+  34:	401a      	tstorerb	r2, [r3, #0]
+  36:	0770      	tjex	lr
+  38:	00800430 	taddeq	r0, r0, r0, lsr r4
+
+Disassembly of section .text.rf_set_agc:
+
+00000000 <rf_set_agc>:
+rf_set_agc():
+   0:	a201      	tmovs	r2, #1
+   2:	0b0c      	tloadr	r3, [pc, #48]	; (34 <rf_set_agc+0x34>)
+   4:	401a      	tstorerb	r2, [r3, #0]
+   6:	a221      	tmovs	r2, #33	; 0x21
+   8:	b301      	tadds	r3, #1
+   a:	401a      	tstorerb	r2, [r3, #0]
+   c:	a222      	tmovs	r2, #34	; 0x22
+   e:	b306      	tadds	r3, #6
+  10:	401a      	tstorerb	r2, [r3, #0]
+  12:	a220      	tmovs	r2, #32
+  14:	b304      	tadds	r3, #4
+  16:	401a      	tstorerb	r2, [r3, #0]
+  18:	a212      	tmovs	r2, #18
+  1a:	bb0e      	tsubs	r3, #14
+  1c:	401a      	tstorerb	r2, [r3, #0]
+  1e:	a2b1      	tmovs	r2, #177	; 0xb1
+  20:	b30d      	tadds	r3, #13
+  22:	401a      	tstorerb	r2, [r3, #0]
+  24:	a2b7      	tmovs	r2, #183	; 0xb7
+  26:	bb05      	tsubs	r3, #5
+  28:	401a      	tstorerb	r2, [r3, #0]
+  2a:	a2da      	tmovs	r2, #218	; 0xda
+  2c:	bb01      	tsubs	r3, #1
+  2e:	401a      	tstorerb	r2, [r3, #0]
+  30:	0770      	tjex	lr
+  32:	46c0      	tnop			; (mov r8, r8)
+  34:	00800433 	taddeq	r0, r0, r3, lsr r4
+
+Disassembly of section .text.rf_set_tp:
+
+00000000 <rf_set_tp>:
+rf_set_tp():
+   0:	6500      	tpush	{lr}
+   2:	f600      	tshftls	r0, r0, #24
+   4:	fe00      	tshftrs	r0, r0, #24
+   6:	f609      	tshftls	r1, r1, #24
+   8:	fe09      	tshftrs	r1, r1, #24
+   a:	0b05      	tloadr	r3, [pc, #20]	; (20 <rf_set_tp+0x20>)
+   c:	5018      	tstorer	r0, [r3, #0]
+   e:	ea40      	tsubs	r0, r0, r1
+  10:	f200      	tshftls	r0, r0, #8
+  12:	a150      	tmovs	r1, #80	; 0x50
+  14:	97ff 9ffe 	tjl	0 <__divsi3>
+			14: R_TC32_CALL	__divsi3
+  18:	0b02      	tloadr	r3, [pc, #8]	; (24 <rf_set_tp+0x24>)
+  1a:	5018      	tstorer	r0, [r3, #0]
+  1c:	6d00      	tpop	{pc}
+  1e:	46c0      	tnop			; (mov r8, r8)
+	...
+			20: R_TC32_ABS32	.data.rf_tp_base
+			24: R_TC32_ABS32	.data.rf_tp_gain
+
+Disassembly of section .text.rf_set_acc_code_pipe:
+
+00000000 <rf_set_acc_code_pipe>:
+rf_set_acc_code_pipe():
+   0:	65f0      	tpush	{r4, r5, r6, r7, lr}
+   2:	6082      	tsub	sp, #8
+   4:	068c      	tmov	ip, r1
+   6:	0b17      	tloadr	r3, [pc, #92]	; (64 <rf_set_acc_code_pipe+0x64>)
+   8:	481b      	tloadrb	r3, [r3, #0]
+   a:	a607      	tmovs	r6, #7
+   c:	001e      	tands	r6, r3
+   e:	c027      	tjeq.n	60 <rf_set_acc_code_pipe+0x60>
+  10:	a500      	tmovs	r5, #0
+  12:	066f      	tmov	r7, sp
+  14:	a401      	tmovs	r4, #1
+  16:	a101      	tmovs	r1, #1
+  18:	0663      	tmov	r3, ip
+  1a:	1d58      	tloadrb	r0, [r3, r5]
+  1c:	a200      	tmovs	r2, #0
+  1e:	a300      	tmovs	r3, #0
+  20:	0204      	tnand	r4, r0
+  22:	c00c      	tjeq.n	3e <rf_set_acc_code_pipe+0x3e>
+  24:	030b      	tors	r3, r1
+  26:	f61b      	tshftls	r3, r3, #24
+  28:	fe1b      	tshftrs	r3, r3, #24
+  2a:	aa07      	tcmp	r2, #7
+  2c:	c00a      	tjeq.n	44 <rf_set_acc_code_pipe+0x44>
+  2e:	f65b      	tshftls	r3, r3, #25
+  30:	fe1b      	tshftrs	r3, r3, #24
+  32:	b201      	tadds	r2, #1
+  34:	aa08      	tcmp	r2, #8
+  36:	c005      	tjeq.n	44 <rf_set_acc_code_pipe+0x44>
+  38:	f840      	tshftrs	r0, r0, #1
+  3a:	0204      	tnand	r4, r0
+  3c:	c1f2      	tjne.n	24 <rf_set_acc_code_pipe+0x24>
+  3e:	03a3      	tbclrs	r3, r4
+  40:	aa07      	tcmp	r2, #7
+  42:	c1f4      	tjne.n	2e <rf_set_acc_code_pipe+0x2e>
+  44:	157b      	tstorerb	r3, [r7, r5]
+  46:	b501      	tadds	r5, #1
+  48:	f62b      	tshftls	r3, r5, #24
+  4a:	fe1b      	tshftrs	r3, r3, #24
+  4c:	029e      	tcmp	r6, r3
+  4e:	c8e3      	tjhi.n	18 <rf_set_acc_code_pipe+0x18>
+  50:	a300      	tmovs	r3, #0
+  52:	0905      	tloadr	r1, [pc, #20]	; (68 <rf_set_acc_code_pipe+0x68>)
+  54:	e85a      	tadds	r2, r3, r1
+  56:	1cf9      	tloadrb	r1, [r7, r3]
+  58:	4011      	tstorerb	r1, [r2, #0]
+  5a:	b301      	tadds	r3, #1
+  5c:	029e      	tcmp	r6, r3
+  5e:	ccf8      	tjgt.n	52 <rf_set_acc_code_pipe+0x52>
+  60:	6002      	tadd	sp, #8
+  62:	6df0      	tpop	{r4, r5, r6, r7, pc}
+  64:	00800405 	taddeq	r0, r0, r5, lsl #8
+  68:	01000408 	tnandeq	r0, r8, lsl #8
+
+Disassembly of section .text.rf_get_acc_code_pipe:
+
+00000000 <rf_get_acc_code_pipe>:
+rf_get_acc_code_pipe():
+   0:	65f0      	tpush	{r4, r5, r6, r7, lr}
+   2:	0b18      	tloadr	r3, [pc, #96]	; (64 <rf_get_acc_code_pipe+0x64>)
+   4:	481b      	tloadrb	r3, [r3, #0]
+   6:	a607      	tmovs	r6, #7
+   8:	001e      	tands	r6, r3
+   a:	c007      	tjeq.n	1c <rf_get_acc_code_pipe+0x1c>
+   c:	a300      	tmovs	r3, #0
+   e:	0816      	tloadr	r0, [pc, #88]	; (68 <rf_get_acc_code_pipe+0x68>)
+  10:	e81a      	tadds	r2, r3, r0
+  12:	4812      	tloadrb	r2, [r2, #0]
+  14:	14ca      	tstorerb	r2, [r1, r3]
+  16:	b301      	tadds	r3, #1
+  18:	029e      	tcmp	r6, r3
+  1a:	ccf8      	tjgt.n	e <rf_get_acc_code_pipe+0xe>
+  1c:	ae00      	tcmp	r6, #0
+  1e:	c01f      	tjeq.n	60 <rf_get_acc_code_pipe+0x60>
+  20:	a500      	tmovs	r5, #0
+  22:	a401      	tmovs	r4, #1
+  24:	a301      	tmovs	r3, #1
+  26:	069c      	tmov	ip, r3
+  28:	1d48      	tloadrb	r0, [r1, r5]
+  2a:	a200      	tmovs	r2, #0
+  2c:	a300      	tmovs	r3, #0
+  2e:	0204      	tnand	r4, r0
+  30:	c00d      	tjeq.n	4e <rf_get_acc_code_pipe+0x4e>
+  32:	0667      	tmov	r7, ip
+  34:	033b      	tors	r3, r7
+  36:	f61b      	tshftls	r3, r3, #24
+  38:	fe1b      	tshftrs	r3, r3, #24
+  3a:	aa07      	tcmp	r2, #7
+  3c:	c00a      	tjeq.n	54 <rf_get_acc_code_pipe+0x54>
+  3e:	f65b      	tshftls	r3, r3, #25
+  40:	fe1b      	tshftrs	r3, r3, #24
+  42:	b201      	tadds	r2, #1
+  44:	aa08      	tcmp	r2, #8
+  46:	c005      	tjeq.n	54 <rf_get_acc_code_pipe+0x54>
+  48:	f840      	tshftrs	r0, r0, #1
+  4a:	0204      	tnand	r4, r0
+  4c:	c1f1      	tjne.n	32 <rf_get_acc_code_pipe+0x32>
+  4e:	03a3      	tbclrs	r3, r4
+  50:	aa07      	tcmp	r2, #7
+  52:	c1f4      	tjne.n	3e <rf_get_acc_code_pipe+0x3e>
+  54:	154b      	tstorerb	r3, [r1, r5]
+  56:	b501      	tadds	r5, #1
+  58:	f62b      	tshftls	r3, r5, #24
+  5a:	fe1b      	tshftrs	r3, r3, #24
+  5c:	029e      	tcmp	r6, r3
+  5e:	c8e3      	tjhi.n	28 <rf_get_acc_code_pipe+0x28>
+  60:	6df0      	tpop	{r4, r5, r6, r7, pc}
+  62:	46c0      	tnop			; (mov r8, r8)
+  64:	00800405 	taddeq	r0, r0, r5, lsl #8
+  68:	01000408 	tnandeq	r0, r8, lsl #8
+
+Disassembly of section .text.rf_mode_init:
+
+00000000 <rf_mode_init>:
+rf_mode_init():
+   0:	6500      	tpush	{lr}
+   2:	a001      	tmovs	r0, #1
+   4:	a177      	tmovs	r1, #119	; 0x77
+   6:	97ff 9ffe 	tjl	0 <analog_write>
+			6: R_TC32_CALL	analog_write
+   a:	a006      	tmovs	r0, #6
+   c:	a100      	tmovs	r1, #0
+   e:	97ff 9ffe 	tjl	0 <analog_write>
+			e: R_TC32_CALL	analog_write
+  12:	a082      	tmovs	r0, #130	; 0x82
+  14:	a15f      	tmovs	r1, #95	; 0x5f
+  16:	97ff 9ffe 	tjl	0 <analog_write>
+			16: R_TC32_CALL	analog_write
+  1a:	a08b      	tmovs	r0, #139	; 0x8b
+  1c:	a147      	tmovs	r1, #71	; 0x47
+  1e:	97ff 9ffe 	tjl	0 <analog_write>
+			1e: R_TC32_CALL	analog_write
+  22:	a08d      	tmovs	r0, #141	; 0x8d
+  24:	a162      	tmovs	r1, #98	; 0x62
+  26:	97ff 9ffe 	tjl	0 <analog_write>
+			26: R_TC32_CALL	analog_write
+  2a:	a08e      	tmovs	r0, #142	; 0x8e
+  2c:	a16e      	tmovs	r1, #110	; 0x6e
+  2e:	97ff 9ffe 	tjl	0 <analog_write>
+			2e: R_TC32_CALL	analog_write
+  32:	a0a0      	tmovs	r0, #160	; 0xa0
+  34:	a103      	tmovs	r1, #3
+  36:	97ff 9ffe 	tjl	0 <analog_write>
+			36: R_TC32_CALL	analog_write
+  3a:	a0a2      	tmovs	r0, #162	; 0xa2
+  3c:	a12c      	tmovs	r1, #44	; 0x2c
+  3e:	97ff 9ffe 	tjl	0 <analog_write>
+			3e: R_TC32_CALL	analog_write
+  42:	a0a8      	tmovs	r0, #168	; 0xa8
+  44:	a16b      	tmovs	r1, #107	; 0x6b
+  46:	97ff 9ffe 	tjl	0 <analog_write>
+			46: R_TC32_CALL	analog_write
+  4a:	a0a9      	tmovs	r0, #169	; 0xa9
+  4c:	a130      	tmovs	r1, #48	; 0x30
+  4e:	97ff 9ffe 	tjl	0 <analog_write>
+			4e: R_TC32_CALL	analog_write
+  52:	a0ac      	tmovs	r0, #172	; 0xac
+  54:	a1a9      	tmovs	r1, #169	; 0xa9
+  56:	97ff 9ffe 	tjl	0 <analog_write>
+			56: R_TC32_CALL	analog_write
+  5a:	a0aa      	tmovs	r0, #170	; 0xaa
+  5c:	a126      	tmovs	r1, #38	; 0x26
+  5e:	97ff 9ffe 	tjl	0 <analog_write>
+			5e: R_TC32_CALL	analog_write
+  62:	a28f      	tmovs	r2, #143	; 0x8f
+  64:	0b11      	tloadr	r3, [pc, #68]	; (ac <analog_write+0xac>)
+  66:	401a      	tstorerb	r2, [r3, #0]
+  68:	a202      	tmovs	r2, #2
+  6a:	b301      	tadds	r3, #1
+  6c:	401a      	tstorerb	r2, [r3, #0]
+  6e:	a229      	tmovs	r2, #41	; 0x29
+  70:	0b0f      	tloadr	r3, [pc, #60]	; (b0 <analog_write+0xb0>)
+  72:	401a      	tstorerb	r2, [r3, #0]
+  74:	a26e      	tmovs	r2, #110	; 0x6e
+  76:	0b0f      	tloadr	r3, [pc, #60]	; (b4 <analog_write+0xb4>)
+  78:	401a      	tstorerb	r2, [r3, #0]
+  7a:	a266      	tmovs	r2, #102	; 0x66
+  7c:	b394      	tadds	r3, #148	; 0x94
+  7e:	401a      	tstorerb	r2, [r3, #0]
+  80:	a268      	tmovs	r2, #104	; 0x68
+  82:	0b0d      	tloadr	r3, [pc, #52]	; (b8 <analog_write+0xb8>)
+  84:	401a      	tstorerb	r2, [r3, #0]
+  86:	a300      	tmovs	r3, #0
+  88:	0a0c      	tloadr	r2, [pc, #48]	; (bc <analog_write+0xbc>)
+  8a:	4013      	tstorerb	r3, [r2, #0]
+  8c:	a150      	tmovs	r1, #80	; 0x50
+  8e:	b206      	tadds	r2, #6
+  90:	4011      	tstorerb	r1, [r2, #0]
+  92:	b204      	tadds	r2, #4
+  94:	4013      	tstorerb	r3, [r2, #0]
+  96:	0a0a      	tloadr	r2, [pc, #40]	; (c0 <analog_write+0xc0>)
+  98:	4013      	tstorerb	r3, [r2, #0]
+  9a:	0b0a      	tloadr	r3, [pc, #40]	; (c4 <analog_write+0xc4>)
+  9c:	4819      	tloadrb	r1, [r3, #0]
+  9e:	a20c      	tmovs	r2, #12
+  a0:	030a      	tors	r2, r1
+  a2:	f612      	tshftls	r2, r2, #24
+  a4:	fe12      	tshftrs	r2, r2, #24
+  a6:	401a      	tstorerb	r2, [r3, #0]
+  a8:	6d00      	tpop	{pc}
+  aa:	46c0      	tnop			; (mov r8, r8)
+  ac:	008004d4 	undefined instruction 0x008004d4
+  b0:	00800f16 	taddeq	r0, r0, r6, lsl pc
+  b4:	00800439 	taddeq	r0, r0, r9, lsr r4
+  b8:	00800f04 	taddeq	r0, r0, r4, lsl #30
+  bc:	00800f06 	taddeq	r0, r0, r6, lsl #30
+  c0:	0080046e 	taddeq	r0, r0, lr, ror #8
+  c4:	00800520 	taddeq	r0, r0, r0, lsr #10
+
+Disassembly of section .text.rf_set_ble_1M_mode:
+
+00000000 <rf_set_ble_1M_mode>:
+rf_set_ble_1M_mode():
+   0:	6570      	tpush	{r4, r5, r6, lr}
+   2:	a23b      	tmovs	r2, #59	; 0x3b
+   4:	0b37      	tloadr	r3, [pc, #220]	; (e4 <rf_set_ble_1M_mode+0xe4>)
+   6:	501a      	tstorer	r2, [r3, #0]
+   8:	a219      	tmovs	r2, #25
+   a:	0b37      	tloadr	r3, [pc, #220]	; (e8 <rf_set_ble_1M_mode+0xe8>)
+   c:	501a      	tstorer	r2, [r3, #0]
+   e:	a08f      	tmovs	r0, #143	; 0x8f
+  10:	a12b      	tmovs	r1, #43	; 0x2b
+  12:	97ff 9ffe 	tjl	0 <analog_write>
+			12: R_TC32_CALL	analog_write
+  16:	a093      	tmovs	r0, #147	; 0x93
+  18:	a138      	tmovs	r1, #56	; 0x38
+  1a:	97ff 9ffe 	tjl	0 <analog_write>
+			1a: R_TC32_CALL	analog_write
+  1e:	a09e      	tmovs	r0, #158	; 0x9e
+  20:	a156      	tmovs	r1, #86	; 0x56
+  22:	97ff 9ffe 	tjl	0 <analog_write>
+			22: R_TC32_CALL	analog_write
+  26:	a0a3      	tmovs	r0, #163	; 0xa3
+  28:	a1f0      	tmovs	r1, #240	; 0xf0
+  2a:	97ff 9ffe 	tjl	0 <analog_write>
+			2a: R_TC32_CALL	analog_write
+  2e:	a0aa      	tmovs	r0, #170	; 0xaa
+  30:	a126      	tmovs	r1, #38	; 0x26
+  32:	97ff 9ffe 	tjl	0 <analog_write>
+			32: R_TC32_CALL	analog_write
+  36:	a20f      	tmovs	r2, #15
+  38:	0b2c      	tloadr	r3, [pc, #176]	; (ec <rf_set_ble_1M_mode+0xec>)
+  3a:	401a      	tstorerb	r2, [r3, #0]
+  3c:	a501      	tmovs	r5, #1
+  3e:	b301      	tadds	r3, #1
+  40:	401d      	tstorerb	r5, [r3, #0]
+  42:	a227      	tmovs	r2, #39	; 0x27
+  44:	b301      	tadds	r3, #1
+  46:	401a      	tstorerb	r2, [r3, #0]
+  48:	a2f5      	tmovs	r2, #245	; 0xf5
+  4a:	b302      	tadds	r3, #2
+  4c:	401a      	tstorerb	r2, [r3, #0]
+  4e:	a304      	tmovs	r3, #4
+  50:	0a27      	tloadr	r2, [pc, #156]	; (f0 <rf_set_ble_1M_mode+0xf0>)
+  52:	4013      	tstorerb	r3, [r2, #0]
+  54:	a18e      	tmovs	r1, #142	; 0x8e
+  56:	b203      	tadds	r2, #3
+  58:	4011      	tstorerb	r1, [r2, #0]
+  5a:	a489      	tmovs	r4, #137	; 0x89
+  5c:	b201      	tadds	r2, #1
+  5e:	4014      	tstorerb	r4, [r2, #0]
+  60:	a1be      	tmovs	r1, #190	; 0xbe
+  62:	b201      	tadds	r2, #1
+  64:	4011      	tstorerb	r1, [r2, #0]
+  66:	a1d6      	tmovs	r1, #214	; 0xd6
+  68:	b201      	tadds	r2, #1
+  6a:	4011      	tstorerb	r1, [r2, #0]
+  6c:	a11f      	tmovs	r1, #31
+  6e:	b215      	tadds	r2, #21
+  70:	4011      	tstorerb	r1, [r2, #0]
+  72:	b201      	tadds	r2, #1
+  74:	4013      	tstorerb	r3, [r2, #0]
+  76:	a600      	tmovs	r6, #0
+  78:	0b1e      	tloadr	r3, [pc, #120]	; (f4 <rf_set_ble_1M_mode+0xf4>)
+  7a:	401e      	tstorerb	r6, [r3, #0]
+  7c:	a212      	tmovs	r2, #18
+  7e:	b302      	tadds	r3, #2
+  80:	401a      	tstorerb	r2, [r3, #0]
+  82:	a2f1      	tmovs	r2, #241	; 0xf1
+  84:	b307      	tadds	r3, #7
+  86:	401a      	tstorerb	r2, [r3, #0]
+  88:	a280      	tmovs	r2, #128	; 0x80
+  8a:	bb03      	tsubs	r3, #3
+  8c:	401a      	tstorerb	r2, [r3, #0]
+  8e:	a2b3      	tmovs	r2, #179	; 0xb3
+  90:	b305      	tadds	r3, #5
+  92:	401a      	tstorerb	r2, [r3, #0]
+  94:	a2ff      	tmovs	r2, #255	; 0xff
+  96:	bb01      	tsubs	r3, #1
+  98:	401a      	tstorerb	r2, [r3, #0]
+  9a:	a2fc      	tmovs	r2, #252	; 0xfc
+  9c:	b30f      	tadds	r3, #15
+  9e:	401a      	tstorerb	r2, [r3, #0]
+  a0:	a207      	tmovs	r2, #7
+  a2:	b329      	tadds	r3, #41	; 0x29
+  a4:	401a      	tstorerb	r2, [r3, #0]
+  a6:	a21e      	tmovs	r2, #30
+  a8:	0b13      	tloadr	r3, [pc, #76]	; (f8 <rf_set_ble_1M_mode+0xf8>)
+  aa:	401a      	tstorerb	r2, [r3, #0]
+  ac:	97ff 9ffe 	tjl	0 <rf_set_ble_1M_mode>
+			ac: R_TC32_CALL	agc_tbl_write
+  b0:	a217      	tmovs	r2, #23
+  b2:	0b12      	tloadr	r3, [pc, #72]	; (fc <rf_set_ble_1M_mode+0xfc>)
+  b4:	401a      	tstorerb	r2, [r3, #0]
+  b6:	a2fd      	tmovs	r2, #253	; 0xfd
+  b8:	b30d      	tadds	r3, #13
+  ba:	401a      	tstorerb	r2, [r3, #0]
+  bc:	a237      	tmovs	r2, #55	; 0x37
+  be:	bb05      	tsubs	r3, #5
+  c0:	401a      	tstorerb	r2, [r3, #0]
+  c2:	bb05      	tsubs	r3, #5
+  c4:	401e      	tstorerb	r6, [r3, #0]
+  c6:	b301      	tadds	r3, #1
+  c8:	401d      	tstorerb	r5, [r3, #0]
+  ca:	a277      	tmovs	r2, #119	; 0x77
+  cc:	b306      	tadds	r3, #6
+  ce:	401a      	tstorerb	r2, [r3, #0]
+  d0:	b304      	tadds	r3, #4
+  d2:	401c      	tstorerb	r4, [r3, #0]
+  d4:	a266      	tmovs	r2, #102	; 0x66
+  d6:	b38f      	tadds	r3, #143	; 0x8f
+  d8:	401a      	tstorerb	r2, [r3, #0]
+  da:	a281      	tmovs	r2, #129	; 0x81
+  dc:	bb0d      	tsubs	r3, #13
+  de:	401a      	tstorerb	r2, [r3, #0]
+  e0:	6d70      	tpop	{r4, r5, r6, pc}
+  e2:	46c0      	tnop			; (mov r8, r8)
+	...
+			e4: R_TC32_ABS32	.data.rf_tp_base
+			e8: R_TC32_ABS32	.data.rf_tp_gain
+  ec:	00800400 	taddeq	r0, r0, r0, lsl #8
+  f0:	00800405 	taddeq	r0, r0, r5, lsl #8
+  f4:	00800422 	taddeq	r0, r0, r2, lsr #8
+  f8:	00800f03 	taddeq	r0, r0, r3, lsl #30
+  fc:	00800430 	taddeq	r0, r0, r0, lsr r4
+
+Disassembly of section .text.rf_set_ble_2M_mode:
+
+00000000 <rf_set_ble_2M_mode>:
+rf_set_ble_2M_mode():
+   0:	6530      	tpush	{r4, r5, lr}
+   2:	a24a      	tmovs	r2, #74	; 0x4a
+   4:	0b31      	tloadr	r3, [pc, #196]	; (cc <rf_set_ble_2M_mode+0xcc>)
+   6:	501a      	tstorer	r2, [r3, #0]
+   8:	a219      	tmovs	r2, #25
+   a:	0b31      	tloadr	r3, [pc, #196]	; (d0 <rf_set_ble_2M_mode+0xd0>)
+   c:	501a      	tstorer	r2, [r3, #0]
+   e:	a08f      	tmovs	r0, #143	; 0x8f
+  10:	a132      	tmovs	r1, #50	; 0x32
+  12:	97ff 9ffe 	tjl	0 <analog_write>
+			12: R_TC32_CALL	analog_write
+  16:	a093      	tmovs	r0, #147	; 0x93
+  18:	a143      	tmovs	r1, #67	; 0x43
+  1a:	97ff 9ffe 	tjl	0 <analog_write>
+			1a: R_TC32_CALL	analog_write
+  1e:	a09e      	tmovs	r0, #158	; 0x9e
+  20:	a1ad      	tmovs	r1, #173	; 0xad
+  22:	97ff 9ffe 	tjl	0 <analog_write>
+			22: R_TC32_CALL	analog_write
+  26:	a0a3      	tmovs	r0, #163	; 0xa3
+  28:	a1d0      	tmovs	r1, #208	; 0xd0
+  2a:	97ff 9ffe 	tjl	0 <analog_write>
+			2a: R_TC32_CALL	analog_write
+  2e:	a0aa      	tmovs	r0, #170	; 0xaa
+  30:	a12e      	tmovs	r1, #46	; 0x2e
+  32:	97ff 9ffe 	tjl	0 <analog_write>
+			32: R_TC32_CALL	analog_write
+  36:	a20f      	tmovs	r2, #15
+  38:	0b26      	tloadr	r3, [pc, #152]	; (d4 <rf_set_ble_2M_mode+0xd4>)
+  3a:	401a      	tstorerb	r2, [r3, #0]
+  3c:	a401      	tmovs	r4, #1
+  3e:	b301      	tadds	r3, #1
+  40:	401c      	tstorerb	r4, [r3, #0]
+  42:	a2e5      	tmovs	r2, #229	; 0xe5
+  44:	b303      	tadds	r3, #3
+  46:	401a      	tstorerb	r2, [r3, #0]
+  48:	a28b      	tmovs	r2, #139	; 0x8b
+  4a:	bb02      	tsubs	r3, #2
+  4c:	401a      	tstorerb	r2, [r3, #0]
+  4e:	a304      	tmovs	r3, #4
+  50:	0a21      	tloadr	r2, [pc, #132]	; (d8 <rf_set_ble_2M_mode+0xd8>)
+  52:	4013      	tstorerb	r3, [r2, #0]
+  54:	a11f      	tmovs	r1, #31
+  56:	b21b      	tadds	r2, #27
+  58:	4011      	tstorerb	r1, [r2, #0]
+  5a:	b201      	tadds	r2, #1
+  5c:	4013      	tstorerb	r3, [r2, #0]
+  5e:	a500      	tmovs	r5, #0
+  60:	0b1e      	tloadr	r3, [pc, #120]	; (dc <rf_set_ble_2M_mode+0xdc>)
+  62:	401d      	tstorerb	r5, [r3, #0]
+  64:	a212      	tmovs	r2, #18
+  66:	b302      	tadds	r3, #2
+  68:	401a      	tstorerb	r2, [r3, #0]
+  6a:	a280      	tmovs	r2, #128	; 0x80
+  6c:	b304      	tadds	r3, #4
+  6e:	401a      	tstorerb	r2, [r3, #0]
+  70:	a2ff      	tmovs	r2, #255	; 0xff
+  72:	b304      	tadds	r3, #4
+  74:	401a      	tstorerb	r2, [r3, #0]
+  76:	a2f1      	tmovs	r2, #241	; 0xf1
+  78:	bb01      	tsubs	r3, #1
+  7a:	401a      	tstorerb	r2, [r3, #0]
+  7c:	a2d3      	tmovs	r2, #211	; 0xd3
+  7e:	b302      	tadds	r3, #2
+  80:	401a      	tstorerb	r2, [r3, #0]
+  82:	a2fc      	tmovs	r2, #252	; 0xfc
+  84:	b30e      	tadds	r3, #14
+  86:	401a      	tstorerb	r2, [r3, #0]
+  88:	a207      	tmovs	r2, #7
+  8a:	b329      	tadds	r3, #41	; 0x29
+  8c:	401a      	tstorerb	r2, [r3, #0]
+  8e:	a21e      	tmovs	r2, #30
+  90:	0b13      	tloadr	r3, [pc, #76]	; (e0 <rf_set_ble_2M_mode+0xe0>)
+  92:	401a      	tstorerb	r2, [r3, #0]
+  94:	97ff 9ffe 	tjl	0 <rf_set_ble_2M_mode>
+			94: R_TC32_CALL	agc_tbl_write
+  98:	a217      	tmovs	r2, #23
+  9a:	0b12      	tloadr	r3, [pc, #72]	; (e4 <rf_set_ble_2M_mode+0xe4>)
+  9c:	401a      	tstorerb	r2, [r3, #0]
+  9e:	a2fd      	tmovs	r2, #253	; 0xfd
+  a0:	b30d      	tadds	r3, #13
+  a2:	401a      	tstorerb	r2, [r3, #0]
+  a4:	a237      	tmovs	r2, #55	; 0x37
+  a6:	bb05      	tsubs	r3, #5
+  a8:	401a      	tstorerb	r2, [r3, #0]
+  aa:	bb05      	tsubs	r3, #5
+  ac:	401d      	tstorerb	r5, [r3, #0]
+  ae:	b301      	tadds	r3, #1
+  b0:	401c      	tstorerb	r4, [r3, #0]
+  b2:	a277      	tmovs	r2, #119	; 0x77
+  b4:	b306      	tadds	r3, #6
+  b6:	401a      	tstorerb	r2, [r3, #0]
+  b8:	a289      	tmovs	r2, #137	; 0x89
+  ba:	b304      	tadds	r3, #4
+  bc:	401a      	tstorerb	r2, [r3, #0]
+  be:	a266      	tmovs	r2, #102	; 0x66
+  c0:	b38f      	tadds	r3, #143	; 0x8f
+  c2:	401a      	tstorerb	r2, [r3, #0]
+  c4:	a281      	tmovs	r2, #129	; 0x81
+  c6:	bb0d      	tsubs	r3, #13
+  c8:	401a      	tstorerb	r2, [r3, #0]
+  ca:	6d30      	tpop	{r4, r5, pc}
+	...
+			cc: R_TC32_ABS32	.data.rf_tp_base
+			d0: R_TC32_ABS32	.data.rf_tp_gain
+  d4:	00800400 	taddeq	r0, r0, r0, lsl #8
+  d8:	00800405 	taddeq	r0, r0, r5, lsl #8
+  dc:	00800422 	taddeq	r0, r0, r2, lsr #8
+  e0:	00800f03 	taddeq	r0, r0, r3, lsl #30
+  e4:	00800430 	taddeq	r0, r0, r0, lsr r4
+
+Disassembly of section .text.rf_set_ble_250K_mode:
+
+00000000 <rf_set_ble_250K_mode>:
+rf_set_ble_250K_mode():
+   0:	6570      	tpush	{r4, r5, r6, lr}
+   2:	a24a      	tmovs	r2, #74	; 0x4a
+   4:	0b35      	tloadr	r3, [pc, #212]	; (dc <rf_set_ble_250K_mode+0xdc>)
+   6:	501a      	tstorer	r2, [r3, #0]
+   8:	a219      	tmovs	r2, #25
+   a:	0b35      	tloadr	r3, [pc, #212]	; (e0 <rf_set_ble_250K_mode+0xe0>)
+   c:	501a      	tstorer	r2, [r3, #0]
+   e:	a08f      	tmovs	r0, #143	; 0x8f
+  10:	a138      	tmovs	r1, #56	; 0x38
+  12:	97ff 9ffe 	tjl	0 <analog_write>
+			12: R_TC32_CALL	analog_write
+  16:	a093      	tmovs	r0, #147	; 0x93
+  18:	a150      	tmovs	r1, #80	; 0x50
+  1a:	97ff 9ffe 	tjl	0 <analog_write>
+			1a: R_TC32_CALL	analog_write
+  1e:	a09e      	tmovs	r0, #158	; 0x9e
+  20:	a1ad      	tmovs	r1, #173	; 0xad
+  22:	97ff 9ffe 	tjl	0 <analog_write>
+			22: R_TC32_CALL	analog_write
+  26:	a0a3      	tmovs	r0, #163	; 0xa3
+  28:	a110      	tmovs	r1, #16
+  2a:	97ff 9ffe 	tjl	0 <analog_write>
+			2a: R_TC32_CALL	analog_write
+  2e:	a0aa      	tmovs	r0, #170	; 0xaa
+  30:	a12e      	tmovs	r1, #46	; 0x2e
+  32:	97ff 9ffe 	tjl	0 <analog_write>
+			32: R_TC32_CALL	analog_write
+  36:	a20f      	tmovs	r2, #15
+  38:	0b2a      	tloadr	r3, [pc, #168]	; (e4 <rf_set_ble_250K_mode+0xe4>)
+  3a:	401a      	tstorerb	r2, [r3, #0]
+  3c:	a22b      	tmovs	r2, #43	; 0x2b
+  3e:	b302      	tadds	r3, #2
+  40:	401a      	tstorerb	r2, [r3, #0]
+  42:	a2f1      	tmovs	r2, #241	; 0xf1
+  44:	b329      	tadds	r3, #41	; 0x29
+  46:	401a      	tstorerb	r2, [r3, #0]
+  48:	a212      	tmovs	r2, #18
+  4a:	bb07      	tsubs	r3, #7
+  4c:	401a      	tstorerb	r2, [r3, #0]
+  4e:	a501      	tmovs	r5, #1
+  50:	b304      	tadds	r3, #4
+  52:	401d      	tstorerb	r5, [r3, #0]
+  54:	a600      	tmovs	r6, #0
+  56:	bb06      	tsubs	r3, #6
+  58:	401e      	tstorerb	r6, [r3, #0]
+  5a:	a21f      	tmovs	r2, #31
+  5c:	bb02      	tsubs	r3, #2
+  5e:	401a      	tstorerb	r2, [r3, #0]
+  60:	a204      	tmovs	r2, #4
+  62:	b301      	tadds	r3, #1
+  64:	401a      	tstorerb	r2, [r3, #0]
+  66:	a207      	tmovs	r2, #7
+  68:	b343      	tadds	r3, #67	; 0x43
+  6a:	401a      	tstorerb	r2, [r3, #0]
+  6c:	a2b3      	tmovs	r2, #179	; 0xb3
+  6e:	bb37      	tsubs	r3, #55	; 0x37
+  70:	401a      	tstorerb	r2, [r3, #0]
+  72:	a2d5      	tmovs	r2, #213	; 0xd5
+  74:	bb29      	tsubs	r3, #41	; 0x29
+  76:	401a      	tstorerb	r2, [r3, #0]
+  78:	a202      	tmovs	r2, #2
+  7a:	bb01      	tsubs	r3, #1
+  7c:	401a      	tstorerb	r2, [r3, #0]
+  7e:	a265      	tmovs	r2, #101	; 0x65
+  80:	0b19      	tloadr	r3, [pc, #100]	; (e8 <rf_set_ble_250K_mode+0xe8>)
+  82:	401a      	tstorerb	r2, [r3, #0]
+  84:	a21e      	tmovs	r2, #30
+  86:	b301      	tadds	r3, #1
+  88:	401a      	tstorerb	r2, [r3, #0]
+  8a:	a380      	tmovs	r3, #128	; 0x80
+  8c:	0a17      	tloadr	r2, [pc, #92]	; (ec <rf_set_ble_250K_mode+0xec>)
+  8e:	4013      	tstorerb	r3, [r2, #0]
+  90:	a106      	tmovs	r1, #6
+  92:	b201      	tadds	r2, #1
+  94:	4011      	tstorerb	r1, [r2, #0]
+  96:	ba9f      	tsubs	r2, #159	; 0x9f
+  98:	4013      	tstorerb	r3, [r2, #0]
+  9a:	a29c      	tmovs	r2, #156	; 0x9c
+  9c:	0b14      	tloadr	r3, [pc, #80]	; (f0 <rf_set_ble_250K_mode+0xf0>)
+  9e:	401a      	tstorerb	r2, [r3, #0]
+  a0:	0c14      	tloadr	r4, [pc, #80]	; (f4 <rf_set_ble_250K_mode+0xf4>)
+  a2:	a3e4      	tmovs	r3, #228	; 0xe4
+  a4:	4023      	tstorerb	r3, [r4, #0]
+  a6:	97ff 9ffe 	tjl	0 <rf_set_ble_250K_mode>
+			a6: R_TC32_CALL	agc_tbl_write
+  aa:	a217      	tmovs	r2, #23
+  ac:	0b12      	tloadr	r3, [pc, #72]	; (f8 <rf_set_ble_250K_mode+0xf8>)
+  ae:	401a      	tstorerb	r2, [r3, #0]
+  b0:	a2fd      	tmovs	r2, #253	; 0xfd
+  b2:	b30d      	tadds	r3, #13
+  b4:	401a      	tstorerb	r2, [r3, #0]
+  b6:	a237      	tmovs	r2, #55	; 0x37
+  b8:	bb05      	tsubs	r3, #5
+  ba:	401a      	tstorerb	r2, [r3, #0]
+  bc:	bb05      	tsubs	r3, #5
+  be:	401e      	tstorerb	r6, [r3, #0]
+  c0:	b301      	tadds	r3, #1
+  c2:	401d      	tstorerb	r5, [r3, #0]
+  c4:	a277      	tmovs	r2, #119	; 0x77
+  c6:	b306      	tadds	r3, #6
+  c8:	401a      	tstorerb	r2, [r3, #0]
+  ca:	a289      	tmovs	r2, #137	; 0x89
+  cc:	b304      	tadds	r3, #4
+  ce:	401a      	tstorerb	r2, [r3, #0]
+  d0:	a366      	tmovs	r3, #102	; 0x66
+  d2:	4023      	tstorerb	r3, [r4, #0]
+  d4:	a281      	tmovs	r2, #129	; 0x81
+  d6:	0b09      	tloadr	r3, [pc, #36]	; (fc <rf_set_ble_250K_mode+0xfc>)
+  d8:	401a      	tstorerb	r2, [r3, #0]
+  da:	6d70      	tpop	{r4, r5, r6, pc}
+	...
+			dc: R_TC32_ABS32	.data.rf_tp_base
+			e0: R_TC32_ABS32	.data.rf_tp_gain
+  e4:	00800400 	taddeq	r0, r0, r0, lsl #8
+  e8:	00800f02 	taddeq	r0, r0, r2, lsl #30
+  ec:	008004ca 	taddeq	r0, r0, sl, asr #9
+  f0:	0080043b 	taddeq	r0, r0, fp, lsr r4
+  f4:	008004cd 	taddeq	r0, r0, sp, asr #9
+  f8:	00800430 	taddeq	r0, r0, r0, lsr r4
+  fc:	008004c0 	taddeq	r0, r0, r0, asr #9
+
+Disassembly of section .text.rf_set_ble_500K_mode:
+
+00000000 <rf_set_ble_500K_mode>:
+rf_set_ble_500K_mode():
+   0:	6570      	tpush	{r4, r5, r6, lr}
+   2:	a23b      	tmovs	r2, #59	; 0x3b
+   4:	0b35      	tloadr	r3, [pc, #212]	; (dc <rf_set_ble_500K_mode+0xdc>)
+   6:	501a      	tstorer	r2, [r3, #0]
+   8:	a219      	tmovs	r2, #25
+   a:	0b35      	tloadr	r3, [pc, #212]	; (e0 <rf_set_ble_500K_mode+0xe0>)
+   c:	501a      	tstorer	r2, [r3, #0]
+   e:	a08f      	tmovs	r0, #143	; 0x8f
+  10:	a138      	tmovs	r1, #56	; 0x38
+  12:	97ff 9ffe 	tjl	0 <analog_write>
+			12: R_TC32_CALL	analog_write
+  16:	a093      	tmovs	r0, #147	; 0x93
+  18:	a150      	tmovs	r1, #80	; 0x50
+  1a:	97ff 9ffe 	tjl	0 <analog_write>
+			1a: R_TC32_CALL	analog_write
+  1e:	a09e      	tmovs	r0, #158	; 0x9e
+  20:	a1ad      	tmovs	r1, #173	; 0xad
+  22:	97ff 9ffe 	tjl	0 <analog_write>
+			22: R_TC32_CALL	analog_write
+  26:	a0a3      	tmovs	r0, #163	; 0xa3
+  28:	a110      	tmovs	r1, #16
+  2a:	97ff 9ffe 	tjl	0 <analog_write>
+			2a: R_TC32_CALL	analog_write
+  2e:	a0aa      	tmovs	r0, #170	; 0xaa
+  30:	a12e      	tmovs	r1, #46	; 0x2e
+  32:	97ff 9ffe 	tjl	0 <analog_write>
+			32: R_TC32_CALL	analog_write
+  36:	a20f      	tmovs	r2, #15
+  38:	0b2a      	tloadr	r3, [pc, #168]	; (e4 <rf_set_ble_500K_mode+0xe4>)
+  3a:	401a      	tstorerb	r2, [r3, #0]
+  3c:	a22b      	tmovs	r2, #43	; 0x2b
+  3e:	b302      	tadds	r3, #2
+  40:	401a      	tstorerb	r2, [r3, #0]
+  42:	a2f1      	tmovs	r2, #241	; 0xf1
+  44:	b329      	tadds	r3, #41	; 0x29
+  46:	401a      	tstorerb	r2, [r3, #0]
+  48:	a212      	tmovs	r2, #18
+  4a:	bb07      	tsubs	r3, #7
+  4c:	401a      	tstorerb	r2, [r3, #0]
+  4e:	a401      	tmovs	r4, #1
+  50:	b304      	tadds	r3, #4
+  52:	401c      	tstorerb	r4, [r3, #0]
+  54:	a600      	tmovs	r6, #0
+  56:	bb06      	tsubs	r3, #6
+  58:	401e      	tstorerb	r6, [r3, #0]
+  5a:	a21f      	tmovs	r2, #31
+  5c:	bb02      	tsubs	r3, #2
+  5e:	401a      	tstorerb	r2, [r3, #0]
+  60:	a204      	tmovs	r2, #4
+  62:	b301      	tadds	r3, #1
+  64:	401a      	tstorerb	r2, [r3, #0]
+  66:	a207      	tmovs	r2, #7
+  68:	b343      	tadds	r3, #67	; 0x43
+  6a:	401a      	tstorerb	r2, [r3, #0]
+  6c:	a2b3      	tmovs	r2, #179	; 0xb3
+  6e:	bb37      	tsubs	r3, #55	; 0x37
+  70:	401a      	tstorerb	r2, [r3, #0]
+  72:	a2d5      	tmovs	r2, #213	; 0xd5
+  74:	bb29      	tsubs	r3, #41	; 0x29
+  76:	401a      	tstorerb	r2, [r3, #0]
+  78:	bb01      	tsubs	r3, #1
+  7a:	401c      	tstorerb	r4, [r3, #0]
+  7c:	a265      	tmovs	r2, #101	; 0x65
+  7e:	0b1a      	tloadr	r3, [pc, #104]	; (e8 <rf_set_ble_500K_mode+0xe8>)
+  80:	401a      	tstorerb	r2, [r3, #0]
+  82:	a21e      	tmovs	r2, #30
+  84:	b301      	tadds	r3, #1
+  86:	401a      	tstorerb	r2, [r3, #0]
+  88:	a380      	tmovs	r3, #128	; 0x80
+  8a:	0a18      	tloadr	r2, [pc, #96]	; (ec <rf_set_ble_500K_mode+0xec>)
+  8c:	4013      	tstorerb	r3, [r2, #0]
+  8e:	a106      	tmovs	r1, #6
+  90:	b201      	tadds	r2, #1
+  92:	4011      	tstorerb	r1, [r2, #0]
+  94:	ba9f      	tsubs	r2, #159	; 0x9f
+  96:	4013      	tstorerb	r3, [r2, #0]
+  98:	a29c      	tmovs	r2, #156	; 0x9c
+  9a:	0b15      	tloadr	r3, [pc, #84]	; (f0 <rf_set_ble_500K_mode+0xf0>)
+  9c:	401a      	tstorerb	r2, [r3, #0]
+  9e:	0d15      	tloadr	r5, [pc, #84]	; (f4 <rf_set_ble_500K_mode+0xf4>)
+  a0:	a3e4      	tmovs	r3, #228	; 0xe4
+  a2:	402b      	tstorerb	r3, [r5, #0]
+  a4:	97ff 9ffe 	tjl	0 <rf_set_ble_500K_mode>
+			a4: R_TC32_CALL	agc_tbl_write
+  a8:	a217      	tmovs	r2, #23
+  aa:	0b13      	tloadr	r3, [pc, #76]	; (f8 <rf_set_ble_500K_mode+0xf8>)
+  ac:	401a      	tstorerb	r2, [r3, #0]
+  ae:	a2fd      	tmovs	r2, #253	; 0xfd
+  b0:	b30d      	tadds	r3, #13
+  b2:	401a      	tstorerb	r2, [r3, #0]
+  b4:	a237      	tmovs	r2, #55	; 0x37
+  b6:	bb05      	tsubs	r3, #5
+  b8:	401a      	tstorerb	r2, [r3, #0]
+  ba:	bb05      	tsubs	r3, #5
+  bc:	401e      	tstorerb	r6, [r3, #0]
+  be:	b301      	tadds	r3, #1
+  c0:	401c      	tstorerb	r4, [r3, #0]
+  c2:	a277      	tmovs	r2, #119	; 0x77
+  c4:	b306      	tadds	r3, #6
+  c6:	401a      	tstorerb	r2, [r3, #0]
+  c8:	a289      	tmovs	r2, #137	; 0x89
+  ca:	b304      	tadds	r3, #4
+  cc:	401a      	tstorerb	r2, [r3, #0]
+  ce:	a366      	tmovs	r3, #102	; 0x66
+  d0:	402b      	tstorerb	r3, [r5, #0]
+  d2:	a281      	tmovs	r2, #129	; 0x81
+  d4:	0b09      	tloadr	r3, [pc, #36]	; (fc <rf_set_ble_500K_mode+0xfc>)
+  d6:	401a      	tstorerb	r2, [r3, #0]
+  d8:	6d70      	tpop	{r4, r5, r6, pc}
+  da:	46c0      	tnop			; (mov r8, r8)
+	...
+			dc: R_TC32_ABS32	.data.rf_tp_base
+			e0: R_TC32_ABS32	.data.rf_tp_gain
+  e4:	00800400 	taddeq	r0, r0, r0, lsl #8
+  e8:	00800f02 	taddeq	r0, r0, r2, lsl #30
+  ec:	008004ca 	taddeq	r0, r0, sl, asr #9
+  f0:	0080043b 	taddeq	r0, r0, fp, lsr r4
+  f4:	008004cd 	taddeq	r0, r0, sp, asr #9
+  f8:	00800430 	taddeq	r0, r0, r0, lsr r4
+  fc:	008004c0 	taddeq	r0, r0, r0, asr #9
+
+Disassembly of section .text.rf_set_ble_1M_NO_PN_mode:
+
+00000000 <rf_set_ble_1M_NO_PN_mode>:
+rf_set_ble_1M_NO_PN_mode():
+   0:	6510      	tpush	{r4, lr}
+   2:	a23b      	tmovs	r2, #59	; 0x3b
+   4:	0b31      	tloadr	r3, [pc, #196]	; (cc <rf_set_ble_1M_NO_PN_mode+0xcc>)
+   6:	501a      	tstorer	r2, [r3, #0]
+   8:	a219      	tmovs	r2, #25
+   a:	0b31      	tloadr	r3, [pc, #196]	; (d0 <rf_set_ble_1M_NO_PN_mode+0xd0>)
+   c:	501a      	tstorer	r2, [r3, #0]
+   e:	a08f      	tmovs	r0, #143	; 0x8f
+  10:	a12b      	tmovs	r1, #43	; 0x2b
+  12:	97ff 9ffe 	tjl	0 <analog_write>
+			12: R_TC32_CALL	analog_write
+  16:	a093      	tmovs	r0, #147	; 0x93
+  18:	a138      	tmovs	r1, #56	; 0x38
+  1a:	97ff 9ffe 	tjl	0 <analog_write>
+			1a: R_TC32_CALL	analog_write
+  1e:	a09e      	tmovs	r0, #158	; 0x9e
+  20:	a156      	tmovs	r1, #86	; 0x56
+  22:	97ff 9ffe 	tjl	0 <analog_write>
+			22: R_TC32_CALL	analog_write
+  26:	a0a3      	tmovs	r0, #163	; 0xa3
+  28:	a1f0      	tmovs	r1, #240	; 0xf0
+  2a:	97ff 9ffe 	tjl	0 <analog_write>
+			2a: R_TC32_CALL	analog_write
+  2e:	a0aa      	tmovs	r0, #170	; 0xaa
+  30:	a126      	tmovs	r1, #38	; 0x26
+  32:	97ff 9ffe 	tjl	0 <analog_write>
+			32: R_TC32_CALL	analog_write
+  36:	a20f      	tmovs	r2, #15
+  38:	0b26      	tloadr	r3, [pc, #152]	; (d4 <rf_set_ble_1M_NO_PN_mode+0xd4>)
+  3a:	401a      	tstorerb	r2, [r3, #0]
+  3c:	a400      	tmovs	r4, #0
+  3e:	b301      	tadds	r3, #1
+  40:	401c      	tstorerb	r4, [r3, #0]
+  42:	a227      	tmovs	r2, #39	; 0x27
+  44:	b301      	tadds	r3, #1
+  46:	401a      	tstorerb	r2, [r3, #0]
+  48:	a2d5      	tmovs	r2, #213	; 0xd5
+  4a:	b302      	tadds	r3, #2
+  4c:	401a      	tstorerb	r2, [r3, #0]
+  4e:	a304      	tmovs	r3, #4
+  50:	0a21      	tloadr	r2, [pc, #132]	; (d8 <rf_set_ble_1M_NO_PN_mode+0xd8>)
+  52:	4013      	tstorerb	r3, [r2, #0]
+  54:	a11f      	tmovs	r1, #31
+  56:	b21b      	tadds	r2, #27
+  58:	4011      	tstorerb	r1, [r2, #0]
+  5a:	b201      	tadds	r2, #1
+  5c:	4013      	tstorerb	r3, [r2, #0]
+  5e:	0b1f      	tloadr	r3, [pc, #124]	; (dc <rf_set_ble_1M_NO_PN_mode+0xdc>)
+  60:	401c      	tstorerb	r4, [r3, #0]
+  62:	a212      	tmovs	r2, #18
+  64:	b302      	tadds	r3, #2
+  66:	401a      	tstorerb	r2, [r3, #0]
+  68:	a2f1      	tmovs	r2, #241	; 0xf1
+  6a:	b307      	tadds	r3, #7
+  6c:	401a      	tstorerb	r2, [r3, #0]
+  6e:	a280      	tmovs	r2, #128	; 0x80
+  70:	bb03      	tsubs	r3, #3
+  72:	401a      	tstorerb	r2, [r3, #0]
+  74:	a2b3      	tmovs	r2, #179	; 0xb3
+  76:	b305      	tadds	r3, #5
+  78:	401a      	tstorerb	r2, [r3, #0]
+  7a:	a2ff      	tmovs	r2, #255	; 0xff
+  7c:	bb01      	tsubs	r3, #1
+  7e:	401a      	tstorerb	r2, [r3, #0]
+  80:	a2fc      	tmovs	r2, #252	; 0xfc
+  82:	b30f      	tadds	r3, #15
+  84:	401a      	tstorerb	r2, [r3, #0]
+  86:	a207      	tmovs	r2, #7
+  88:	b329      	tadds	r3, #41	; 0x29
+  8a:	401a      	tstorerb	r2, [r3, #0]
+  8c:	a21e      	tmovs	r2, #30
+  8e:	0b14      	tloadr	r3, [pc, #80]	; (e0 <rf_set_ble_1M_NO_PN_mode+0xe0>)
+  90:	401a      	tstorerb	r2, [r3, #0]
+  92:	97ff 9ffe 	tjl	0 <rf_set_ble_1M_NO_PN_mode>
+			92: R_TC32_CALL	agc_tbl_write
+  96:	a217      	tmovs	r2, #23
+  98:	0b12      	tloadr	r3, [pc, #72]	; (e4 <rf_set_ble_1M_NO_PN_mode+0xe4>)
+  9a:	401a      	tstorerb	r2, [r3, #0]
+  9c:	a2fd      	tmovs	r2, #253	; 0xfd
+  9e:	b30d      	tadds	r3, #13
+  a0:	401a      	tstorerb	r2, [r3, #0]
+  a2:	a237      	tmovs	r2, #55	; 0x37
+  a4:	bb05      	tsubs	r3, #5
+  a6:	401a      	tstorerb	r2, [r3, #0]
+  a8:	bb05      	tsubs	r3, #5
+  aa:	401c      	tstorerb	r4, [r3, #0]
+  ac:	a201      	tmovs	r2, #1
+  ae:	b301      	tadds	r3, #1
+  b0:	401a      	tstorerb	r2, [r3, #0]
+  b2:	a277      	tmovs	r2, #119	; 0x77
+  b4:	b306      	tadds	r3, #6
+  b6:	401a      	tstorerb	r2, [r3, #0]
+  b8:	a289      	tmovs	r2, #137	; 0x89
+  ba:	b304      	tadds	r3, #4
+  bc:	401a      	tstorerb	r2, [r3, #0]
+  be:	a266      	tmovs	r2, #102	; 0x66
+  c0:	b38f      	tadds	r3, #143	; 0x8f
+  c2:	401a      	tstorerb	r2, [r3, #0]
+  c4:	a281      	tmovs	r2, #129	; 0x81
+  c6:	bb0d      	tsubs	r3, #13
+  c8:	401a      	tstorerb	r2, [r3, #0]
+  ca:	6d10      	tpop	{r4, pc}
+	...
+			cc: R_TC32_ABS32	.data.rf_tp_base
+			d0: R_TC32_ABS32	.data.rf_tp_gain
+  d4:	00800400 	taddeq	r0, r0, r0, lsl #8
+  d8:	00800405 	taddeq	r0, r0, r5, lsl #8
+  dc:	00800422 	taddeq	r0, r0, r2, lsr #8
+  e0:	00800f03 	taddeq	r0, r0, r3, lsl #30
+  e4:	00800430 	taddeq	r0, r0, r0, lsr r4
+
+Disassembly of section .text.rf_set_ble_2M_NO_PN_mode:
+
+00000000 <rf_set_ble_2M_NO_PN_mode>:
+rf_set_ble_2M_NO_PN_mode():
+   0:	6510      	tpush	{r4, lr}
+   2:	a24a      	tmovs	r2, #74	; 0x4a
+   4:	0b31      	tloadr	r3, [pc, #196]	; (cc <rf_set_ble_2M_NO_PN_mode+0xcc>)
+   6:	501a      	tstorer	r2, [r3, #0]
+   8:	a219      	tmovs	r2, #25
+   a:	0b31      	tloadr	r3, [pc, #196]	; (d0 <rf_set_ble_2M_NO_PN_mode+0xd0>)
+   c:	501a      	tstorer	r2, [r3, #0]
+   e:	a08f      	tmovs	r0, #143	; 0x8f
+  10:	a132      	tmovs	r1, #50	; 0x32
+  12:	97ff 9ffe 	tjl	0 <analog_write>
+			12: R_TC32_CALL	analog_write
+  16:	a093      	tmovs	r0, #147	; 0x93
+  18:	a143      	tmovs	r1, #67	; 0x43
+  1a:	97ff 9ffe 	tjl	0 <analog_write>
+			1a: R_TC32_CALL	analog_write
+  1e:	a09e      	tmovs	r0, #158	; 0x9e
+  20:	a1ad      	tmovs	r1, #173	; 0xad
+  22:	97ff 9ffe 	tjl	0 <analog_write>
+			22: R_TC32_CALL	analog_write
+  26:	a0a3      	tmovs	r0, #163	; 0xa3
+  28:	a1d0      	tmovs	r1, #208	; 0xd0
+  2a:	97ff 9ffe 	tjl	0 <analog_write>
+			2a: R_TC32_CALL	analog_write
+  2e:	a0aa      	tmovs	r0, #170	; 0xaa
+  30:	a12e      	tmovs	r1, #46	; 0x2e
+  32:	97ff 9ffe 	tjl	0 <analog_write>
+			32: R_TC32_CALL	analog_write
+  36:	a20f      	tmovs	r2, #15
+  38:	0b26      	tloadr	r3, [pc, #152]	; (d4 <rf_set_ble_2M_NO_PN_mode+0xd4>)
+  3a:	401a      	tstorerb	r2, [r3, #0]
+  3c:	a400      	tmovs	r4, #0
+  3e:	b301      	tadds	r3, #1
+  40:	401c      	tstorerb	r4, [r3, #0]
+  42:	a2c5      	tmovs	r2, #197	; 0xc5
+  44:	b303      	tadds	r3, #3
+  46:	401a      	tstorerb	r2, [r3, #0]
+  48:	a28b      	tmovs	r2, #139	; 0x8b
+  4a:	bb02      	tsubs	r3, #2
+  4c:	401a      	tstorerb	r2, [r3, #0]
+  4e:	a304      	tmovs	r3, #4
+  50:	0a21      	tloadr	r2, [pc, #132]	; (d8 <rf_set_ble_2M_NO_PN_mode+0xd8>)
+  52:	4013      	tstorerb	r3, [r2, #0]
+  54:	a11f      	tmovs	r1, #31
+  56:	b21b      	tadds	r2, #27
+  58:	4011      	tstorerb	r1, [r2, #0]
+  5a:	b201      	tadds	r2, #1
+  5c:	4013      	tstorerb	r3, [r2, #0]
+  5e:	0b1f      	tloadr	r3, [pc, #124]	; (dc <rf_set_ble_2M_NO_PN_mode+0xdc>)
+  60:	401c      	tstorerb	r4, [r3, #0]
+  62:	a212      	tmovs	r2, #18
+  64:	b302      	tadds	r3, #2
+  66:	401a      	tstorerb	r2, [r3, #0]
+  68:	a280      	tmovs	r2, #128	; 0x80
+  6a:	b304      	tadds	r3, #4
+  6c:	401a      	tstorerb	r2, [r3, #0]
+  6e:	a2ff      	tmovs	r2, #255	; 0xff
+  70:	b304      	tadds	r3, #4
+  72:	401a      	tstorerb	r2, [r3, #0]
+  74:	a2f1      	tmovs	r2, #241	; 0xf1
+  76:	bb01      	tsubs	r3, #1
+  78:	401a      	tstorerb	r2, [r3, #0]
+  7a:	a2d3      	tmovs	r2, #211	; 0xd3
+  7c:	b302      	tadds	r3, #2
+  7e:	401a      	tstorerb	r2, [r3, #0]
+  80:	a2fc      	tmovs	r2, #252	; 0xfc
+  82:	b30e      	tadds	r3, #14
+  84:	401a      	tstorerb	r2, [r3, #0]
+  86:	a207      	tmovs	r2, #7
+  88:	b329      	tadds	r3, #41	; 0x29
+  8a:	401a      	tstorerb	r2, [r3, #0]
+  8c:	a21e      	tmovs	r2, #30
+  8e:	0b14      	tloadr	r3, [pc, #80]	; (e0 <rf_set_ble_2M_NO_PN_mode+0xe0>)
+  90:	401a      	tstorerb	r2, [r3, #0]
+  92:	97ff 9ffe 	tjl	0 <rf_set_ble_2M_NO_PN_mode>
+			92: R_TC32_CALL	agc_tbl_write
+  96:	a217      	tmovs	r2, #23
+  98:	0b12      	tloadr	r3, [pc, #72]	; (e4 <rf_set_ble_2M_NO_PN_mode+0xe4>)
+  9a:	401a      	tstorerb	r2, [r3, #0]
+  9c:	a2fd      	tmovs	r2, #253	; 0xfd
+  9e:	b30d      	tadds	r3, #13
+  a0:	401a      	tstorerb	r2, [r3, #0]
+  a2:	a237      	tmovs	r2, #55	; 0x37
+  a4:	bb05      	tsubs	r3, #5
+  a6:	401a      	tstorerb	r2, [r3, #0]
+  a8:	bb05      	tsubs	r3, #5
+  aa:	401c      	tstorerb	r4, [r3, #0]
+  ac:	a201      	tmovs	r2, #1
+  ae:	b301      	tadds	r3, #1
+  b0:	401a      	tstorerb	r2, [r3, #0]
+  b2:	a277      	tmovs	r2, #119	; 0x77
+  b4:	b306      	tadds	r3, #6
+  b6:	401a      	tstorerb	r2, [r3, #0]
+  b8:	a289      	tmovs	r2, #137	; 0x89
+  ba:	b304      	tadds	r3, #4
+  bc:	401a      	tstorerb	r2, [r3, #0]
+  be:	a266      	tmovs	r2, #102	; 0x66
+  c0:	b38f      	tadds	r3, #143	; 0x8f
+  c2:	401a      	tstorerb	r2, [r3, #0]
+  c4:	a281      	tmovs	r2, #129	; 0x81
+  c6:	bb0d      	tsubs	r3, #13
+  c8:	401a      	tstorerb	r2, [r3, #0]
+  ca:	6d10      	tpop	{r4, pc}
+	...
+			cc: R_TC32_ABS32	.data.rf_tp_base
+			d0: R_TC32_ABS32	.data.rf_tp_gain
+  d4:	00800400 	taddeq	r0, r0, r0, lsl #8
+  d8:	00800405 	taddeq	r0, r0, r5, lsl #8
+  dc:	00800422 	taddeq	r0, r0, r2, lsr #8
+  e0:	00800f03 	taddeq	r0, r0, r3, lsl #30
+  e4:	00800430 	taddeq	r0, r0, r0, lsr r4
+
+Disassembly of section .text.rf_set_pri_1M_mode:
+
+00000000 <rf_set_pri_1M_mode>:
+rf_set_pri_1M_mode():
+   0:	6510      	tpush	{r4, lr}
+   2:	a23b      	tmovs	r2, #59	; 0x3b
+   4:	0b34      	tloadr	r3, [pc, #208]	; (d8 <rf_set_pri_1M_mode+0xd8>)
+   6:	501a      	tstorer	r2, [r3, #0]
+   8:	a219      	tmovs	r2, #25
+   a:	0b34      	tloadr	r3, [pc, #208]	; (dc <rf_set_pri_1M_mode+0xdc>)
+   c:	501a      	tstorer	r2, [r3, #0]
+   e:	a08f      	tmovs	r0, #143	; 0x8f
+  10:	a12b      	tmovs	r1, #43	; 0x2b
+  12:	97ff 9ffe 	tjl	0 <analog_write>
+			12: R_TC32_CALL	analog_write
+  16:	a093      	tmovs	r0, #147	; 0x93
+  18:	a138      	tmovs	r1, #56	; 0x38
+  1a:	97ff 9ffe 	tjl	0 <analog_write>
+			1a: R_TC32_CALL	analog_write
+  1e:	a09e      	tmovs	r0, #158	; 0x9e
+  20:	a156      	tmovs	r1, #86	; 0x56
+  22:	97ff 9ffe 	tjl	0 <analog_write>
+			22: R_TC32_CALL	analog_write
+  26:	a0a3      	tmovs	r0, #163	; 0xa3
+  28:	a1f0      	tmovs	r1, #240	; 0xf0
+  2a:	97ff 9ffe 	tjl	0 <analog_write>
+			2a: R_TC32_CALL	analog_write
+  2e:	a0aa      	tmovs	r0, #170	; 0xaa
+  30:	a126      	tmovs	r1, #38	; 0x26
+  32:	97ff 9ffe 	tjl	0 <analog_write>
+			32: R_TC32_CALL	analog_write
+  36:	a20f      	tmovs	r2, #15
+  38:	0b29      	tloadr	r3, [pc, #164]	; (e0 <rf_set_pri_1M_mode+0xe0>)
+  3a:	401a      	tstorerb	r2, [r3, #0]
+  3c:	a227      	tmovs	r2, #39	; 0x27
+  3e:	b302      	tadds	r3, #2
+  40:	401a      	tstorerb	r2, [r3, #0]
+  42:	a2f1      	tmovs	r2, #241	; 0xf1
+  44:	b329      	tadds	r3, #41	; 0x29
+  46:	401a      	tstorerb	r2, [r3, #0]
+  48:	a212      	tmovs	r2, #18
+  4a:	bb07      	tsubs	r3, #7
+  4c:	401a      	tstorerb	r2, [r3, #0]
+  4e:	a280      	tmovs	r2, #128	; 0x80
+  50:	b304      	tadds	r3, #4
+  52:	401a      	tstorerb	r2, [r3, #0]
+  54:	a400      	tmovs	r4, #0
+  56:	bb06      	tsubs	r3, #6
+  58:	401c      	tstorerb	r4, [r3, #0]
+  5a:	a21f      	tmovs	r2, #31
+  5c:	bb02      	tsubs	r3, #2
+  5e:	401a      	tstorerb	r2, [r3, #0]
+  60:	a204      	tmovs	r2, #4
+  62:	b301      	tadds	r3, #1
+  64:	401a      	tstorerb	r2, [r3, #0]
+  66:	a207      	tmovs	r2, #7
+  68:	b343      	tadds	r3, #67	; 0x43
+  6a:	401a      	tstorerb	r2, [r3, #0]
+  6c:	a2b3      	tmovs	r2, #179	; 0xb3
+  6e:	bb37      	tsubs	r3, #55	; 0x37
+  70:	401a      	tstorerb	r2, [r3, #0]
+  72:	a2da      	tmovs	r2, #218	; 0xda
+  74:	bb29      	tsubs	r3, #41	; 0x29
+  76:	401a      	tstorerb	r2, [r3, #0]
+  78:	a264      	tmovs	r2, #100	; 0x64
+  7a:	0b1a      	tloadr	r3, [pc, #104]	; (e4 <rf_set_pri_1M_mode+0xe4>)
+  7c:	401a      	tstorerb	r2, [r3, #0]
+  7e:	a236      	tmovs	r2, #54	; 0x36
+  80:	b301      	tadds	r3, #1
+  82:	401a      	tstorerb	r2, [r3, #0]
+  84:	a2a0      	tmovs	r2, #160	; 0xa0
+  86:	0b18      	tloadr	r3, [pc, #96]	; (e8 <rf_set_pri_1M_mode+0xe8>)
+  88:	401a      	tstorerb	r2, [r3, #0]
+  8a:	a28c      	tmovs	r2, #140	; 0x8c
+  8c:	b301      	tadds	r3, #1
+  8e:	401a      	tstorerb	r2, [r3, #0]
+  90:	a2ff      	tmovs	r2, #255	; 0xff
+  92:	bb9f      	tsubs	r3, #159	; 0x9f
+  94:	401a      	tstorerb	r2, [r3, #0]
+  96:	a2fc      	tmovs	r2, #252	; 0xfc
+  98:	b30f      	tadds	r3, #15
+  9a:	401a      	tstorerb	r2, [r3, #0]
+  9c:	97ff 9ffe 	tjl	0 <rf_set_pri_1M_mode>
+			9c: R_TC32_CALL	agc_tbl_write
+  a0:	a217      	tmovs	r2, #23
+  a2:	0b12      	tloadr	r3, [pc, #72]	; (ec <rf_set_pri_1M_mode+0xec>)
+  a4:	401a      	tstorerb	r2, [r3, #0]
+  a6:	a2fd      	tmovs	r2, #253	; 0xfd
+  a8:	b30d      	tadds	r3, #13
+  aa:	401a      	tstorerb	r2, [r3, #0]
+  ac:	a237      	tmovs	r2, #55	; 0x37
+  ae:	bb05      	tsubs	r3, #5
+  b0:	401a      	tstorerb	r2, [r3, #0]
+  b2:	bb05      	tsubs	r3, #5
+  b4:	401c      	tstorerb	r4, [r3, #0]
+  b6:	a201      	tmovs	r2, #1
+  b8:	b301      	tadds	r3, #1
+  ba:	401a      	tstorerb	r2, [r3, #0]
+  bc:	a277      	tmovs	r2, #119	; 0x77
+  be:	b306      	tadds	r3, #6
+  c0:	401a      	tstorerb	r2, [r3, #0]
+  c2:	a289      	tmovs	r2, #137	; 0x89
+  c4:	b304      	tadds	r3, #4
+  c6:	401a      	tstorerb	r2, [r3, #0]
+  c8:	a266      	tmovs	r2, #102	; 0x66
+  ca:	b38f      	tadds	r3, #143	; 0x8f
+  cc:	401a      	tstorerb	r2, [r3, #0]
+  ce:	a281      	tmovs	r2, #129	; 0x81
+  d0:	bb0d      	tsubs	r3, #13
+  d2:	401a      	tstorerb	r2, [r3, #0]
+  d4:	6d10      	tpop	{r4, pc}
+  d6:	46c0      	tnop			; (mov r8, r8)
+	...
+			d8: R_TC32_ABS32	.data.rf_tp_base
+			dc: R_TC32_ABS32	.data.rf_tp_gain
+  e0:	00800400 	taddeq	r0, r0, r0, lsl #8
+  e4:	00800f02 	taddeq	r0, r0, r2, lsl #30
+  e8:	008004ca 	taddeq	r0, r0, sl, asr #9
+  ec:	00800430 	taddeq	r0, r0, r0, lsr r4
+
+Disassembly of section .text.rf_set_pri_2M_mode:
+
+00000000 <rf_set_pri_2M_mode>:
+rf_set_pri_2M_mode():
+   0:	6510      	tpush	{r4, lr}
+   2:	a24a      	tmovs	r2, #74	; 0x4a
+   4:	0b34      	tloadr	r3, [pc, #208]	; (d8 <rf_set_pri_2M_mode+0xd8>)
+   6:	501a      	tstorer	r2, [r3, #0]
+   8:	a219      	tmovs	r2, #25
+   a:	0b34      	tloadr	r3, [pc, #208]	; (dc <rf_set_pri_2M_mode+0xdc>)
+   c:	501a      	tstorer	r2, [r3, #0]
+   e:	a08f      	tmovs	r0, #143	; 0x8f
+  10:	a132      	tmovs	r1, #50	; 0x32
+  12:	97ff 9ffe 	tjl	0 <analog_write>
+			12: R_TC32_CALL	analog_write
+  16:	a093      	tmovs	r0, #147	; 0x93
+  18:	a150      	tmovs	r1, #80	; 0x50
+  1a:	97ff 9ffe 	tjl	0 <analog_write>
+			1a: R_TC32_CALL	analog_write
+  1e:	a09e      	tmovs	r0, #158	; 0x9e
+  20:	a1ad      	tmovs	r1, #173	; 0xad
+  22:	97ff 9ffe 	tjl	0 <analog_write>
+			22: R_TC32_CALL	analog_write
+  26:	a0a3      	tmovs	r0, #163	; 0xa3
+  28:	a110      	tmovs	r1, #16
+  2a:	97ff 9ffe 	tjl	0 <analog_write>
+			2a: R_TC32_CALL	analog_write
+  2e:	a0aa      	tmovs	r0, #170	; 0xaa
+  30:	a12e      	tmovs	r1, #46	; 0x2e
+  32:	97ff 9ffe 	tjl	0 <analog_write>
+			32: R_TC32_CALL	analog_write
+  36:	a20f      	tmovs	r2, #15
+  38:	0b29      	tloadr	r3, [pc, #164]	; (e0 <rf_set_pri_2M_mode+0xe0>)
+  3a:	401a      	tstorerb	r2, [r3, #0]
+  3c:	a38c      	tmovs	r3, #140	; 0x8c
+  3e:	0a29      	tloadr	r2, [pc, #164]	; (e4 <rf_set_pri_2M_mode+0xe4>)
+  40:	4013      	tstorerb	r3, [r2, #0]
+  42:	a204      	tmovs	r2, #4
+  44:	0928      	tloadr	r1, [pc, #160]	; (e8 <rf_set_pri_2M_mode+0xe8>)
+  46:	400a      	tstorerb	r2, [r1, #0]
+  48:	a0f1      	tmovs	r0, #241	; 0xf1
+  4a:	b126      	tadds	r1, #38	; 0x26
+  4c:	4008      	tstorerb	r0, [r1, #0]
+  4e:	a012      	tmovs	r0, #18
+  50:	b907      	tsubs	r1, #7
+  52:	4008      	tstorerb	r0, [r1, #0]
+  54:	a080      	tmovs	r0, #128	; 0x80
+  56:	b104      	tadds	r1, #4
+  58:	4008      	tstorerb	r0, [r1, #0]
+  5a:	a400      	tmovs	r4, #0
+  5c:	b906      	tsubs	r1, #6
+  5e:	400c      	tstorerb	r4, [r1, #0]
+  60:	a01f      	tmovs	r0, #31
+  62:	b902      	tsubs	r1, #2
+  64:	4008      	tstorerb	r0, [r1, #0]
+  66:	b101      	tadds	r1, #1
+  68:	400a      	tstorerb	r2, [r1, #0]
+  6a:	a107      	tmovs	r1, #7
+  6c:	0a1f      	tloadr	r2, [pc, #124]	; (ec <rf_set_pri_2M_mode+0xec>)
+  6e:	4011      	tstorerb	r1, [r2, #0]
+  70:	a1d3      	tmovs	r1, #211	; 0xd3
+  72:	ba37      	tsubs	r2, #55	; 0x37
+  74:	4011      	tstorerb	r1, [r2, #0]
+  76:	a1ca      	tmovs	r1, #202	; 0xca
+  78:	ba29      	tsubs	r2, #41	; 0x29
+  7a:	4011      	tstorerb	r1, [r2, #0]
+  7c:	a164      	tmovs	r1, #100	; 0x64
+  7e:	0a1c      	tloadr	r2, [pc, #112]	; (f0 <rf_set_pri_2M_mode+0xf0>)
+  80:	4011      	tstorerb	r1, [r2, #0]
+  82:	a136      	tmovs	r1, #54	; 0x36
+  84:	b201      	tadds	r2, #1
+  86:	4011      	tstorerb	r1, [r2, #0]
+  88:	a1a0      	tmovs	r1, #160	; 0xa0
+  8a:	0a1a      	tloadr	r2, [pc, #104]	; (f4 <rf_set_pri_2M_mode+0xf4>)
+  8c:	4011      	tstorerb	r1, [r2, #0]
+  8e:	b201      	tadds	r2, #1
+  90:	4013      	tstorerb	r3, [r2, #0]
+  92:	a2ff      	tmovs	r2, #255	; 0xff
+  94:	0b18      	tloadr	r3, [pc, #96]	; (f8 <rf_set_pri_2M_mode+0xf8>)
+  96:	401a      	tstorerb	r2, [r3, #0]
+  98:	a2fc      	tmovs	r2, #252	; 0xfc
+  9a:	b30f      	tadds	r3, #15
+  9c:	401a      	tstorerb	r2, [r3, #0]
+  9e:	97ff 9ffe 	tjl	0 <rf_set_pri_2M_mode>
+			9e: R_TC32_CALL	agc_tbl_write
+  a2:	a217      	tmovs	r2, #23
+  a4:	0b15      	tloadr	r3, [pc, #84]	; (fc <rf_set_pri_2M_mode+0xfc>)
+  a6:	401a      	tstorerb	r2, [r3, #0]
+  a8:	a2fd      	tmovs	r2, #253	; 0xfd
+  aa:	b30d      	tadds	r3, #13
+  ac:	401a      	tstorerb	r2, [r3, #0]
+  ae:	a237      	tmovs	r2, #55	; 0x37
+  b0:	bb05      	tsubs	r3, #5
+  b2:	401a      	tstorerb	r2, [r3, #0]
+  b4:	bb05      	tsubs	r3, #5
+  b6:	401c      	tstorerb	r4, [r3, #0]
+  b8:	a201      	tmovs	r2, #1
+  ba:	b301      	tadds	r3, #1
+  bc:	401a      	tstorerb	r2, [r3, #0]
+  be:	a277      	tmovs	r2, #119	; 0x77
+  c0:	b306      	tadds	r3, #6
+  c2:	401a      	tstorerb	r2, [r3, #0]
+  c4:	a289      	tmovs	r2, #137	; 0x89
+  c6:	b304      	tadds	r3, #4
+  c8:	401a      	tstorerb	r2, [r3, #0]
+  ca:	a266      	tmovs	r2, #102	; 0x66
+  cc:	b38f      	tadds	r3, #143	; 0x8f
+  ce:	401a      	tstorerb	r2, [r3, #0]
+  d0:	a281      	tmovs	r2, #129	; 0x81
+  d2:	bb0d      	tsubs	r3, #13
+  d4:	401a      	tstorerb	r2, [r3, #0]
+  d6:	6d10      	tpop	{r4, pc}
+	...
+			d8: R_TC32_ABS32	.data.rf_tp_base
+			dc: R_TC32_ABS32	.data.rf_tp_gain
+  e0:	00800400 	taddeq	r0, r0, r0, lsl #8
+  e4:	00800402 	taddeq	r0, r0, r2, lsl #8
+  e8:	00800405 	taddeq	r0, r0, r5, lsl #8
+  ec:	00800464 	taddeq	r0, r0, r4, ror #8
+  f0:	00800f02 	taddeq	r0, r0, r2, lsl #30
+  f4:	008004ca 	taddeq	r0, r0, sl, asr #9
+  f8:	0080042c 	taddeq	r0, r0, ip, lsr #8
+  fc:	00800430 	taddeq	r0, r0, r0, lsr r4
+
+Disassembly of section .text.rf_set_pri_250K_mode:
+
+00000000 <rf_set_pri_250K_mode>:
+rf_set_pri_250K_mode():
+   0:	6530      	tpush	{r4, r5, lr}
+   2:	a23b      	tmovs	r2, #59	; 0x3b
+   4:	0b2d      	tloadr	r3, [pc, #180]	; (bc <rf_set_pri_250K_mode+0xbc>)
+   6:	501a      	tstorer	r2, [r3, #0]
+   8:	a219      	tmovs	r2, #25
+   a:	0b2d      	tloadr	r3, [pc, #180]	; (c0 <rf_set_pri_250K_mode+0xc0>)
+   c:	501a      	tstorer	r2, [r3, #0]
+   e:	a08f      	tmovs	r0, #143	; 0x8f
+  10:	a12b      	tmovs	r1, #43	; 0x2b
+  12:	97ff 9ffe 	tjl	0 <analog_write>
+			12: R_TC32_CALL	analog_write
+  16:	a093      	tmovs	r0, #147	; 0x93
+  18:	a138      	tmovs	r1, #56	; 0x38
+  1a:	97ff 9ffe 	tjl	0 <analog_write>
+			1a: R_TC32_CALL	analog_write
+  1e:	a09e      	tmovs	r0, #158	; 0x9e
+  20:	a156      	tmovs	r1, #86	; 0x56
+  22:	97ff 9ffe 	tjl	0 <analog_write>
+			22: R_TC32_CALL	analog_write
+  26:	a0a3      	tmovs	r0, #163	; 0xa3
+  28:	a1f0      	tmovs	r1, #240	; 0xf0
+  2a:	97ff 9ffe 	tjl	0 <analog_write>
+			2a: R_TC32_CALL	analog_write
+  2e:	a0aa      	tmovs	r0, #170	; 0xaa
+  30:	a126      	tmovs	r1, #38	; 0x26
+  32:	97ff 9ffe 	tjl	0 <analog_write>
+			32: R_TC32_CALL	analog_write
+  36:	a28b      	tmovs	r2, #139	; 0x8b
+  38:	0b22      	tloadr	r3, [pc, #136]	; (c4 <rf_set_pri_250K_mode+0xc4>)
+  3a:	401a      	tstorerb	r2, [r3, #0]
+  3c:	a212      	tmovs	r2, #18
+  3e:	b322      	tadds	r3, #34	; 0x22
+  40:	401a      	tstorerb	r2, [r3, #0]
+  42:	a500      	tmovs	r5, #0
+  44:	bb02      	tsubs	r3, #2
+  46:	401d      	tstorerb	r5, [r3, #0]
+  48:	a21f      	tmovs	r2, #31
+  4a:	bb02      	tsubs	r3, #2
+  4c:	401a      	tstorerb	r2, [r3, #0]
+  4e:	a204      	tmovs	r2, #4
+  50:	b301      	tadds	r3, #1
+  52:	401a      	tstorerb	r2, [r3, #0]
+  54:	a2b3      	tmovs	r2, #179	; 0xb3
+  56:	b30c      	tadds	r3, #12
+  58:	401a      	tstorerb	r2, [r3, #0]
+  5a:	a2da      	tmovs	r2, #218	; 0xda
+  5c:	bb29      	tsubs	r3, #41	; 0x29
+  5e:	401a      	tstorerb	r2, [r3, #0]
+  60:	a202      	tmovs	r2, #2
+  62:	bb01      	tsubs	r3, #1
+  64:	401a      	tstorerb	r2, [r3, #0]
+  66:	a244      	tmovs	r2, #68	; 0x44
+  68:	0b17      	tloadr	r3, [pc, #92]	; (c8 <rf_set_pri_250K_mode+0xc8>)
+  6a:	401a      	tstorerb	r2, [r3, #0]
+  6c:	a236      	tmovs	r2, #54	; 0x36
+  6e:	b301      	tadds	r3, #1
+  70:	401a      	tstorerb	r2, [r3, #0]
+  72:	a280      	tmovs	r2, #128	; 0x80
+  74:	0b15      	tloadr	r3, [pc, #84]	; (cc <rf_set_pri_250K_mode+0xcc>)
+  76:	401a      	tstorerb	r2, [r3, #0]
+  78:	a28c      	tmovs	r2, #140	; 0x8c
+  7a:	bb8f      	tsubs	r3, #143	; 0x8f
+  7c:	401a      	tstorerb	r2, [r3, #0]
+  7e:	0c14      	tloadr	r4, [pc, #80]	; (d0 <rf_set_pri_250K_mode+0xd0>)
+  80:	a3e4      	tmovs	r3, #228	; 0xe4
+  82:	4023      	tstorerb	r3, [r4, #0]
+  84:	97ff 9ffe 	tjl	0 <rf_set_pri_250K_mode>
+			84: R_TC32_CALL	agc_tbl_write
+  88:	a217      	tmovs	r2, #23
+  8a:	0b12      	tloadr	r3, [pc, #72]	; (d4 <rf_set_pri_250K_mode+0xd4>)
+  8c:	401a      	tstorerb	r2, [r3, #0]
+  8e:	a2fd      	tmovs	r2, #253	; 0xfd
+  90:	b30d      	tadds	r3, #13
+  92:	401a      	tstorerb	r2, [r3, #0]
+  94:	a237      	tmovs	r2, #55	; 0x37
+  96:	bb05      	tsubs	r3, #5
+  98:	401a      	tstorerb	r2, [r3, #0]
+  9a:	bb05      	tsubs	r3, #5
+  9c:	401d      	tstorerb	r5, [r3, #0]
+  9e:	a201      	tmovs	r2, #1
+  a0:	b301      	tadds	r3, #1
+  a2:	401a      	tstorerb	r2, [r3, #0]
+  a4:	a277      	tmovs	r2, #119	; 0x77
+  a6:	b306      	tadds	r3, #6
+  a8:	401a      	tstorerb	r2, [r3, #0]
+  aa:	a289      	tmovs	r2, #137	; 0x89
+  ac:	b304      	tadds	r3, #4
+  ae:	401a      	tstorerb	r2, [r3, #0]
+  b0:	a366      	tmovs	r3, #102	; 0x66
+  b2:	4023      	tstorerb	r3, [r4, #0]
+  b4:	a281      	tmovs	r2, #129	; 0x81
+  b6:	0b08      	tloadr	r3, [pc, #32]	; (d8 <rf_set_pri_250K_mode+0xd8>)
+  b8:	401a      	tstorerb	r2, [r3, #0]
+  ba:	6d30      	tpop	{r4, r5, pc}
+	...
+			bc: R_TC32_ABS32	.data.rf_tp_base
+			c0: R_TC32_ABS32	.data.rf_tp_gain
+  c4:	00800402 	taddeq	r0, r0, r2, lsl #8
+  c8:	00800f02 	taddeq	r0, r0, r2, lsl #30
+  cc:	008004ca 	taddeq	r0, r0, sl, asr #9
+  d0:	008004cd 	taddeq	r0, r0, sp, asr #9
+  d4:	00800430 	taddeq	r0, r0, r0, lsr r4
+  d8:	008004c0 	taddeq	r0, r0, r0, asr #9
+
+Disassembly of section .text.rf_set_pri_500K_mode:
+
+00000000 <rf_set_pri_500K_mode>:
+rf_set_pri_500K_mode():
+   0:	6570      	tpush	{r4, r5, r6, lr}
+   2:	a23b      	tmovs	r2, #59	; 0x3b
+   4:	0b2d      	tloadr	r3, [pc, #180]	; (bc <rf_set_pri_500K_mode+0xbc>)
+   6:	501a      	tstorer	r2, [r3, #0]
+   8:	a219      	tmovs	r2, #25
+   a:	0b2d      	tloadr	r3, [pc, #180]	; (c0 <rf_set_pri_500K_mode+0xc0>)
+   c:	501a      	tstorer	r2, [r3, #0]
+   e:	a08f      	tmovs	r0, #143	; 0x8f
+  10:	a12b      	tmovs	r1, #43	; 0x2b
+  12:	97ff 9ffe 	tjl	0 <analog_write>
+			12: R_TC32_CALL	analog_write
+  16:	a093      	tmovs	r0, #147	; 0x93
+  18:	a138      	tmovs	r1, #56	; 0x38
+  1a:	97ff 9ffe 	tjl	0 <analog_write>
+			1a: R_TC32_CALL	analog_write
+  1e:	a09e      	tmovs	r0, #158	; 0x9e
+  20:	a156      	tmovs	r1, #86	; 0x56
+  22:	97ff 9ffe 	tjl	0 <analog_write>
+			22: R_TC32_CALL	analog_write
+  26:	a0a3      	tmovs	r0, #163	; 0xa3
+  28:	a1f0      	tmovs	r1, #240	; 0xf0
+  2a:	97ff 9ffe 	tjl	0 <analog_write>
+			2a: R_TC32_CALL	analog_write
+  2e:	a0aa      	tmovs	r0, #170	; 0xaa
+  30:	a126      	tmovs	r1, #38	; 0x26
+  32:	97ff 9ffe 	tjl	0 <analog_write>
+			32: R_TC32_CALL	analog_write
+  36:	a28b      	tmovs	r2, #139	; 0x8b
+  38:	0b22      	tloadr	r3, [pc, #136]	; (c4 <rf_set_pri_500K_mode+0xc4>)
+  3a:	401a      	tstorerb	r2, [r3, #0]
+  3c:	a212      	tmovs	r2, #18
+  3e:	b322      	tadds	r3, #34	; 0x22
+  40:	401a      	tstorerb	r2, [r3, #0]
+  42:	a600      	tmovs	r6, #0
+  44:	bb02      	tsubs	r3, #2
+  46:	401e      	tstorerb	r6, [r3, #0]
+  48:	a21f      	tmovs	r2, #31
+  4a:	bb02      	tsubs	r3, #2
+  4c:	401a      	tstorerb	r2, [r3, #0]
+  4e:	a204      	tmovs	r2, #4
+  50:	b301      	tadds	r3, #1
+  52:	401a      	tstorerb	r2, [r3, #0]
+  54:	a2b3      	tmovs	r2, #179	; 0xb3
+  56:	b30c      	tadds	r3, #12
+  58:	401a      	tstorerb	r2, [r3, #0]
+  5a:	a2da      	tmovs	r2, #218	; 0xda
+  5c:	bb29      	tsubs	r3, #41	; 0x29
+  5e:	401a      	tstorerb	r2, [r3, #0]
+  60:	a501      	tmovs	r5, #1
+  62:	bb01      	tsubs	r3, #1
+  64:	401d      	tstorerb	r5, [r3, #0]
+  66:	a244      	tmovs	r2, #68	; 0x44
+  68:	0b17      	tloadr	r3, [pc, #92]	; (c8 <rf_set_pri_500K_mode+0xc8>)
+  6a:	401a      	tstorerb	r2, [r3, #0]
+  6c:	a236      	tmovs	r2, #54	; 0x36
+  6e:	b301      	tadds	r3, #1
+  70:	401a      	tstorerb	r2, [r3, #0]
+  72:	a280      	tmovs	r2, #128	; 0x80
+  74:	0b15      	tloadr	r3, [pc, #84]	; (cc <rf_set_pri_500K_mode+0xcc>)
+  76:	401a      	tstorerb	r2, [r3, #0]
+  78:	a28c      	tmovs	r2, #140	; 0x8c
+  7a:	bb8f      	tsubs	r3, #143	; 0x8f
+  7c:	401a      	tstorerb	r2, [r3, #0]
+  7e:	0c14      	tloadr	r4, [pc, #80]	; (d0 <rf_set_pri_500K_mode+0xd0>)
+  80:	a3e4      	tmovs	r3, #228	; 0xe4
+  82:	4023      	tstorerb	r3, [r4, #0]
+  84:	97ff 9ffe 	tjl	0 <rf_set_pri_500K_mode>
+			84: R_TC32_CALL	agc_tbl_write
+  88:	a217      	tmovs	r2, #23
+  8a:	0b12      	tloadr	r3, [pc, #72]	; (d4 <rf_set_pri_500K_mode+0xd4>)
+  8c:	401a      	tstorerb	r2, [r3, #0]
+  8e:	a2fd      	tmovs	r2, #253	; 0xfd
+  90:	b30d      	tadds	r3, #13
+  92:	401a      	tstorerb	r2, [r3, #0]
+  94:	a237      	tmovs	r2, #55	; 0x37
+  96:	bb05      	tsubs	r3, #5
+  98:	401a      	tstorerb	r2, [r3, #0]
+  9a:	bb05      	tsubs	r3, #5
+  9c:	401e      	tstorerb	r6, [r3, #0]
+  9e:	b301      	tadds	r3, #1
+  a0:	401d      	tstorerb	r5, [r3, #0]
+  a2:	a277      	tmovs	r2, #119	; 0x77
+  a4:	b306      	tadds	r3, #6
+  a6:	401a      	tstorerb	r2, [r3, #0]
+  a8:	a289      	tmovs	r2, #137	; 0x89
+  aa:	b304      	tadds	r3, #4
+  ac:	401a      	tstorerb	r2, [r3, #0]
+  ae:	a366      	tmovs	r3, #102	; 0x66
+  b0:	4023      	tstorerb	r3, [r4, #0]
+  b2:	a281      	tmovs	r2, #129	; 0x81
+  b4:	0b08      	tloadr	r3, [pc, #32]	; (d8 <rf_set_pri_500K_mode+0xd8>)
+  b6:	401a      	tstorerb	r2, [r3, #0]
+  b8:	6d70      	tpop	{r4, r5, r6, pc}
+  ba:	46c0      	tnop			; (mov r8, r8)
+	...
+			bc: R_TC32_ABS32	.data.rf_tp_base
+			c0: R_TC32_ABS32	.data.rf_tp_gain
+  c4:	00800402 	taddeq	r0, r0, r2, lsl #8
+  c8:	00800f02 	taddeq	r0, r0, r2, lsl #30
+  cc:	008004ca 	taddeq	r0, r0, sl, asr #9
+  d0:	008004cd 	taddeq	r0, r0, sp, asr #9
+  d4:	00800430 	taddeq	r0, r0, r0, lsr r4
+  d8:	008004c0 	taddeq	r0, r0, r0, asr #9
+
+Disassembly of section .text.rf_set_power_level_index:
+
+00000000 <rf_set_power_level_index>:
+rf_set_power_level_index():
+   0:	6570      	tpush	{r4, r5, r6, lr}
+   2:	f600      	tshftls	r0, r0, #24
+   4:	fe00      	tshftrs	r0, r0, #24
+   6:	0b19      	tloadr	r3, [pc, #100]	; (6c <rf_set_power_level_index+0x6c>)
+   8:	481b      	tloadrb	r3, [r3, #0]
+   a:	f6da      	tshftls	r2, r3, #27
+   c:	c52c      	tjpl.n	68 <rf_set_power_level_index+0x68>
+   e:	0c18      	tloadr	r4, [pc, #96]	; (70 <rf_set_power_level_index+0x70>)
+  10:	ec42      	tadds	r2, r0, #1
+  12:	a32c      	tmovs	r3, #44	; 0x2c
+  14:	aa0c      	tcmp	r2, #12
+  16:	c800      	tjhi.n	1a <rf_set_power_level_index+0x1a>
+  18:	f083      	tshftls	r3, r0, #2
+  1a:	e8e4      	tadds	r4, r4, r3
+  1c:	ec65      	tadds	r5, r4, #1
+  1e:	4821      	tloadrb	r1, [r4, #0]
+  20:	a0a2      	tmovs	r0, #162	; 0xa2
+  22:	97ff 9ffe 	tjl	0 <analog_write>
+			22: R_TC32_CALL	analog_write
+  26:	a0a3      	tmovs	r0, #163	; 0xa3
+  28:	97ff 9ffe 	tjl	0 <analog_read>
+			28: R_TC32_CALL	analog_read
+  2c:	a1ef      	tmovs	r1, #239	; 0xef
+  2e:	0001      	tands	r1, r0
+  30:	a0a3      	tmovs	r0, #163	; 0xa3
+  32:	97ff 9ffe 	tjl	0 <analog_write>
+			32: R_TC32_CALL	analog_write
+  36:	a0a3      	tmovs	r0, #163	; 0xa3
+  38:	97ff 9ffe 	tjl	0 <analog_read>
+			38: R_TC32_CALL	analog_read
+  3c:	a310      	tmovs	r3, #16
+  3e:	ec01      	tadds	r1, r0, #0
+  40:	0319      	tors	r1, r3
+  42:	f609      	tshftls	r1, r1, #24
+  44:	fe09      	tshftrs	r1, r1, #24
+  46:	a0a3      	tmovs	r0, #163	; 0xa3
+  48:	97ff 9ffe 	tjl	0 <analog_write>
+			48: R_TC32_CALL	analog_write
+  4c:	ec6e      	tadds	r6, r5, #1
+  4e:	4861      	tloadrb	r1, [r4, #1]
+  50:	a004      	tmovs	r0, #4
+  52:	97ff 9ffe 	tjl	0 <analog_write>
+			52: R_TC32_CALL	analog_write
+  56:	4869      	tloadrb	r1, [r5, #1]
+  58:	a0a7      	tmovs	r0, #167	; 0xa7
+  5a:	97ff 9ffe 	tjl	0 <analog_write>
+			5a: R_TC32_CALL	analog_write
+  5e:	4871      	tloadrb	r1, [r6, #1]
+  60:	a08d      	tmovs	r0, #141	; 0x8d
+  62:	97ff 9ffe 	tjl	0 <analog_write>
+			62: R_TC32_CALL	analog_write
+  66:	6d70      	tpop	{r4, r5, r6, pc}
+  68:	0c02      	tloadr	r4, [pc, #8]	; (74 <rf_set_power_level_index+0x74>)
+  6a:	87d1      	tj.n	10 <rf_set_power_level_index+0x10>
+  6c:	0080007d 	taddeq	r0, r0, sp, ror r0
+	...
+			70: R_TC32_ABS32	.rodata.tbl_rf_power
+			74: R_TC32_ABS32	.rodata.tbl_rf_power_csmc
+
+Disassembly of section .text.rf_set_tp_gain:
+
+00000000 <rf_set_tp_gain>:
+rf_set_tp_gain():
+   0:	6500      	tpush	{lr}
+   2:	f601      	tshftls	r1, r0, #24
+   4:	fe09      	tshftrs	r1, r1, #24
+   6:	0b07      	tloadr	r3, [pc, #28]	; (24 <rf_set_tp_gain+0x24>)
+   8:	581b      	tloadr	r3, [r3, #0]
+   a:	0a07      	tloadr	r2, [pc, #28]	; (28 <rf_set_tp_gain+0x28>)
+   c:	5812      	tloadr	r2, [r2, #0]
+   e:	0351      	tmuls	r1, r2
+  10:	b180      	tadds	r1, #128	; 0x80
+  12:	e209      	tasrs	r1, r1, #8
+  14:	ea59      	tsubs	r1, r3, r1
+  16:	f609      	tshftls	r1, r1, #24
+  18:	fe09      	tshftrs	r1, r1, #24
+  1a:	a093      	tmovs	r0, #147	; 0x93
+  1c:	97ff 9ffe 	tjl	0 <analog_write>
+			1c: R_TC32_CALL	analog_write
+  20:	6d00      	tpop	{pc}
+  22:	46c0      	tnop			; (mov r8, r8)
+	...
+			24: R_TC32_ABS32	.data.rf_tp_base
+			28: R_TC32_ABS32	.data.rf_tp_gain
+
+Disassembly of section .text.rf_set_channel:
+
+00000000 <rf_set_channel>:
+rf_set_channel():
+   0:	6530      	tpush	{r4, r5, lr}
+   2:	f604      	tshftls	r4, r0, #24
+   4:	e624      	tasrs	r4, r4, #24
+   6:	f40d      	tshftls	r5, r1, #16
+   8:	fc2d      	tshftrs	r5, r5, #16
+   a:	a006      	tmovs	r0, #6
+   c:	a100      	tmovs	r1, #0
+   e:	97ff 9ffe 	tjl	0 <analog_write>
+			e: R_TC32_CALL	analog_write
+  12:	a229      	tmovs	r2, #41	; 0x29
+  14:	0b14      	tloadr	r3, [pc, #80]	; (68 <rf_set_channel+0x68>)
+  16:	401a      	tstorerb	r2, [r3, #0]
+  18:	a280      	tmovs	r2, #128	; 0x80
+  1a:	0b14      	tloadr	r3, [pc, #80]	; (6c <rf_set_channel+0x6c>)
+  1c:	401a      	tstorerb	r2, [r3, #0]
+  1e:	f46b      	tshftls	r3, r5, #17
+  20:	c51e      	tjpl.n	60 <rf_set_channel+0x60>
+  22:	a255      	tmovs	r2, #85	; 0x55
+  24:	0b12      	tloadr	r3, [pc, #72]	; (70 <rf_set_channel+0x70>)
+  26:	401a      	tstorerb	r2, [r3, #0]
+  28:	f42d      	tshftls	r5, r5, #16
+  2a:	ad00      	tcmp	r5, #0
+  2c:	ca03      	tjge.n	36 <rf_set_channel+0x36>
+  2e:	0b11      	tloadr	r3, [pc, #68]	; (74 <rf_set_channel+0x74>)
+  30:	1d1c      	tloadrb	r4, [r3, r4]
+  32:	f624      	tshftls	r4, r4, #24
+  34:	e624      	tasrs	r4, r4, #24
+  36:	a396      	tmovs	r3, #150	; 0x96
+  38:	f11b      	tshftls	r3, r3, #4
+  3a:	e8e2      	tadds	r2, r4, r3
+  3c:	f412      	tshftls	r2, r2, #16
+  3e:	fc12      	tshftrs	r2, r2, #16
+  40:	0b0d      	tloadr	r3, [pc, #52]	; (78 <rf_set_channel+0x78>)
+  42:	201a      	tstorerh	r2, [r3, #0]
+  44:	0b0d      	tloadr	r3, [pc, #52]	; (7c <rf_set_channel+0x7c>)
+  46:	581b      	tloadr	r3, [r3, #0]
+  48:	0a0d      	tloadr	r2, [pc, #52]	; (80 <rf_set_channel+0x80>)
+  4a:	5811      	tloadr	r1, [r2, #0]
+  4c:	0361      	tmuls	r1, r4
+  4e:	b180      	tadds	r1, #128	; 0x80
+  50:	e209      	tasrs	r1, r1, #8
+  52:	ea59      	tsubs	r1, r3, r1
+  54:	f609      	tshftls	r1, r1, #24
+  56:	fe09      	tshftrs	r1, r1, #24
+  58:	a093      	tmovs	r0, #147	; 0x93
+  5a:	97ff 9ffe 	tjl	0 <analog_write>
+			5a: R_TC32_CALL	analog_write
+  5e:	6d30      	tpop	{r4, r5, pc}
+  60:	a244      	tmovs	r2, #68	; 0x44
+  62:	0b03      	tloadr	r3, [pc, #12]	; (70 <rf_set_channel+0x70>)
+  64:	401a      	tstorerb	r2, [r3, #0]
+  66:	87df      	tj.n	28 <rf_set_channel+0x28>
+  68:	01000f16 	tnandeq	r0, r6, lsl pc
+  6c:	01000428 	tnandeq	r0, r8, lsr #8
+  70:	01000f02 	tnandeq	r0, r2, lsl #30
+  74:	00000000 	tandeq	r0, r0, r0
+			74: R_TC32_ABS32	.rodata.rf_chn
+  78:	010004d6 	undefined instruction 0x010004d6
+	...
+			7c: R_TC32_ABS32	.data.rf_tp_base
+			80: R_TC32_ABS32	.data.rf_tp_gain
+
+Disassembly of section .text.rf_set_ble_channel:
+
+00000000 <rf_set_ble_channel>:
+rf_set_ble_channel():
+   0:	6530      	tpush	{r4, r5, lr}
+   2:	f600      	tshftls	r0, r0, #24
+   4:	e603      	tasrs	r3, r0, #24
+   6:	fe00      	tshftrs	r0, r0, #24
+   8:	0a1d      	tloadr	r2, [pc, #116]	; (80 <rf_set_ble_channel+0x80>)
+   a:	4010      	tstorerb	r0, [r2, #0]
+   c:	ab0a      	tcmp	r3, #10
+   e:	cd2e      	tjle.n	6e <rf_set_ble_channel+0x6e>
+  10:	ab24      	tcmp	r3, #36	; 0x24
+  12:	cd23      	tjle.n	5c <rf_set_ble_channel+0x5c>
+  14:	ab25      	tcmp	r3, #37	; 0x25
+  16:	c02c      	tjeq.n	72 <rf_set_ble_channel+0x72>
+  18:	ab26      	tcmp	r3, #38	; 0x26
+  1a:	c02d      	tjeq.n	78 <rf_set_ble_channel+0x78>
+  1c:	a550      	tmovs	r5, #80	; 0x50
+  1e:	a49b      	tmovs	r4, #155	; 0x9b
+  20:	f124      	tshftls	r4, r4, #4
+  22:	a006      	tmovs	r0, #6
+  24:	a100      	tmovs	r1, #0
+  26:	97ff 9ffe 	tjl	0 <analog_write>
+			26: R_TC32_CALL	analog_write
+  2a:	a229      	tmovs	r2, #41	; 0x29
+  2c:	0b15      	tloadr	r3, [pc, #84]	; (84 <rf_set_ble_channel+0x84>)
+  2e:	401a      	tstorerb	r2, [r3, #0]
+  30:	a280      	tmovs	r2, #128	; 0x80
+  32:	0b15      	tloadr	r3, [pc, #84]	; (88 <rf_set_ble_channel+0x88>)
+  34:	401a      	tstorerb	r2, [r3, #0]
+  36:	a245      	tmovs	r2, #69	; 0x45
+  38:	0b14      	tloadr	r3, [pc, #80]	; (8c <rf_set_ble_channel+0x8c>)
+  3a:	401a      	tstorerb	r2, [r3, #0]
+  3c:	0b14      	tloadr	r3, [pc, #80]	; (90 <rf_set_ble_channel+0x90>)
+  3e:	201c      	tstorerh	r4, [r3, #0]
+  40:	0b14      	tloadr	r3, [pc, #80]	; (94 <rf_set_ble_channel+0x94>)
+  42:	581b      	tloadr	r3, [r3, #0]
+  44:	0a14      	tloadr	r2, [pc, #80]	; (98 <rf_set_ble_channel+0x98>)
+  46:	5811      	tloadr	r1, [r2, #0]
+  48:	0369      	tmuls	r1, r5
+  4a:	b180      	tadds	r1, #128	; 0x80
+  4c:	e209      	tasrs	r1, r1, #8
+  4e:	ea59      	tsubs	r1, r3, r1
+  50:	f609      	tshftls	r1, r1, #24
+  52:	fe09      	tshftrs	r1, r1, #24
+  54:	a093      	tmovs	r0, #147	; 0x93
+  56:	97ff 9ffe 	tjl	0 <analog_write>
+			56: R_TC32_CALL	analog_write
+  5a:	6d30      	tpop	{r4, r5, pc}
+  5c:	b003      	tadds	r0, #3
+  5e:	f645      	tshftls	r5, r0, #25
+  60:	e62d      	tasrs	r5, r5, #24
+  62:	a396      	tmovs	r3, #150	; 0x96
+  64:	f11b      	tshftls	r3, r3, #4
+  66:	e8ec      	tadds	r4, r5, r3
+  68:	f424      	tshftls	r4, r4, #16
+  6a:	fc24      	tshftrs	r4, r4, #16
+  6c:	87d9      	tj.n	22 <rf_set_ble_channel+0x22>
+  6e:	b002      	tadds	r0, #2
+  70:	87f5      	tj.n	5e <rf_set_ble_channel+0x5e>
+  72:	a502      	tmovs	r5, #2
+  74:	0c09      	tloadr	r4, [pc, #36]	; (9c <rf_set_ble_channel+0x9c>)
+  76:	87d4      	tj.n	22 <rf_set_ble_channel+0x22>
+  78:	a51a      	tmovs	r5, #26
+  7a:	0c09      	tloadr	r4, [pc, #36]	; (a0 <rf_set_ble_channel+0xa0>)
+  7c:	87d1      	tj.n	22 <rf_set_ble_channel+0x22>
+  7e:	46c0      	tnop			; (mov r8, r8)
+  80:	0100040d 	tnandeq	r0, sp, lsl #8
+  84:	01000f16 	tnandeq	r0, r6, lsl pc
+  88:	01000428 	tnandeq	r0, r8, lsr #8
+  8c:	01000f02 	tnandeq	r0, r2, lsl #30
+  90:	010004d6 	undefined instruction 0x010004d6
+	...
+			94: R_TC32_ABS32	.data.rf_tp_base
+			98: R_TC32_ABS32	.data.rf_tp_gain
+  9c:	00000962 	tandeq	r0, r0, r2, ror #18
+  a0:	0000097a 	tandeq	r0, r0, sl, ror r9
+
+Disassembly of section .text.rf_set_rx_buff:
+
+00000000 <rf_set_rx_buff>:
+rf_set_rx_buff():
+   0:	f612      	tshftls	r2, r2, #24
+   2:	a301      	tmovs	r3, #1
+   4:	aa00      	tcmp	r2, #0
+   6:	c000      	tjeq.n	a <rf_set_rx_buff+0xa>
+   8:	a303      	tmovs	r3, #3
+   a:	f400      	tshftls	r0, r0, #16
+   c:	fc00      	tshftrs	r0, r0, #16
+   e:	0a04      	tloadr	r2, [pc, #16]	; (20 <rf_set_rx_buff+0x20>)
+  10:	2010      	tstorerh	r0, [r2, #0]
+  12:	f309      	tshftls	r1, r1, #12
+  14:	fc09      	tshftrs	r1, r1, #16
+  16:	b202      	tadds	r2, #2
+  18:	2011      	tstorerh	r1, [r2, #0]
+  1a:	b201      	tadds	r2, #1
+  1c:	4013      	tstorerb	r3, [r2, #0]
+  1e:	0770      	tjex	lr
+  20:	00800508 	taddeq	r0, r0, r8, lsl #10
+
+Disassembly of section .text.rf_start_btx:
+
+00000000 <rf_start_btx>:
+rf_start_btx():
+   0:	0b08      	tloadr	r3, [pc, #32]	; (24 <rf_start_btx+0x24>)
+   2:	5019      	tstorer	r1, [r3, #0]
+   4:	bb02      	tsubs	r3, #2
+   6:	4819      	tloadrb	r1, [r3, #0]
+   8:	a204      	tmovs	r2, #4
+   a:	030a      	tors	r2, r1
+   c:	f612      	tshftls	r2, r2, #24
+   e:	fe12      	tshftrs	r2, r2, #24
+  10:	401a      	tstorerb	r2, [r3, #0]
+  12:	f400      	tshftls	r0, r0, #16
+  14:	fc00      	tshftrs	r0, r0, #16
+  16:	0b04      	tloadr	r3, [pc, #16]	; (28 <rf_start_btx+0x28>)
+  18:	2018      	tstorerh	r0, [r3, #0]
+  1a:	a281      	tmovs	r2, #129	; 0x81
+  1c:	0b03      	tloadr	r3, [pc, #12]	; (2c <rf_start_btx+0x2c>)
+  1e:	401a      	tstorerb	r2, [r3, #0]
+  20:	0770      	tjex	lr
+  22:	46c0      	tnop			; (mov r8, r8)
+  24:	01000f18 	tnandeq	r0, r8, lsl pc
+  28:	0100050c 	tnandeq	r0, ip, lsl #10
+  2c:	01000f00 	tnandeq	r0, r0, lsl #30
+
+Disassembly of section .text.rf_start_brx:
+
+00000000 <rf_start_brx>:
+rf_start_brx():
+   0:	0a09      	tloadr	r2, [pc, #36]	; (28 <rf_start_brx+0x28>)
+   2:	0b0a      	tloadr	r3, [pc, #40]	; (2c <rf_start_brx+0x2c>)
+   4:	501a      	tstorer	r2, [r3, #0]
+   6:	bb10      	tsubs	r3, #16
+   8:	5019      	tstorer	r1, [r3, #0]
+   a:	bb02      	tsubs	r3, #2
+   c:	4819      	tloadrb	r1, [r3, #0]
+   e:	a204      	tmovs	r2, #4
+  10:	030a      	tors	r2, r1
+  12:	f612      	tshftls	r2, r2, #24
+  14:	fe12      	tshftrs	r2, r2, #24
+  16:	401a      	tstorerb	r2, [r3, #0]
+  18:	f400      	tshftls	r0, r0, #16
+  1a:	fc00      	tshftrs	r0, r0, #16
+  1c:	0b04      	tloadr	r3, [pc, #16]	; (30 <rf_start_brx+0x30>)
+  1e:	2018      	tstorerh	r0, [r3, #0]
+  20:	a282      	tmovs	r2, #130	; 0x82
+  22:	0b04      	tloadr	r3, [pc, #16]	; (34 <rf_start_brx+0x34>)
+  24:	401a      	tstorerb	r2, [r3, #0]
+  26:	0770      	tjex	lr
+  28:	0fffffff 	tserveq	0x00ffffff
+  2c:	01000f28 	tnandeq	r0, r8, lsr #30
+  30:	0100050c 	tnandeq	r0, ip, lsl #10
+  34:	01000f00 	tnandeq	r0, r0, lsl #30
+
+Disassembly of section .text.rf_start_stx:
+
+00000000 <rf_start_stx>:
+rf_start_stx():
+   0:	0b08      	tloadr	r3, [pc, #32]	; (24 <rf_start_stx+0x24>)
+   2:	5019      	tstorer	r1, [r3, #0]
+   4:	bb02      	tsubs	r3, #2
+   6:	4819      	tloadrb	r1, [r3, #0]
+   8:	a204      	tmovs	r2, #4
+   a:	030a      	tors	r2, r1
+   c:	f612      	tshftls	r2, r2, #24
+   e:	fe12      	tshftrs	r2, r2, #24
+  10:	401a      	tstorerb	r2, [r3, #0]
+  12:	f400      	tshftls	r0, r0, #16
+  14:	fc00      	tshftrs	r0, r0, #16
+  16:	0b04      	tloadr	r3, [pc, #16]	; (28 <rf_start_stx+0x28>)
+  18:	2018      	tstorerh	r0, [r3, #0]
+  1a:	a285      	tmovs	r2, #133	; 0x85
+  1c:	0b03      	tloadr	r3, [pc, #12]	; (2c <rf_start_stx+0x2c>)
+  1e:	401a      	tstorerb	r2, [r3, #0]
+  20:	0770      	tjex	lr
+  22:	46c0      	tnop			; (mov r8, r8)
+  24:	01000f18 	tnandeq	r0, r8, lsl pc
+  28:	0100050c 	tnandeq	r0, ip, lsl #10
+  2c:	01000f00 	tnandeq	r0, r0, lsl #30
+
+Disassembly of section .text.rf_start_srx:
+
+00000000 <rf_start_srx>:
+rf_start_srx():
+   0:	0a07      	tloadr	r2, [pc, #28]	; (20 <rf_start_srx+0x20>)
+   2:	0b08      	tloadr	r3, [pc, #32]	; (24 <rf_start_srx+0x24>)
+   4:	501a      	tstorer	r2, [r3, #0]
+   6:	bb10      	tsubs	r3, #16
+   8:	5018      	tstorer	r0, [r3, #0]
+   a:	bb02      	tsubs	r3, #2
+   c:	4819      	tloadrb	r1, [r3, #0]
+   e:	a204      	tmovs	r2, #4
+  10:	030a      	tors	r2, r1
+  12:	f612      	tshftls	r2, r2, #24
+  14:	fe12      	tshftrs	r2, r2, #24
+  16:	401a      	tstorerb	r2, [r3, #0]
+  18:	0a03      	tloadr	r2, [pc, #12]	; (28 <rf_start_srx+0x28>)
+  1a:	bb16      	tsubs	r3, #22
+  1c:	201a      	tstorerh	r2, [r3, #0]
+  1e:	0770      	tjex	lr
+  20:	0fffffff 	tserveq	0x00ffffff
+  24:	01000f28 	tnandeq	r0, r8, lsr #30
+  28:	00003f86 	tandeq	r3, r0, r6, lsl #31
+
+Disassembly of section .text.rf_start_stx2rx:
+
+00000000 <rf_start_stx2rx>:
+rf_start_stx2rx():
+   0:	0b08      	tloadr	r3, [pc, #32]	; (24 <rf_start_stx2rx+0x24>)
+   2:	5019      	tstorer	r1, [r3, #0]
+   4:	bb02      	tsubs	r3, #2
+   6:	4819      	tloadrb	r1, [r3, #0]
+   8:	a204      	tmovs	r2, #4
+   a:	030a      	tors	r2, r1
+   c:	f612      	tshftls	r2, r2, #24
+   e:	fe12      	tshftrs	r2, r2, #24
+  10:	401a      	tstorerb	r2, [r3, #0]
+  12:	f400      	tshftls	r0, r0, #16
+  14:	fc00      	tshftrs	r0, r0, #16
+  16:	0b04      	tloadr	r3, [pc, #16]	; (28 <rf_start_stx2rx+0x28>)
+  18:	2018      	tstorerh	r0, [r3, #0]
+  1a:	a287      	tmovs	r2, #135	; 0x87
+  1c:	0b03      	tloadr	r3, [pc, #12]	; (2c <rf_start_stx2rx+0x2c>)
+  1e:	401a      	tstorerb	r2, [r3, #0]
+  20:	0770      	tjex	lr
+  22:	46c0      	tnop			; (mov r8, r8)
+  24:	01000f18 	tnandeq	r0, r8, lsl pc
+  28:	0100050c 	tnandeq	r0, ip, lsl #10
+  2c:	01000f00 	tnandeq	r0, r0, lsl #30
+
+Disassembly of section .text.rf_start_srx2tx:
+
+00000000 <rf_start_srx2tx>:
+rf_start_srx2tx():
+   0:	0a09      	tloadr	r2, [pc, #36]	; (28 <rf_start_srx2tx+0x28>)
+   2:	0b0a      	tloadr	r3, [pc, #40]	; (2c <rf_start_srx2tx+0x2c>)
+   4:	501a      	tstorer	r2, [r3, #0]
+   6:	bb10      	tsubs	r3, #16
+   8:	5019      	tstorer	r1, [r3, #0]
+   a:	bb02      	tsubs	r3, #2
+   c:	4819      	tloadrb	r1, [r3, #0]
+   e:	a204      	tmovs	r2, #4
+  10:	030a      	tors	r2, r1
+  12:	f612      	tshftls	r2, r2, #24
+  14:	fe12      	tshftrs	r2, r2, #24
+  16:	401a      	tstorerb	r2, [r3, #0]
+  18:	f400      	tshftls	r0, r0, #16
+  1a:	fc00      	tshftrs	r0, r0, #16
+  1c:	0b04      	tloadr	r3, [pc, #16]	; (30 <rf_start_srx2tx+0x30>)
+  1e:	2018      	tstorerh	r0, [r3, #0]
+  20:	0a04      	tloadr	r2, [pc, #16]	; (34 <rf_start_srx2tx+0x34>)
+  22:	0b05      	tloadr	r3, [pc, #20]	; (38 <rf_start_srx2tx+0x38>)
+  24:	201a      	tstorerh	r2, [r3, #0]
+  26:	0770      	tjex	lr
+  28:	0fffffff 	tserveq	0x00ffffff
+  2c:	01000f28 	tnandeq	r0, r8, lsr #30
+  30:	0100050c 	tnandeq	r0, ip, lsl #10
+  34:	00003f88 	tandeq	r3, r0, r8, lsl #31
+  38:	01000f00 	tnandeq	r0, r0, lsl #30
+
+Disassembly of section .text.rf_set_ack_packet:
+
+00000000 <rf_set_ack_packet>:
+rf_set_ack_packet():
+   0:	f400      	tshftls	r0, r0, #16
+   2:	fc00      	tshftrs	r0, r0, #16
+   4:	0b01      	tloadr	r3, [pc, #4]	; (c <rf_set_ack_packet+0xc>)
+   6:	2018      	tstorerh	r0, [r3, #0]
+   8:	0770      	tjex	lr
+   a:	46c0      	tnop			; (mov r8, r8)
+   c:	0100050c 	tnandeq	r0, ip, lsl #10
+
+Disassembly of section .text.rf_tx_pkt:
+
+00000000 <rf_tx_pkt>:
+rf_tx_pkt():
+   0:	a280      	tmovs	r2, #128	; 0x80
+   2:	0b05      	tloadr	r3, [pc, #20]	; (18 <rf_tx_pkt+0x18>)
+   4:	401a      	tstorerb	r2, [r3, #0]
+   6:	f400      	tshftls	r0, r0, #16
+   8:	fc00      	tshftrs	r0, r0, #16
+   a:	bb03      	tsubs	r3, #3
+   c:	2018      	tstorerh	r0, [r3, #0]
+   e:	a208      	tmovs	r2, #8
+  10:	b318      	tadds	r3, #24
+  12:	401a      	tstorerb	r2, [r3, #0]
+  14:	0770      	tjex	lr
+  16:	46c0      	tnop			; (mov r8, r8)
+  18:	0080050f 	taddeq	r0, r0, pc, lsl #10
+
+Disassembly of section .text.rf_set_trx_state:
+
+00000000 <rf_set_trx_state>:
+rf_set_trx_state():
+   0:	6570      	tpush	{r4, r5, r6, lr}
+   2:	f604      	tshftls	r4, r0, #24
+   4:	fe24      	tshftrs	r4, r4, #24
+   6:	f609      	tshftls	r1, r1, #24
+   8:	e60d      	tasrs	r5, r1, #24
+   a:	a3c0      	tmovs	r3, #192	; 0xc0
+   c:	f5db      	tshftls	r3, r3, #23
+   e:	e8c9      	tadds	r1, r1, r3
+  10:	fe09      	tshftrs	r1, r1, #24
+  12:	0b28      	tloadr	r3, [pc, #160]	; (b4 <rf_set_trx_state+0xb4>)
+  14:	4019      	tstorerb	r1, [r3, #0]
+  16:	ac00      	tcmp	r4, #0
+  18:	c022      	tjeq.n	60 <rf_set_trx_state+0x60>
+  1a:	ac01      	tcmp	r4, #1
+  1c:	c130      	tjne.n	80 <rf_set_trx_state+0x80>
+  1e:	0e26      	tloadr	r6, [pc, #152]	; (b8 <rf_set_trx_state+0xb8>)
+  20:	a345      	tmovs	r3, #69	; 0x45
+  22:	4033      	tstorerb	r3, [r6, #0]
+  24:	a005      	tmovs	r0, #5
+  26:	97ff 9ffe 	tjl	0 <delay_us>
+			26: R_TC32_CALL	delay_us
+  2a:	a365      	tmovs	r3, #101	; 0x65
+  2c:	4033      	tstorerb	r3, [r6, #0]
+  2e:	0b23      	tloadr	r3, [pc, #140]	; (bc <rf_set_trx_state+0xbc>)
+  30:	4819      	tloadrb	r1, [r3, #0]
+  32:	a201      	tmovs	r2, #1
+  34:	030a      	tors	r2, r1
+  36:	f612      	tshftls	r2, r2, #24
+  38:	fe12      	tshftrs	r2, r2, #24
+  3a:	401a      	tstorerb	r2, [r3, #0]
+  3c:	0b20      	tloadr	r3, [pc, #128]	; (c0 <rf_set_trx_state+0xc0>)
+  3e:	401c      	tstorerb	r4, [r3, #0]
+  40:	a400      	tmovs	r4, #0
+  42:	0b20      	tloadr	r3, [pc, #128]	; (c4 <rf_set_trx_state+0xc4>)
+  44:	581b      	tloadr	r3, [r3, #0]
+  46:	0a20      	tloadr	r2, [pc, #128]	; (c8 <rf_set_trx_state+0xc8>)
+  48:	5811      	tloadr	r1, [r2, #0]
+  4a:	0369      	tmuls	r1, r5
+  4c:	b180      	tadds	r1, #128	; 0x80
+  4e:	e209      	tasrs	r1, r1, #8
+  50:	ea59      	tsubs	r1, r3, r1
+  52:	f609      	tshftls	r1, r1, #24
+  54:	fe09      	tshftrs	r1, r1, #24
+  56:	a093      	tmovs	r0, #147	; 0x93
+  58:	97ff 9ffe 	tjl	0 <analog_write>
+			58: R_TC32_CALL	analog_write
+  5c:	ec20      	tadds	r0, r4, #0
+  5e:	6d70      	tpop	{r4, r5, r6, pc}
+  60:	0e15      	tloadr	r6, [pc, #84]	; (b8 <rf_set_trx_state+0xb8>)
+  62:	a345      	tmovs	r3, #69	; 0x45
+  64:	4033      	tstorerb	r3, [r6, #0]
+  66:	a005      	tmovs	r0, #5
+  68:	97ff 9ffe 	tjl	0 <delay_us>
+			68: R_TC32_CALL	delay_us
+  6c:	a355      	tmovs	r3, #85	; 0x55
+  6e:	4033      	tstorerb	r3, [r6, #0]
+  70:	0b12      	tloadr	r3, [pc, #72]	; (bc <rf_set_trx_state+0xbc>)
+  72:	481a      	tloadrb	r2, [r3, #0]
+  74:	a101      	tmovs	r1, #1
+  76:	038a      	tbclrs	r2, r1
+  78:	401a      	tstorerb	r2, [r3, #0]
+  7a:	0b11      	tloadr	r3, [pc, #68]	; (c0 <rf_set_trx_state+0xc0>)
+  7c:	401c      	tstorerb	r4, [r3, #0]
+  7e:	87e0      	tj.n	42 <rf_set_trx_state+0x42>
+  80:	ac02      	tcmp	r4, #2
+  82:	c002      	tjeq.n	8a <rf_set_trx_state+0x8a>
+  84:	a401      	tmovs	r4, #1
+  86:	0264      	tnegs	r4, r4
+  88:	87db      	tj.n	42 <rf_set_trx_state+0x42>
+  8a:	a280      	tmovs	r2, #128	; 0x80
+  8c:	0b0f      	tloadr	r3, [pc, #60]	; (cc <rf_set_trx_state+0xcc>)
+  8e:	401a      	tstorerb	r2, [r3, #0]
+  90:	a229      	tmovs	r2, #41	; 0x29
+  92:	b316      	tadds	r3, #22
+  94:	401a      	tstorerb	r2, [r3, #0]
+  96:	0b09      	tloadr	r3, [pc, #36]	; (bc <rf_set_trx_state+0xbc>)
+  98:	481a      	tloadrb	r2, [r3, #0]
+  9a:	a101      	tmovs	r1, #1
+  9c:	038a      	tbclrs	r2, r1
+  9e:	401a      	tstorerb	r2, [r3, #0]
+  a0:	0b05      	tloadr	r3, [pc, #20]	; (b8 <rf_set_trx_state+0xb8>)
+  a2:	481a      	tloadrb	r2, [r3, #0]
+  a4:	a130      	tmovs	r1, #48	; 0x30
+  a6:	038a      	tbclrs	r2, r1
+  a8:	401a      	tstorerb	r2, [r3, #0]
+  aa:	0b05      	tloadr	r3, [pc, #20]	; (c0 <rf_set_trx_state+0xc0>)
+  ac:	401c      	tstorerb	r4, [r3, #0]
+  ae:	a400      	tmovs	r4, #0
+  b0:	87c7      	tj.n	42 <rf_set_trx_state+0x42>
+  b2:	46c0      	tnop			; (mov r8, r8)
+  b4:	008004d6 	undefined instruction 0x008004d6
+  b8:	00800f02 	taddeq	r0, r0, r2, lsl #30
+  bc:	00800428 	taddeq	r0, r0, r8, lsr #8
+	...
+			c0: R_TC32_ABS32	.bss.RF_TRxState
+			c4: R_TC32_ABS32	.data.rf_tp_base
+			c8: R_TC32_ABS32	.data.rf_tp_gain
+  cc:	00800f00 	taddeq	r0, r0, r0, lsl #30
+
+Disassembly of section .text.rf_get_trx_state:
+
+00000000 <rf_get_trx_state>:
+rf_get_trx_state():
+   0:	0b01      	tloadr	r3, [pc, #4]	; (8 <rf_get_trx_state+0x8>)
+   2:	4818      	tloadrb	r0, [r3, #0]
+   4:	0770      	tjex	lr
+   6:	46c0      	tnop			; (mov r8, r8)
+   8:	00000000 	tandeq	r0, r0, r0
+			8: R_TC32_ABS32	.bss.RF_TRxState
+
+Disassembly of section .text.rf_schedule:
+
+00000000 <rf_schedule>:
+rf_schedule():
+   0:	6510      	tpush	{r4, lr}
+   2:	a455      	tmovs	r4, #85	; 0x55
+   4:	0b09      	tloadr	r3, [pc, #36]	; (2c <rf_schedule+0x2c>)
+   6:	401c      	tstorerb	r4, [r3, #0]
+   8:	a400      	tmovs	r4, #0
+   a:	b302      	tadds	r3, #2
+   c:	501c      	tstorer	r4, [r3, #0]
+   e:	b314      	tadds	r3, #20
+  10:	5019      	tstorer	r1, [r3, #0]
+  12:	a12d      	tmovs	r1, #45	; 0x2d
+  14:	bb02      	tsubs	r3, #2
+  16:	4019      	tstorerb	r1, [r3, #0]
+  18:	f400      	tshftls	r0, r0, #16
+  1a:	fc00      	tshftrs	r0, r0, #16
+  1c:	0b04      	tloadr	r3, [pc, #16]	; (30 <rf_schedule+0x30>)
+  1e:	2018      	tstorerh	r0, [r3, #0]
+  20:	f612      	tshftls	r2, r2, #24
+  22:	fe12      	tshftrs	r2, r2, #24
+  24:	0b03      	tloadr	r3, [pc, #12]	; (34 <rf_schedule+0x34>)
+  26:	401a      	tstorerb	r2, [r3, #0]
+  28:	6d10      	tpop	{r4, pc}
+  2a:	46c0      	tnop			; (mov r8, r8)
+  2c:	00800f02 	taddeq	r0, r0, r2, lsl #30
+  30:	0100050c 	tnandeq	r0, ip, lsl #10
+  34:	00800f00 	taddeq	r0, r0, r0, lsl #30
+
+Disassembly of section .rodata.tbl_agc_t:
+
+00000000 <tbl_agc_t>:
+   0:	23232323 	teqcs	r3, #-1946157056	; 0x8c000000
+   4:	2c3c3830 	undefined instruction 0x2c3c3830
+   8:	000c1c18 	tandeq	r1, ip, r8, lsl ip
+   c:	00000000 	tandeq	r0, r0, r0
+  10:	20202020 	txorcs	r2, r0, r0, lsr #32
+  14:	36302a24 	tloadrtcc	r2, [r0], -r4, lsr #20
+  18:	00003f39 	tandeq	r3, r0, r9, lsr pc
+
+Disassembly of section .bss.RF_TRxState:
+
+00000000 <RF_TRxState>:
+	...
+
+Disassembly of section .data.rf_tp_base:
+
+00000000 <rf_tp_base>:
+   0:	0000003b 	tandeq	r0, r0, fp, lsr r0
+
+Disassembly of section .data.rf_tp_gain:
+
+00000000 <rf_tp_gain>:
+   0:	00000019 	tandeq	r0, r0, r9, lsl r0
+
+Disassembly of section .rodata.tbl_agc_c:
+
+00000000 <tbl_agc_c>:
+   0:	30233332 	txorcc	r3, r3, r2, lsr r3
+   4:	182c2838 	tstormmdane	ip!, {r3, r4, r5, fp, sp}
+   8:	000c0c08 	tandeq	r0, ip, r8, lsl #24
+   c:	00000000 	tandeq	r0, r0, r0
+  10:	1a14100d 	tjne	50404c <agc_tbl_write+0x50404c>
+  14:	332b251f 	teqcc	fp, #130023424	; 0x7c00000
+  18:	00003f39 	tandeq	r3, r0, r9, lsr pc
+
+Disassembly of section .rodata.rf_chn:
+
+00000000 <rf_chn>:
+   0:	110d0905 	tnandne	sp, r5, lsl #18
+   4:	231e1a16 	tnandcs	lr, #90112	; 0x16000
+   8:	37322d28 	tloadrcc	r2, [r2, -r8, lsr #26]!
+   c:	4c46413c 	undefined instruction 0x4c46413c
+
+Disassembly of section .rodata.tbl_rf_power:
+
+00000000 <tbl_rf_power>:
+   0:	62d99225 	tsubcsvs	r9, r9, #1342177282	; 0x50000002
+   4:	62d99225 	tsubcsvs	r9, r9, #1342177282	; 0x50000002
+   8:	62e99212 	trsubcvs	r9, r9, #536870913	; 0x20000001
+   c:	62e9920a 	trsubcvs	r9, r9, #-1610612736	; 0xa0000000
+  10:	62e98a08 	trsubcvs	r8, r9, #32768	; 0x8000
+  14:	62e99a05 	trsubcvs	r9, r9, #20480	; 0x5000
+  18:	62e9a204 	trsubcvs	sl, r9, #1073741824	; 0x40000000
+  1c:	62e9aa02 	trsubcvs	sl, r9, #8192	; 0x2000
+  20:	62d99a01 	tsubcsvs	r9, r9, #4096	; 0x1000
+  24:	62e9ba01 	trsubcvs	fp, r9, #4096	; 0x1000
+  28:	62e9a201 	trsubcvs	sl, r9, #268435456	; 0x10000000
+  2c:	62d99200 	tsubcsvs	r9, r9, #0
+
+Disassembly of section .rodata.tbl_rf_power_csmc:
+
+00000000 <tbl_rf_power_csmc>:
+   0:	62a9a214 	taddcvs	sl, r9, #1073741825	; 0x40000001
+   4:	62a9a210 	taddcvs	sl, r9, #1
+   8:	6299a209 	taddsvs	sl, r9, #-1879048192	; 0x90000000
+   c:	62a9a208 	taddcvs	sl, r9, #-2147483648	; 0x80000000
+  10:	62a9a207 	taddcvs	sl, r9, #1879048192	; 0x70000000
+  14:	62a99a06 	taddcvs	r9, r9, #24576	; 0x6000
+  18:	62a99a05 	taddcvs	r9, r9, #20480	; 0x5000
+  1c:	62a99a01 	taddcvs	r9, r9, #4096	; 0x1000
+  20:	62c99a01 	tsubcvs	r9, r9, #4096	; 0x1000
+  24:	62a9aa00 	taddcvs	sl, r9, #0
+  28:	62a99a00 	taddcvs	r9, r9, #0
+  2c:	62c99a00 	tsubcvs	r9, r9, #0
+
+Disassembly of section .comment:
+
+00000000 <.comment>:
+   0:	43434700 	tcmpmi	r3, #0
+   4:	4728203a 	undefined instruction 0x4728203a
+   8:	2029554e 	txorcs	r5, r9, lr, asr #10
+   c:	2e352e34 	undefined instruction 0x2e352e34
+  10:	63742d31 	tcmpnvs	r4, #3136	; 0xc40
+  14:	312d3233 	teqcc	sp, r3, lsr r2
+  18:	Address 0x00000018 is out of bounds.
+
+
+Disassembly of section .TC32.attributes:
+
+00000000 <.TC32.attributes>:
+   0:	00000f41 	tandeq	r0, r0, r1, asr #30
+   4:	61656100 	tcmpnvs	r5, r0, lsl #2
+   8:	01006962 	tnandeq	r0, r2, ror #18
+   c:	00000005 	tandeq	r0, r0, r5
