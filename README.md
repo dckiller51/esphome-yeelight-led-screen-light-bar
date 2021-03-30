@@ -7,6 +7,8 @@ Esphome custom firmware for some Yeelight Screen Lights YLTD001.
 - Todo list:
 1) Fix the rgb flickering problem
 2) Implement 2.4GHz remote control to control (http://wiki.telink-semi.cn/wiki/chip-series/TLSR836x-Series/ )
+   Request a location here https://github.com/esphome/feature-requests/issues/1181
+   Drivers and documentation here https://github.com/dckiller51/esphome-yeelight-led-screen-light-bar/tree/main/Remote%20TLSR8368%20SDK
 
 
 ## Supported devices
