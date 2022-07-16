@@ -4,6 +4,13 @@
 
 Esphome custom firmware for some Yeelight Screen Lights YLTD001.
 
+### 16/07/2022
+
+A bit of novelty thanks to @K-4U. The remote control is finally partially functional. 
+Attention this is only the beginning I think but it is promising. You will find the address of the implanter. I update you my YAML.
+
+https://github.com/K-4U/custom_components
+
 - Todo list:
 1) Fix the rgb flickering problem
 2) Implement 2.4GHz remote control to control
