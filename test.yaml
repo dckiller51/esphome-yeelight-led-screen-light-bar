@@ -1,7 +1,16 @@
 esphome:
   name: test
-  platform: ESP8266
+
+esp8266:
   board: esp_wroom_02
+  framework:
+    version: 2.7.4
+
+external_components:
+  - source:
+      type: git
+      url: https://github.com/K-4U/custom_components
+    components: [ yeelight_remote ]
 
 wifi:
   ssid: !secret ssid
@@ -72,3 +81,24 @@ light:
       - strobe:
       - flicker:
       - addressable_color_wipe:
+
+uart:
+  - id: remote_bus
+    baud_rate: 4800
+    rx_pin: GPIO2
+
+yeelight_remote:
+  on_press:
+    - light.toggle: light1
+  on_left:
+    then:
+      - light.dim_relative:
+          id: light1
+          relative_brightness: -5%
+  on_right:
+    then:
+      - light.dim_relative:
+          id: light1
+          relative_brightness: 5%
+  on_long_press:
+    - light.toggle: LED_ring
