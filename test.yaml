@@ -78,6 +78,8 @@ light:
       - strobe:
       - flicker:
       - addressable_color_wipe:
+    # Limit the brightness to prevent power supply from browning out.
+    color_correct: [90%, 90%, 90%]
 
 uart:
   - id: remote_bus
