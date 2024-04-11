@@ -3,8 +3,6 @@ esphome:
 
 esp8266:
   board: esp_wroom_02
-  framework:
-    version: 2.7.4
 
 external_components:
   - source:
@@ -65,22 +63,23 @@ light:
     warm_white: output_ww
     cold_white_color_temperature: 6500 K
     warm_white_color_temperature: 2700 K
-  - platform: fastled_clockless
-    rgb_order: GRB
+  - platform: neopixelbus
     num_leds: 40
     pin: GPIO13
     name: "Yeelight Screenbar back LED Ring"
-    chipset: WS2812B
+    variant: WS2812
     id: LED_ring
     power_supply: power
     effects:
       - wled:
-          port: 21324
+        port: 21324
       - addressable_rainbow:
       - random:
       - strobe:
       - flicker:
       - addressable_color_wipe:
+    # Limit the brightness to prevent power supply from browning out.
+    color_correct: [90%, 90%, 90%]
 
 uart:
   - id: remote_bus
