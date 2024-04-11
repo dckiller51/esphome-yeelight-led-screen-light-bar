@@ -72,7 +72,7 @@ light:
     power_supply: power
     effects:
       - wled:
-        port: 21324
+          port: 21324
       - addressable_rainbow:
       - random:
       - strobe:
