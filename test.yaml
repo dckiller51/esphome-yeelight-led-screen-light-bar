@@ -26,11 +26,6 @@ api:
 
 ota:
 
-i2c:
-  sda: GPIO2
-  scl: GPIO14
-  scan: false
-
 # Example configuration entry
 
 wled:
