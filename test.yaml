@@ -36,10 +36,14 @@ output:
     pin: GPIO12
     id: output_cw
     power_supply: power
+    frequency: 64 Hz
+    max_power: 0.85  # <- limit brightness to prevent voltage drop
   - platform: esp8266_pwm
     pin: GPIO5
     id: output_ww
     power_supply: power
+    frequency: 64 Hz
+    max_power: 0.85  # <- limit brightness to prevent voltage drop
     
 power_supply:
   - id: power
